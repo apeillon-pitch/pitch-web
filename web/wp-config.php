@@ -1,11 +1,5 @@
 <?php
 
-// BEGIN iThemes Security - Ne modifiez pas ou ne supprimez pas cette ligne
-// iThemes Security Config Details: 2
-define( 'DISALLOW_FILE_EDIT', true ); // Désactivez l’éditeur de code - iThemes Security > Réglages > Ajustements WordPress > Éditeur de code
-define( 'FORCE_SSL_ADMIN', true ); // Rediriger toutes les requêtes de pages de HTTP vers HTTPS - Sécurité > Réglages > Forcer le SSL
-// END iThemes Security - Ne modifiez pas ou ne supprimez pas cette ligne
-
 define( 'ITSEC_ENCRYPTION_KEY', 'SmlJR2xuVj9DczRsPCBNPllpZHNKOjRrLiYkO3M6bm9yKmMgd2UyRX1RdWA5WC9wd2FLRSF6LGczZFo9OlpaNQ==' );
 
 define( 'WP_CACHE', true ); // Added by WP Rocket

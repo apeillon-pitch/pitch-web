@@ -20,7 +20,7 @@
                         @if($block['image'])
                             <div class="middle col-12 col-lg-6">
                                 @php $image = $block['image']['sizes'][ 'medium' ] @endphp
-                                <a href="{{ $block['url'] }}" target="_blank" title="Site vitrine Wordpress">
+                                <a href="{{ $block['url'] }}" target="_blank" aria-label="Site vitrine Wordpress">
                                     <img src="{{ $image }}" class="img-fluid" alt="Projet Wordpress">
                                 </a>
                             </div>
