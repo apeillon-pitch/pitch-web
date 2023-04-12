@@ -37,7 +37,7 @@
               <a class="nav-link" href="<?php echo home_url(); ?>/#section-6" rel="m_PageScroll2id">Expertises</a>
             </li>
             <li class="nav-item p-0">
-              <a class="nav-link brand pt-0 pb-0 ps-5 pe-5" href="<?php echo home_url(); ?>/#sections"
+              <a class="nav-link brand pt-0 pb-0 ps-5 pe-5" aria-label="Site le Pitch" href="<?php echo home_url(); ?>/#sections"
                  rel="m_PageScroll2id">
                 <img src="@asset('images/lepitch.svg')"
                      class="logo" alt="Logo Le Pitch" width="200px" height="48px" style="max-width: 200px">
