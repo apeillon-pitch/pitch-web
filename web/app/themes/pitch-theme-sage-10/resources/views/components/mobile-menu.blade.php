@@ -7,7 +7,7 @@
         </button>
       </div>
       <div class="col-8">
-        <a href="<?php echo site_url(); ?>">
+        <a href="<?php echo home_url(); ?>" aria-label="Site Le Pitch">
           <img src="@asset('images/lepitch.svg')" alt="Logo Le Pitch" class="d-block logo mx-auto" style="max-width: 200px">
         </a>
       </div>
