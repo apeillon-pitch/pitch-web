@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row gx-0 align-items-center">
         <div class="col-3 menu" data-wow-duration="2s" data-wow-delay="1.5s">
-          <a id="c-button--slide-right" class="hamburger c-button">
+          <a id="c-button--slide-right" href="#" rel="nofollow noindex" aria-label="Menu" class="hamburger c-button">
             <div class="top-bun"></div>
             <div class="meat"></div>
             <div class="bottom-bun"></div>
@@ -57,7 +57,7 @@
         </div>
       </div>
     </nav>
-    <div class="d-block d-lg-none menu wow fadeInRight" data-wow-duration="2s" data-wow-delay="1.5s">
+    <div href="#" rel="nofollow noindex" aria-label="Menu" class="d-block d-lg-none menu wow fadeInRight" data-wow-duration="2s" data-wow-delay="1.5s">
       <a id="c-button--slide-top" class="hamburger c-button">
         <div class="top-bun"></div>
         <div class="meat"></div>
