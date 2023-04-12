@@ -39,10 +39,12 @@
     </div>
   </div>
   <div class="section-news section-bg-color pb pt">
-    <div class="row justify-content-center">
-      <div class="col-11">
-        <span class="section-title">Découvrez aussi ...</span>
-        @include('partials.flexible-sections.news_list')
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-11">
+          <span class="section-title">Découvrez aussi ...</span>
+          @include('partials.flexible-sections.news_list')
+        </div>
       </div>
     </div>
   </div>
