@@ -1,0 +1,42 @@
+@import 'common/variables';
+@import 'common/custom';
+@import "~bootstrap/scss/bootstrap";
+@import 'bootstrap';
+@import "~slick-carousel/slick/slick.scss";
+@import "~slick-carousel/slick/slick-theme.scss";
+
+/** Import theme styles */
+@import 'common/global';
+@import 'common/utilities';
+
+@import 'layouts/header';
+@import 'layouts/footer';
+@import 'layouts/pages';
+@import 'layouts/posts';
+
+@import "components/buttons";
+@import "components/pagination";
+@import "components/titles";
+@import "components/forms";
+@import "components/slideshow";
+@import "components/menu/desktop/nav";
+
+/** Menu mobile */
+@import "components/menu/mobile/hamburger";
+@import "components/menu/mobile/slide";
+@import "components/menu/mobile/nav";
+@import "components/menu/mobile/mask";
+
+/** Sections */
+@import "sections/collapse";
+@import "sections/section-image-text-2col";
+@import "sections/key-figures";
+@import "sections/main-slideshow";
+@import "sections/testimonials";
+@import "sections/expertises";
+@import "sections/achivements";
+@import "sections/clients";
+@import "sections/contact";
+@import "sections/gallery";
+@import "sections/news";
+@import "sections/introduction";

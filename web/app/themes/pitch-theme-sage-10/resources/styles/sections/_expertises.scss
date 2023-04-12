@@ -1,0 +1,108 @@
+.section-expertises {
+  position: relative;
+
+  .introduction {
+    line-height: 1.8;
+  }
+
+  img {
+    &.out {
+      position: absolute;
+      animation-iteration-count: infinite;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+      animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+    }
+
+    &.picture-first {
+      left: -325px;
+      animation-name: floating1;
+      -webkit-animation-name: floating1;
+      animation-duration: 8s;
+      -webkit-animation-duration: 8s;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s;
+
+      @media (max-width: 1400px) {
+        left: -300px;
+      }
+
+      @media (max-width: 1200px) {
+        left: -420px;
+      }
+    }
+
+    &.picture-second {
+      left: 0;
+      top: 380px;
+      animation-name: floating2;
+      -webkit-animation-name: floating2;
+      animation-duration: 8s;
+      -webkit-animation-duration: 8s;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s;
+
+      @media (max-width: 1400px) {
+        left: 5px;
+      }
+
+      @media (max-width: 1200px) {
+        left: -80px;
+      }
+    }
+
+    &.picture-third {
+      left: -200px;
+      top: 710px;
+      animation-name: floating1;
+      -webkit-animation-name: floating1;
+      animation-duration: 8s;
+      -webkit-animation-duration: 8s;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s;
+
+      @media (max-width: 1400px) {
+        left: -200px;
+        top: 740px;
+      }
+
+      @media (max-width: 1200px) {
+        left: -80px;
+      }
+    }
+
+    &.two {
+      img.center {
+        display: block;
+        margin: 0 auto;
+      }
+
+      img {
+        &.picture-first {
+          top: 100px;
+          right: -300px;
+          left: inherit;
+        }
+
+        &.picture-second {
+          top: 425px;
+          right: 280px;
+          left: inherit;
+        }
+
+        &.picture-third {
+          top: 637px;
+          right: 8px;
+          left: inherit;
+        }
+      }
+    }
+  }
+
+  .block {
+    h3 {
+      font-size: 1rem;
+      line-height: 1.78;
+    }
+  }
+}

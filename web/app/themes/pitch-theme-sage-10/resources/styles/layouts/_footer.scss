@@ -1,0 +1,23 @@
+footer {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: white;
+  padding: 25px 0 0;
+  text-align: center;
+  background-color: #212121;
+
+  a.brand {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: white;
+
+    &:hover {
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,102 @@
+.section-news {
+  .hovereffect {
+    width: 100%;
+    height: 200px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+
+    .overlay {
+      width: 100%;
+      height: 200px;
+      position: absolute;
+      overflow: hidden;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      background-color: rgba(0, 0, 0, 50%);
+      -webkit-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .bg {
+      display: block;
+      position: relative;
+      height: 200px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      -webkit-transition: all 0.4s linear;
+      transition: all 0.4s linear;
+    }
+
+    a.info {
+      text-decoration: none;
+      display: inline-block;
+      text-transform: uppercase;
+      color: #fff;
+      border: 1px solid #fff;
+      background-color: transparent;
+      opacity: 0;
+      filter: alpha(opacity=0);
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      margin: 75px 0 0;
+      padding: 7px 14px;
+
+      &:hover {
+        box-shadow: 0 0 5px #fff;
+      }
+    }
+
+    &:hover {
+      .picture {
+        -ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+      }
+
+      .overlay {
+        opacity: 1;
+        filter: alpha(opacity=100);
+      }
+
+      a.info {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-transition-delay: 0.2s;
+        transition-delay: 0.2s;
+      }
+    }
+  }
+
+  .wrapper {
+    padding: 30px;
+
+    p {
+      font-weight: 300;
+    }
+
+    a.title {
+      color: black;
+
+      h4 {
+        font-size: 1.25rem;
+      }
+
+      &:hover {
+        color: $blue_pitch;
+        text-decoration: none;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}

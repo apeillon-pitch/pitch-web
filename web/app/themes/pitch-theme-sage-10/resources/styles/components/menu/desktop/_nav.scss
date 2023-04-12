@@ -1,0 +1,56 @@
+nav.navbar {
+  padding: 0 1rem;
+
+  ul.main-menu {
+    display: flex;
+    justify-content: space-around;
+
+    li {
+      display: inline-block;
+      padding: 8px 15px;
+
+      a {
+        color: black;
+
+        &::after {
+          content: "";
+          position: relative;
+          display: block;
+          width: 0;
+          height: 2px;
+          bottom: 2px;
+          background-color: $blue_pitch;
+          transition: all 0.4s;
+        }
+
+        &.mPS2id-highlight {
+          &::after {
+            width: 100%;
+          }
+        }
+
+        &:hover {
+          &::after {
+            width: 100%;
+            transition: all 0.4s;
+          }
+        }
+
+        &.brand {
+          &::after {
+            content: none;
+          }
+        }
+
+        .logo {
+          display: block;
+          margin: 0 auto;
+
+          @media (min-width: 992px) and (max-width: 1199.98px) {
+            padding-top: 10px;
+          }
+        }
+      }
+    }
+  }
+}

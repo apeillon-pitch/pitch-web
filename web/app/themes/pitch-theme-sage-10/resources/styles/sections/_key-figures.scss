@@ -1,0 +1,17 @@
+.section-key-figures {
+  display: inline-block;
+  width: 100%;
+
+  &.pb {
+    padding-bottom: 50px;
+  }
+
+  &.pt {
+    padding-top: 50px;
+  }
+
+  .number {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,20 @@
+a {
+  text-decoration: none;
+
+  &.cta {
+    color: white;
+    padding: 8px 25px;
+    border-radius: 4px;
+    border-color: $blue_pitch;
+    background-color: $blue_pitch;
+    transition: all 0.4s;
+
+    &:hover {
+      color: white;
+      border-color: $red_pitch;
+      text-decoration: none;
+      background-color: $red_pitch;
+      transition: all 0.4s;
+    }
+  }
+}

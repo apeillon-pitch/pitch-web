@@ -1,0 +1,295 @@
+.section-testimonials {
+  &.pb {
+    padding-bottom: 230px;
+  }
+
+  &.pt {
+    padding-top: 250px;
+  }
+
+  h2 {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.71;
+    margin-bottom: 15px;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .slideshow-testimonials {
+    .slide {
+      text-align: center;
+
+      .client-name {
+        display: block;
+        margin-top: 15px;
+        font-weight: 300;
+        color: #b3b3b3;
+      }
+
+      .client-company {
+        display: block;
+        font-weight: 300;
+        color: #b3b3b3;
+      }
+    }
+  }
+
+  img {
+    position: absolute;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+    animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+
+    &.logo-0 {
+      right: 280px;
+      top: -185px;
+      animation-name: floating;
+      -webkit-animation-name: floating;
+      animation-duration: 14s;
+      -webkit-animation-duration: 14s;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s;
+
+      @media (max-width: 1200px) {
+        right: 250px;
+      }
+
+      @media (max-width: 992px) {
+        top: -160px;
+        right: 70px;
+      }
+
+      @media (max-width: 768px) {
+        right: 200px;
+        top: -160px;
+      }
+
+      @media (max-width: 576px) {
+        right: 30px;
+        top: -160px;
+      }
+    }
+
+    &.logo-1 {
+      right: -30px;
+      top: 0;
+      animation-name: floating;
+      -webkit-animation-name: floating;
+      animation-duration: 11s;
+      -webkit-animation-duration: 11s;
+      -webkit-animation-delay: 1s;
+      animation-delay: 3s;
+
+      @media (max-width: 992px) {
+        right: -40px;
+      }
+
+      @media (max-width: 768px) {
+        right: -62px;
+        top: -124px;
+      }
+
+      @media (max-width: 576px) {
+        display: none;
+      }
+    }
+
+    &.logo-2 {
+      right: 250px;
+      top: 250px;
+      animation-name: floating;
+      -webkit-animation-name: floating;
+      animation-duration: 14s;
+      -webkit-animation-duration: 14s;
+      -webkit-animation-delay: 1s;
+      animation-delay: 2s;
+
+      @media (max-width: 992px) {
+        right: 190px;
+        top: 270px;
+      }
+
+      @media (max-width: 768px) {
+        right: -45px;
+      }
+
+      @media (max-width: 576px) {
+        right: 50px;
+        top: 357px;
+      }
+    }
+
+    &.logo-3 {
+      right: 518px;
+      top: 278px;
+      animation-name: floating;
+      -webkit-animation-name: floating;
+      animation-duration: 13s;
+      -webkit-animation-duration: 13s;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s;
+
+      @media (max-width: 1200px) {
+        right: 440px;
+      }
+    }
+
+    &.logo-4 {
+      left: 280px;
+      top: 228px;
+      animation-name: floating;
+      -webkit-animation-name: floating;
+      animation-duration: 11s;
+      -webkit-animation-duration: 11s;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s;
+
+      @media (max-width: 1200px) {
+        left: 230px;
+      }
+
+      @media (max-width: 992px) {
+        display: none;
+      }
+    }
+
+    &.logo-5 {
+      right: 535px;
+      top: -200px;
+      animation-name: floating;
+      -webkit-animation-name: floating;
+      animation-duration: 14s;
+      -webkit-animation-duration: 14s;
+      -webkit-animation-delay: 1s;
+      animation-delay: 2s;
+
+      @media (max-width: 1200px) {
+        right: 435px;
+      }
+
+      @media (max-width: 992px) {
+        top: -160px;
+        right: 360px;
+      }
+
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+
+    &.logo-6 {
+      left: 296px;
+      top: -186px;
+      animation-name: floating;
+      -webkit-animation-name: floating;
+      animation-duration: 11s;
+      -webkit-animation-duration: 11s;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s;
+
+      @media (max-width: 992px) {
+        display: none;
+      }
+    }
+
+    &.logo-7 {
+      left: 89px;
+      top: -170px;
+      animation-name: floating;
+      -webkit-animation-name: floating;
+      animation-duration: 13s;
+      -webkit-animation-duration: 13s;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s;
+
+      @media (max-width: 768px) {
+        left: -30px;
+        top: -141px;
+      }
+
+      @media (max-width: 576px) {
+        top: -151px;
+        left: 30px;
+      }
+    }
+
+    &.logo-8 {
+      left: 40px;
+      top: 0;
+      animation-name: floating;
+      -webkit-animation-name: floating;
+      animation-duration: 14s;
+      -webkit-animation-duration: 14s;
+      -webkit-animation-delay: 1s;
+      animation-delay: 3s;
+
+      @media (max-width: 992px) {
+        left: -10px;
+      }
+
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+
+    &.logo-9 {
+      left: 80px;
+      top: 150px;
+      animation-name: floating;
+      -webkit-animation-name: floating;
+      animation-duration: 11s;
+      -webkit-animation-duration: 11s;
+      -webkit-animation-delay: 1s;
+      animation-delay: 2s;
+
+      @media (max-width: 992px) {
+        left: 40px;
+        top: 160px;
+      }
+
+      @media (max-width: 768px) {
+        left: 222px;
+        top: 307px;
+      }
+
+      @media (max-width: 576px) {
+        left: 50px;
+        top: 357px;
+      }
+    }
+
+    &.logo-10 {
+      right: 65px;
+      top: 165px;
+      animation-name: floating;
+      -webkit-animation-name: floating;
+      animation-duration: 14s;
+      -webkit-animation-duration: 14s;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s;
+
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+
+    &.logo-11 {
+      right: 65px;
+      top: -140px;
+      animation-name: floating;
+      -webkit-animation-name: floating;
+      animation-duration: 14s;
+      -webkit-animation-duration: 14s;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s;
+
+      @media (max-width: 992px) {
+        display: none;
+      }
+    }
+  }
+}
