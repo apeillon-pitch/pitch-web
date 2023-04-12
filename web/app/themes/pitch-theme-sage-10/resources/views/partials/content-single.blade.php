@@ -34,7 +34,7 @@
             pour le CMS Wordpress.</p>
           <a href="{{ home_url() }}" class="d-inline-block cta mt-4">Décourvir l'agence</a>
         </div>
-        <div class="wrapper section-bg-color w-100 p-5 text-center">
+        <div class="wrapper w-100 pt-5 text-center">
           <!-- Start of Meetings Embed Script -->
           <div class="meetings-iframe-container"
                data-src="https://meetings-eu1.hubspot.com/amaury-peillon?embed=true"></div>
