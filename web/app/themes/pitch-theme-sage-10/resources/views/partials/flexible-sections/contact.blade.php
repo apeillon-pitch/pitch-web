@@ -8,7 +8,10 @@
         @endif
         <div class="row justify-content-between">
           <div class="col-12 col-lg-5">
-            @php gravity_form( 1, false, false, false, '', true, 12 ); @endphp
+            <!-- Start of Meetings Embed Script -->
+            <div class="meetings-iframe-container" data-src="https://meetings-eu1.hubspot.com/amaury-peillon?embed=true"></div>
+            <script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
+            <!-- End of Meetings Embed Script -->
           </div>
           <div class="col-12 col-lg-7 text-center">
             <img src="@asset('images/lepitch.svg')" width="200px" height="48px" alt="Logo Le Pitch" class="logo mb-4 mt-4" style="max-width: 200px">
