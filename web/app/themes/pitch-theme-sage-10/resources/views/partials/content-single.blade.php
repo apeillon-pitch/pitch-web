@@ -40,8 +40,8 @@
   </div>
   <div class="section-news section-bg-color pb pt">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-11">
+      <div class="row">
+        <div class="col-12">
           <span class="section-title">Découvrez aussi ...</span>
           @include('partials.flexible-sections.news_list')
         </div>
