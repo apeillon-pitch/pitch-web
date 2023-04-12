@@ -8,7 +8,7 @@
       </div>
       <div class="col-8">
         <a href="<?php echo site_url(); ?>">
-          <img src="@asset('images/lepitch.svg')" class="d-block logo mx-auto" style="max-width: 200px">
+          <img src="@asset('images/lepitch.svg')" alt="Logo Le Pitch" class="d-block logo mx-auto" style="max-width: 200px">
         </a>
       </div>
       <div class="col-2">
