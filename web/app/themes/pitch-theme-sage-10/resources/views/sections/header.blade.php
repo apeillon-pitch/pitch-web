@@ -10,7 +10,7 @@
           </a>
         </div>
         <div class="col-6">
-          <a class="brand" href="<?= esc_url(home_url('/')); ?>">
+          <a class="brand" aria-label="Site Le Pitch" href="<?= esc_url(home_url('/')); ?>">
             <img src="@asset('images/lepitch.svg')"
                  alt="Agence Web Le Pitch"
                  width="235px" height="56px"

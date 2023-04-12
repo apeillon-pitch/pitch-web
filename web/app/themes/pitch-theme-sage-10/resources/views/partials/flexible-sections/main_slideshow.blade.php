@@ -30,7 +30,7 @@
                     </div>
                 @endif
                 <div class="d-none d-lg-block scroll-btn">
-                    <a href="#section-1" rel='m_PageScroll2id' class="page-scroll">
+                    <a href="#section-1" aria-label="Scroll" rel='m_PageScroll2id' class="page-scroll">
                         <div class="mouse">
                             <div class="weel">
                                 <span></span>
