@@ -11,7 +11,7 @@
             @php gravity_form( 1, false, false, false, '', true, 12 ); @endphp
           </div>
           <div class="col-12 col-lg-7 text-center">
-            <img src="@asset('images/lepitch.svg')" alt="Logo Le Pitch" class="logo mb-4 mt-4" style="max-width: 200px">
+            <img src="@asset('images/lepitch.svg')" width="200px" height="48px" alt="Logo Le Pitch" class="logo mb-4 mt-4" style="max-width: 200px">
             <span class="d-block">09 72 14 94 25</span>
             <span class="d-block">contact[@]lepitch.fr</span>
             <div class="row align-items-center mt-4">
