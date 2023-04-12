@@ -32,8 +32,7 @@
           <p>Le Pitch Web est une agence web basée à Nice et à Paris. Sa spécialité est la conception de site
             web
             pour le CMS Wordpress.</p>
-          @php $site_url = get_site_url(); @endphp
-          <a href="{{ $site_url }}" class="d-inline-block cta mt-4">Décourvir l'agence</a>
+          <a href="{{ home_url() }}" class="d-inline-block cta mt-4">Décourvir l'agence</a>
         </div>
       </div>
     </div>
