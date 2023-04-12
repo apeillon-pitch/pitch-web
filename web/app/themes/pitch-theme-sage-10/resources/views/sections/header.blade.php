@@ -58,7 +58,7 @@
       </div>
     </nav>
     <div href="#" rel="nofollow noindex" aria-label="Menu" class="d-block d-lg-none menu wow fadeInRight" data-wow-duration="2s" data-wow-delay="1.5s">
-      <a id="c-button--slide-top" class="hamburger c-button">
+      <a  href="#" rel="nofollow noindex" aria-label="Menu" id="c-button--slide-top" class="hamburger c-button">
         <div class="top-bun"></div>
         <div class="meat"></div>
         <div class="bottom-bun"></div>
