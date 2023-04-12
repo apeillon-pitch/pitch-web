@@ -40,7 +40,7 @@
               <a class="nav-link brand pt-0 pb-0 ps-5 pe-5" href="<?php echo home_url(); ?>/#sections"
                  rel="m_PageScroll2id">
                 <img src="@asset('images/lepitch.svg')"
-                     class="logo" width="200px" height="48px" style="max-width: 200px">
+                     class="logo" alt="Logo Le Pitch" width="200px" height="48px" style="max-width: 200px">
               </a>
             </li>
             <li class="nav-item">
