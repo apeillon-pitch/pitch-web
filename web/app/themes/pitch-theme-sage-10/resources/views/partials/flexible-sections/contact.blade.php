@@ -1,4 +1,4 @@
-<div id="section-{{ $row }}"
+<div id="section-{{ $row }}" style="background-color: {{ $section['bg_color'] }}";
      class="section-contact {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
   <div class="container-fluid">
     <div class="row  no-gutters justify-content-center">

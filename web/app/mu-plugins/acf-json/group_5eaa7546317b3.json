@@ -3185,11 +3185,6 @@
                 "param": "post_type",
                 "operator": "==",
                 "value": "page"
-            },
-            {
-                "param": "page_template",
-                "operator": "!=",
-                "value": "default"
             }
         ]
     ],
@@ -3214,5 +3209,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1681371288
+    "modified": 1681371400
 }
