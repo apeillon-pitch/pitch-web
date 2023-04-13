@@ -1,5 +1,5 @@
 {
-  "app.css": "css/app.d4489c.css",
+  "app.css": "css/app.806333.css",
   "app.js": "js/app.cbf2b0.js",
   "menu.js": "js/menu.9d3e22.js",
   "editor.css": "css/editor.31d6cf.css",
@@ -43,5 +43,6 @@
   "images/favicon.ico": "images/favicon.d863cb.ico",
   "images/manifest.json": "images/manifest.fb5be1.json",
   "images/browserconfig.xml": "images/browserconfig.fbdd07.xml",
+  "images/arrow-right-yellow.svg": "images/arrow-right-yellow.63e37e.svg",
   "images/.gitkeep": "images/.gitkeep.31d6cf"
 }

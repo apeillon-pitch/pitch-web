@@ -2,4 +2,56 @@
   img {
     border-radius: 100%;
   }
+
+  a.button {
+    position: relative;
+    color: $blue_pitch;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 0;
+    padding-right: 27px;
+
+    .button-shift {
+      display: block;
+      transform: translateX(27px);
+      transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+
+      &::before {
+        display: block;
+        position: absolute;
+        content: "";
+        width: calc(100% + 37px);
+        height: 12px;
+        background: rgba(0, 0, 0, 0%) url('../../images/arrow-right-yellow.svg') 0% no-repeat;
+        background-size: contain;
+        left: -27px;
+        top: calc(50% - 4px);
+        opacity: 1;
+        transform: translateX(0);
+      }
+
+      .button-underline {
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0%) calc(100% - 2px), #2ba1d0 2px);
+        background-repeat: no-repeat;
+        background-size: 0 100%;
+        transition: background-size 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+      }
+    }
+
+    &:hover {
+      .button-shift {
+        transform: translateX(0);
+
+        &::before {
+          transform: translateX(10px);
+          opacity: 0;
+        }
+
+        .button-underline {
+          background-size: 100% 100%;
+        }
+      }
+    }
+  }
 }
