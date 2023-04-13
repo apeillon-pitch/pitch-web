@@ -2670,6 +2670,24 @@
                             "ajax": 0,
                             "return_format": "value",
                             "placeholder": ""
+                        },
+                        {
+                            "key": "field_6437b06c15585",
+                            "label": "Fond de couleur",
+                            "name": "bg_color",
+                            "aria-label": "",
+                            "type": "color_picker",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "#f7f0f0",
+                            "enable_opacity": 0,
+                            "return_format": "string"
                         }
                     ],
                     "min": "",
@@ -3196,5 +3214,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1681370607
+    "modified": 1681371288
 }
