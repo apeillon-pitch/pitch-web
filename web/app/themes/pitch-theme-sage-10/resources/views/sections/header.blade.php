@@ -27,14 +27,14 @@
         <div class="collapse navbar-collapse">
           <ul class="main-menu navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo home_url(); ?>/#section-2"
+              <a class="nav-link" aria-label="agence" href="<?php echo home_url(); ?>/#section-2"
                  rel="m_PageScroll2id">Agence</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo home_url(); ?>/#section-5" rel="m_PageScroll2id">Réalisations</a>
+              <a class="nav-link" aria-label="réalisations" href="<?php echo home_url(); ?>/#section-5" rel="m_PageScroll2id">Réalisations</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo home_url(); ?>/#section-6" rel="m_PageScroll2id">Expertises</a>
+              <a class="nav-link" aria-label="expertises" href="<?php echo home_url(); ?>/#section-6" rel="m_PageScroll2id">Expertises</a>
             </li>
             <li class="nav-item p-0">
               <a class="nav-link brand pt-0 pb-0 ps-5 pe-5" aria-label="Site le Pitch" href="<?php echo home_url(); ?>/#sections"
@@ -44,14 +44,14 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo home_url(); ?>/#section-7" rel="m_PageScroll2id">Références</a>
+              <a class="nav-link" aria-label="références" href="<?php echo home_url(); ?>/#section-7" rel="m_PageScroll2id">Références</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo home_url(); ?>/nos-actualites/"
+              <a class="nav-link" aria-label="actualités" href="<?php echo home_url(); ?>/nos-actualites/"
                  rel="m_PageScroll2id">Actualités</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link c-buttons-4" href="<?php echo home_url(); ?>/#section-10">Contact</a>
+              <a class="nav-link c-buttons-4" aria-label="contact" href="<?php echo home_url(); ?>/contact/">Contact</a>
             </li>
           </ul>
         </div>
