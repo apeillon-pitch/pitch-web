@@ -1,5 +1,14 @@
 .single {
   article {
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-size: 1.35rem;
+      margin: 2rem 0 1.25rem;
+    }
+
     header {
       background-color: #f7f0f0;
 
