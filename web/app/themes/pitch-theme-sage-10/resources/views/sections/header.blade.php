@@ -44,7 +44,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-label="références" href="<?php echo home_url(); ?>/#section-7" rel="m_PageScroll2id">Références</a>
+              <a class="nav-link" aria-label="clients" href="<?php echo home_url(); ?>/clients/">Clients</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-label="actualités" href="<?php echo home_url(); ?>/nos-actualites/"
