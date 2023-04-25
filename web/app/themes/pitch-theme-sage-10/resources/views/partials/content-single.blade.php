@@ -9,8 +9,9 @@
       </div>
       <div class="col-12 col-lg-6 p-4 text-center text-lg-left">
         <h1 class="entry-title">{!! get_the_title() !!}</h1>
+        @php echo the_category(); @endphp
+
         @include('partials/entry-meta')
-        @php the_tags('<ul class="tags"><li>', '</li><li>', '</li></ul>'); @endphp
       </div>
     </div>
   </header>
@@ -22,6 +23,7 @@
             {{ yoast_breadcrumb('<p id="breadcrumbs">','</p>') }}
           @endif
           @php the_content() @endphp
+          @php the_tags('<ul class="tags"><li>', '</li><li>', '</li></ul>'); @endphp
           <time class="updated" datetime="{{ get_post_time('c', true) }}">Mis à jour
             le {{ get_the_modified_date() }}</time>
         </div>

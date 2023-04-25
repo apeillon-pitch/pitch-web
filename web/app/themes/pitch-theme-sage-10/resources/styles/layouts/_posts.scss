@@ -9,6 +9,36 @@
       margin: 2rem 0 1.25rem;
     }
 
+    ul {
+      &.tags,
+      &.post-categories {
+        padding: 0;
+        list-style-type: none;
+
+        li {
+          display: inline-block;
+          margin-right: 10px;
+          padding: 5px 15px;
+          border: 1px solid $blue_pitch;
+
+          a {
+            color: $blue_pitch;
+
+            &:hover {
+              color: #212529;
+              text-decoration: none;
+              transition: all 0.4s;
+            }
+          }
+
+          &:hover {
+            border-color: #212529;
+            transition: all 0.4s;
+          }
+        }
+      }
+    }
+
     header {
       background-color: #f7f0f0;
 
@@ -24,35 +54,6 @@
 
         &:hover {
           color: black;
-        }
-      }
-
-      ul {
-        &.tags {
-          padding: 0;
-          list-style-type: none;
-
-          li {
-            display: inline-block;
-            margin-right: 10px;
-            padding: 5px 15px;
-            border: 1px solid $blue_pitch;
-
-            a {
-              color: $blue_pitch;
-
-              &:hover {
-                color: #212529;
-                text-decoration: none;
-                transition: all 0.4s;
-              }
-            }
-
-            &:hover {
-              border-color: #212529;
-              transition: all 0.4s;
-            }
-          }
         }
       }
     }
