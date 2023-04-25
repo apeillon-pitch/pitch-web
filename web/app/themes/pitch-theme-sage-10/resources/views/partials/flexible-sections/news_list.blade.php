@@ -13,7 +13,7 @@
       <div class="inner-content bg-white h-100">
         <div class="hovereffect mb-3">
           @php
-            $bg = $article['thumbnail']['url'];
+            $bg = $article['thumbnail']['sizes']['medium_large'];
           @endphp
           <div class="bg" style="background-image: url({{ $bg }})"></div>
           <div class="overlay">
