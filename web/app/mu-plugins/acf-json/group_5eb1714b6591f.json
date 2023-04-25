@@ -47,6 +47,52 @@
             "maxlength": "",
             "placeholder": "",
             "rows": ""
+        },
+        {
+            "key": "field_64476f4b2cde0",
+            "label": "Catégories",
+            "name": "categories",
+            "aria-label": "",
+            "type": "taxonomy",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": "category",
+            "add_term": 1,
+            "save_terms": 1,
+            "load_terms": 1,
+            "return_format": "object",
+            "field_type": "multi_select",
+            "allow_null": 1,
+            "multiple": 0
+        },
+        {
+            "key": "field_64476f633dad2",
+            "label": "Tags",
+            "name": "tags",
+            "aria-label": "",
+            "type": "taxonomy",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": "post_tag",
+            "add_term": 1,
+            "save_terms": 1,
+            "load_terms": 1,
+            "return_format": "object",
+            "field_type": "multi_select",
+            "allow_null": 1,
+            "multiple": 0
         }
     ],
     "location": [
@@ -67,5 +113,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1681370605
+    "modified": 1682403262
 }
