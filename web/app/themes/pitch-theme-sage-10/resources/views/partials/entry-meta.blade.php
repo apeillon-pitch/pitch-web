@@ -6,6 +6,7 @@
   <span>{{ __('Par', 'sage') }}</span>
   @php
     $author_id = get_the_author_meta('ID');
+    var_dump($author_id);
     $author_first_name = get_the_author_meta('user_firstname', $author_id);
     $author_last_name = get_the_author_meta('user_lastname', $author_id);
  @endphp
