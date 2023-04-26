@@ -4,7 +4,10 @@
 
 <p class="byline author vcard">
   <span>{{ __('Par', 'sage') }}</span>
-  <a href="{{ get_author_posts_url(get_the_author_meta('ID')) }}" rel="author" class="fn">
-    {{ get_the_author() }}
+  @php $author_id = get_the_author_meta('ID');
+ $author_first_name = get_the_author_meta('first_name', $author_id);
+ $author_last_name = get_the_author_meta('last_name', $author_id);@endphp
+  <a href="{{ get_author_posts_url($author_id) }}" rel="author" class="fn">
+    {!! $author_first_name !!} {!! $author_last_name !!}
   </a>
 </p>
