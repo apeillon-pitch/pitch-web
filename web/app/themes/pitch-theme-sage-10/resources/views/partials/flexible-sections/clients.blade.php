@@ -23,7 +23,7 @@
       <div class="collapse" id="collapseExample">
         <div class="card card-body bg-transparent p-0 border-0">
           <div class="row">
-            @php $i = 0; @endphp
+            @php $i = -200; @endphp
             @foreach($section['logos_repeater'] as $index => $logo)
               @if($index >= 12)
                 <div class="col-6 col-md-4 col-lg-3 mb-4">
