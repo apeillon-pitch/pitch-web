@@ -103,4 +103,21 @@ class App extends Composer
         return $data;
     }
 
+    /**
+     * Article data
+     * @return array
+     */
+    public function portfolio_data()
+    {
+        $title = get_the_title();
+        $permalink = get_the_permalink();
+        $thumbnail = get_field('thumbnail');
+        $data = array(
+            'title' => $title,
+            'permalink' => $permalink,
+            'thumbnail' => $thumbnail,
+        );
+        return $data;
+    }
+
 }
