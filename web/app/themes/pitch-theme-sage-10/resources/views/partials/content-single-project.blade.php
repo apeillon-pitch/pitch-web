@@ -3,7 +3,6 @@
     <div class="row align-items-center">
       <div class="col-12 col-lg-6 bg">
         @php
-        var_dump($portfolio_data['thumbnail']);
           $bg = $portfolio_data['thumbnail']['sizes'][ 'large' ];
         @endphp
         <div class="bg h-100" style="background-image: url({{ $bg }})"></div>

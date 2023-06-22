@@ -50,7 +50,7 @@
         {
             "key": "field_649435f177101",
             "label": "Thumbnail",
-            "name": "thumbnail",
+            "name": "image",
             "aria-label": "",
             "type": "image",
             "instructions": "",
@@ -91,5 +91,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1687434745
+    "modified": 1687434959
 }
