@@ -10,8 +10,8 @@
         <h1 class="entry-title">{!! get_the_title() !!}</h1>
         <ul class="post-categories">
           {{ var_dump($portfolio_data['category']) }}
-        @foreach($portfolio_data['category'] as $item)
-            <li><a href="#" rel="category tag">{!! $item->name !!}</a></li>
+        @foreach($portfolio_data['category'] as $category)
+            <li><a href="#" rel="category tag">{!! $category->name !!}</a></li>
           @endforeach
         </ul>
       </div>
