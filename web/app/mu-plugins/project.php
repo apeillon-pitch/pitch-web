@@ -41,7 +41,7 @@ function project_post_type() {
     'label'                 => __( 'Portfolio', 'text_domain' ),
     'description'           => __( 'Post Type Description', 'text_domain' ),
     'labels'                => $labels,
-    'supports'              => array( 'title', 'editor', 'thumbnail' ),
+    'supports'              => array( 'title', 'editor', 'thumbnail', 'excerpt' ),
     'hierarchical'          => false,
     'public'                => false,
     'show_ui'               => true,
