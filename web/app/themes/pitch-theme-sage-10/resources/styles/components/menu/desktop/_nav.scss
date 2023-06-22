@@ -1,7 +1,7 @@
 nav.navbar {
   padding: 0 1rem;
 
-  ul.main-menu {
+  ul.navbar-nav {
     display: flex;
     justify-content: space-around;
 
@@ -23,7 +23,8 @@ nav.navbar {
           transition: all 0.4s;
         }
 
-        &.mPS2id-highlight {
+        &.active:not(._mPS2id),
+        &._mPS2id.mPS2id-highlight.active {
           &::after {
             width: 100%;
           }
@@ -42,12 +43,39 @@ nav.navbar {
           }
         }
 
+        &.cta {
+          color: white;
+          border-radius: 4px;
+          padding: 8px 25px;
+
+          &::after {
+            content: none;
+          }
+        }
+
         .logo {
           display: block;
           margin: 0 auto;
 
           @media (min-width: 992px) and (max-width: 1199.98px) {
             padding-top: 10px;
+          }
+        }
+      }
+
+      &.menu-item-home {
+        a {
+          &.active {
+            &::after {
+              width: 0;
+            }
+          }
+
+          &.mPS2id-highlight,
+          &:hover {
+            &::after {
+              width: 100% !important;
+            }
           }
         }
       }

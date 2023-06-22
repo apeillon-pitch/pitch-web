@@ -2,20 +2,20 @@
      class="section-expertises {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
     <div class="d-none d-lg-block">
         @if ($section['first_picture'])
-            <div class="parallax" data-parallax='{"y": -40, "smoothness": 20}'>
+            <div class="parallax" data-aos="fade-right" data-aos-delay="600" data-aos-duration="1000">
                 <img src="{{ $section['first_picture']['url'] }}"
                      alt="Illustration site Wordpress" class="img-fluid out picture-first"/>
             </div>
         @endif
         @if ($section['second_picture'])
-            <div class="parallax" data-parallax='{"y": -100, "smoothness": 20}'>
+            <div class="parallax"  data-aos="fade-right" data-aos-delay="1000" data-aos-duration="600">
                 <img src="{{ $section['second_picture']['url'] }}"
                      alt="Illustration site Wordpress" class="img-fluid out picture-second"/>
             </div>
         @endif
         @if ($section['third_picture'])
-            <div class="parallax" data-parallax='{"y": -70, "smoothness": 20}'>
-                <img src="{{ $section['third_picture']['url'] }}"
+            <div class="parallax"  data-aos="fade-right">
+                <img src="{{ $section['third_picture']['url'] }}" data-aos="fade-right" data-aos-delay="600" data-aos-duration="1000"
                      alt="Illustration site Wordpress" class="img-fluid out picture-third"/>
             </div>
         @endif

@@ -1,21 +1,52 @@
 <div id="section-{{ $row }}"
      class="section-clients section-bg-color {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
-    <div class="container">
-        @if ( $section['section_title'])
-            @include('partials.flexible-sections.section_title')
-        @endif
-        @if($section['logos_repeater'])
-            <div class="row">
-                @foreach($section['logos_repeater'] as $logo)
-                    <div class="col-6 col-md-4 col-lg-3 mb-4">
-                        <div class="logo-container">
-                            <img src="{{ $logo['logo']['url'] }}" alt="Client Le Pitch - Site Wordpress"
-                                 class="img-fluid"/>
-                        </div>
-                    </div>
-                @endforeach
+  <div class="container">
+    @if ( $section['section_title'])
+      @include('partials.flexible-sections.section_title')
+    @endif
+    @if($section['logos_repeater'])
+      <div class="row">
+        @php $i =0; @endphp
+        @foreach($section['logos_repeater'] as $index => $logo)
+          @if($index < 12)
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+              <div class="logo-container" data-aos="zoom-out-down"
+                   data-aos-duration="500"
+                   data-aos-delay="{{ $i += 200 }}">
+                <img src="{{ $logo['logo']['url'] }}" alt="Client Le Pitch - Site Wordpress"
+                     class="img-fluid"/>
+              </div>
             </div>
-        @endif
+          @endif
+        @endforeach
+      </div>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body bg-transparent p-0 border-0">
+          <div class="row">
+            @php $i = 0; @endphp
+            @foreach($section['logos_repeater'] as $index => $logo)
+              @if($index >= 12)
+                <div class="col-6 col-md-4 col-lg-3 mb-4">
+                  <div class="logo-container" data-aos="zoom-out-down"
+                       data-aos-duration="500"
+                       data-aos-delay="{{ $i + 200 }}">
+                    <img src="{{ $logo['logo']['url'] }}" alt="Client Le Pitch - Site Wordpress"
+                         class="img-fluid"/>
+                  </div>
+                </div>
+              @endif
+            @endforeach
+          </div>
+        </div>
+      </div>
+    @endif
+    <div class="text-center">
+      <a class="cta d-inline-block mx-auto" data-aos="fade-up" data-aos-duration="500" data-aos-delay="2000" data-bs-toggle="collapse" href="#collapseExample" role="button"
+         aria-expanded="false"
+         aria-controls="collapseExample">
+        Voir plus
+      </a>
     </div>
+  </div>
 </div>
 

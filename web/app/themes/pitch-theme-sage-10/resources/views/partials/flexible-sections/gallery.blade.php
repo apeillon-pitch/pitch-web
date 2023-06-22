@@ -2,7 +2,7 @@
      class="section-gallery d-none d-lg-block {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-11 text-center">
+            <div class="col-12 text-center">
                 @if ( $section['section_title'])
                     @include('partials.flexible-sections.section_title')
                 @endif

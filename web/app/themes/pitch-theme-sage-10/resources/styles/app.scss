@@ -4,6 +4,7 @@
 @import 'bootstrap';
 @import "~slick-carousel/slick/slick.scss";
 @import "~slick-carousel/slick/slick-theme.scss";
+@import 'aos/dist/aos.css';
 
 /** Import theme styles */
 @import 'common/global';
@@ -19,6 +20,7 @@
 @import "components/titles";
 @import "components/forms";
 @import "components/slideshow";
+@import "components/accordion";
 @import "components/menu/desktop/nav";
 
 /** Menu mobile */
@@ -39,4 +41,6 @@
 @import "sections/contact";
 @import "sections/gallery";
 @import "sections/news";
+@import "sections/technologies";
 @import "sections/introduction";
+@import "sections/glossary";

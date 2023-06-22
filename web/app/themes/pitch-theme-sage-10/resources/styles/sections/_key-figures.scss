@@ -1,6 +1,17 @@
 .section-key-figures {
   display: inline-block;
   width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  color: black;
+
+  .section-title {
+    margin-bottom: 70px;
+
+    span {
+      display: inline-block;
+    }
+  }
 
   &.pb {
     padding-bottom: 50px;
@@ -10,8 +21,33 @@
     padding-top: 50px;
   }
 
-  .number {
-    font-size: 2.8rem;
-    margin-bottom: 15px;
+  .block {
+    position: relative;
+
+    .picto {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 105px;
+      z-index: -1;
+      opacity: 0.23;
+    }
+
+    .number {
+      font-size: 4.375rem;
+      line-height: 1;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    &:nth-child(2n) {
+      .picto {
+        top: 58px;
+      }
+
+      .number {
+        margin-top: 155px;
+      }
+    }
   }
 }

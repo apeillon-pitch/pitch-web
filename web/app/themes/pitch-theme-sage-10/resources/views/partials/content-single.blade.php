@@ -30,7 +30,7 @@
       </div>
       <div class="col-11 col-lg-4 mt-4 mt-lg-0">
         <div class="wrapper section-bg-color w-100 p-5 text-center">
-          <span class="section-title mb-4">A propos</span>
+          <span class="section-title minus mb-4">A propos </span>
           <p>Le Pitch Web est une agence web basée à Nice et à Paris. Sa spécialité est la conception de site
             web
             pour le CMS Wordpress.</p>
@@ -51,7 +51,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <span class="section-title">Découvrez aussi ...</span>
+          <span class="section-title minus">Découvrez aussi ...</span>
           @include('partials.flexible-sections.news_list')
         </div>
       </div>

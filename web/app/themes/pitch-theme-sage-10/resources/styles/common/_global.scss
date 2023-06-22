@@ -4,13 +4,17 @@ body {
   font-size: 0.9375rem;
   font-weight: 400;
   line-height: 1.5rem;
+  color: $black_pitch;
+}
+
+* {
+  cursor: url("../../images/cursor.svg"), auto !important;
 }
 
 h1,
 h2,
 h3 {
   font-weight: 700;
-  text-transform: uppercase;
 }
 
 .section-title,
@@ -18,24 +22,17 @@ h1.section-title,
 h2.section-title,
 h3.section-title {
   display: block;
-  font-size: 1.5rem;
+  font-size: 3.75rem;
   font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
+  line-height: 1;
   margin-bottom: 50px;
 
-  &::after {
-    content: "";
-    display: block;
-    background-color: #b3b3b3;
-    height: 1px;
-    width: 100px;
-    margin: 10px auto 0;
+  &.minus {
+    font-size: 2.25rem;
   }
 
   span {
     display: block;
-    font-size: 1rem;
     font-weight: 300;
     padding-top: 3px;
     padding-bottom: 3px;
@@ -61,6 +58,10 @@ h3.section-title {
 
 img {
   max-width: 100%;
+
+  &:hover {
+    cursor: url("../../images/cursor-hover.svg"), default !important;
+  }
 }
 
 .section-bg-color {

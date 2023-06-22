@@ -1,0 +1,72 @@
+.section-faq {
+  .accordion {
+    .accordion-item {
+      margin-bottom: 1rem;
+      border-radius: 1rem;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 12%), 0 0 4px 0 rgba(0, 0, 0, 12%);
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      .accordion-header {
+        border-radius: 1rem;
+
+        &:hover {
+          background-color: white;
+          transition: none;
+        }
+
+        .accordion-button {
+          display: flex;
+          font-weight: 700;
+          align-items: center;
+          min-height: 88px;
+          border-radius: 1rem;
+
+          &:focus {
+            box-shadow: none;
+          }
+
+          &:not(.collapsed) {
+            color: black;
+            background-color: white;
+
+            &:hover {
+              color: black;
+              background-color: white;
+            }
+          }
+
+          &:hover {
+            color: white;
+            background-color: $blue_pitch;
+
+            &.collapsing,
+            &.collapse,
+            &[aria-expanded="true"] {
+              background-color: white;
+            }
+          }
+
+          &::after {
+            padding: 1rem;
+            border-radius: 0.5rem;
+            background-position: center;
+            background-color: white;
+          }
+        }
+      }
+
+      .accordion-collapse {
+        .accordion-body {
+          padding-top: 0;
+
+          a {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 <div
-  class="d-none d-lg-block section-testimonials {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}"
+  class="d-none d-lg-block section-testimonials section-bg-color {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}"
   id="section-{{ $row }}">
   <div class="container">
     @if($section['section_title'])
@@ -29,9 +29,10 @@
         $index = 0;
       @endphp
       @if ($section['logos_repeater'])
+        @php $i = 0; @endphp
         @foreach($section['logos_repeater'] as $logo)
           @if ($logo['logo'])
-            <img src="{{ $logo['logo']['url'] }}" alt="Client Le Pitch - Site Wordpress"
+            <img src="{{ $logo['logo']['url'] }}" alt="Client Le Pitch - Site Wordpress" data-aos="flip-left" data-aos-duration="500" data-aos-delay="{{ $i += 150 }}"
                  class="logo-{{ $index }}"/>
           @endif
           @php

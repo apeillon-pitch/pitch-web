@@ -1,6 +1,27 @@
 .section-image-text-2col {
-  img {
-    border-radius: 100%;
+  figure {
+    position: relative;
+    width: 100%;
+    height: 480px;
+    border-radius: 1.25rem;
+    overflow: hidden;
+
+    .image-wrapper {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        position: relative;
+        object-fit: contain;
+        max-width: inherit;
+        width: calc(100% + 40px);
+        height: auto;
+        transition: transform 10s ease; /* Cela rend le mouvement "smooth" */
+      }
+    }
   }
 
   a.button {

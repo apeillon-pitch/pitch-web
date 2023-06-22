@@ -17,11 +17,12 @@
     </div>
     <div class="row h-100">
       <div class="col-12 mt-5">
-        <nav id="navbar-mobile" class="nav-primary navbar">
+        <nav id="navbar-mobile" class="nav-primary navbar text-center">
           @if (has_nav_menu('primary_navigation'))
             {!! wp_nav_menu($mainMenu) !!}
           @endif
         </nav>
+        <a class="nav-link cta text-center mt-5" aria-label="contact" href="<?php echo home_url(); ?>/contact/">Contact</a>
       </div>
     </div>
   </div>
