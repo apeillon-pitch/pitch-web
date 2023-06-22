@@ -1,5 +1,5 @@
 <div id="section-{{ $row }}"
-     class="section-key-figures {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
+     class="section-projects {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 text-center">
