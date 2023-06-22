@@ -1,7 +1,7 @@
 <article @php post_class() @endphp>
   <header class="mb-5">
     <div class="row align-items-center">
-      <div class="col-12 col-lg-6 bg">
+      <div class="col-12 col-lg-6">
         @php
           $bg = $portfolio_data['image']['sizes'][ 'large' ];
         @endphp
