@@ -5,7 +5,7 @@
         @php
           $bg = $portfolio_data['image']['sizes'][ 'large' ];
         @endphp
-        {!! wp_get_attachment_image( $portfolio_data['image']['id'], 'full','', array( "class" => "animated-img")) !!}
+        {!! wp_get_attachment_image( $portfolio_data['image']['id'], 'full','', array( "class" => "img-fluid")) !!}
 
         <div class="bg h-100" style="background-image: url({{ $bg }})"></div>
       </div>
