@@ -16,7 +16,7 @@
         @endif
       </div>
       <div class="col-12 col-lg-4">
-        <div class="wp-nav d-flex flex-row justify-content-end">
+        <div class="wp-nav d-none d-sm-flex flex-row justify-content-end">
           <div id="slick-prev" class="me-4">
             <svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <title>44589612-A457-4642-B284-D6467263C45B</title>
