@@ -31,6 +31,10 @@ h3.section-title {
     font-size: 2.25rem;
   }
 
+  @include media-breakpoint-down(sm) {
+    font-size: 2.25rem;
+  }
+
   span {
     display: block;
     font-weight: 300;
