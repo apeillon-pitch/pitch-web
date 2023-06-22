@@ -2,12 +2,9 @@
   <header class="mb-5">
     <div class="row align-items-center">
       <div class="col-12 col-lg-6">
-        @php
-          $bg = $portfolio_data['image']['sizes'][ 'large' ];
-        @endphp
-        {!! wp_get_attachment_image( $portfolio_data['image']['id'], 'full','', array( "class" => "img-fluid")) !!}
-
-        <div class="bg h-100" style="background-image: url({{ $bg }})"></div>
+        @if(portfolio_data['image'])
+          {!! wp_get_attachment_image( $portfolio_data['image']['id'], 'full','', array( "class" => "img-fluid")) !!}
+        @endif
       </div>
       <div class="col-12 col-lg-6 p-4 text-center text-lg-left">
         <h1 class="entry-title">{!! get_the_title() !!}</h1>
