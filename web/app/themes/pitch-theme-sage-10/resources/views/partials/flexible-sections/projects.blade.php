@@ -3,7 +3,9 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 text-center">
-        <h1 class="section-title">Portfolio</h1>
+        @if ( $section['section_title'])
+          @include('partials.flexible-sections.section_title')
+        @endif
         <div class="row">
           {!! $section['content'] !!}
         </div>
