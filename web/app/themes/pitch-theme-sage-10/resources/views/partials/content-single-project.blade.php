@@ -49,7 +49,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <span class="section-title minus">Découvrez aussi ...</span>
+          <span class="section-title minus">New</span>
           @include('partials.flexible-sections.news_list')
         </div>
       </div>
