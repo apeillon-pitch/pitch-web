@@ -10,6 +10,7 @@
         <h1 class="entry-title">{!! get_the_title() !!}</h1>
         <ul class="post-categories">
         @foreach($section['category'] as $item)
+          {{var_dump($item)}}
             <li><a href="#" rel="category tag">{!! $item->name !!}</a></li>
           @endforeach
         </ul>
