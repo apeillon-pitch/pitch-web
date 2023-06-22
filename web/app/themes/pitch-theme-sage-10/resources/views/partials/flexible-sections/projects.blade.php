@@ -6,7 +6,6 @@
         <h1 class="section-title">Portfolio</h1>
         <div class="row">
           {!! $section['content'] !!}
-          {{ $section['content'] }}
         </div>
       </div>
     </div>
