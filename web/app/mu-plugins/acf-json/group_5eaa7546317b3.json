@@ -3629,6 +3629,15 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_6494135033f3a": {
+                    "key": "layout_6494135033f3a",
+                    "name": "projects",
+                    "label": "Grid projets",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
                 }
             },
             "min": "",
@@ -3666,5 +3675,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1687347606
+    "modified": 1687425894
 }
