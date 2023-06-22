@@ -17,9 +17,6 @@
     <div class="row justify-content-center">
       <div class="col-11 col-lg-8">
         <div class="entry-content">
-          @if (function_exists('yoast_breadcrumb'))
-            {{ yoast_breadcrumb('<p id="breadcrumbs">','</p>') }}
-          @endif
           @php the_content() @endphp
           @php the_tags('<ul class="tags"><li>', '</li><li>', '</li></ul>'); @endphp
           <time class="updated" datetime="{{ get_post_time('c', true) }}">Mis à jour
