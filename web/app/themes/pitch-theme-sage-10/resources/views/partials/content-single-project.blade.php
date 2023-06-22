@@ -2,7 +2,7 @@
   <header class="mb-5">
     <div class="row align-items-center">
       <div class="col-12 col-lg-6">
-        @if(portfolio_data['image'])
+        @if($portfolio_data['image'])
           {!! wp_get_attachment_image( $portfolio_data['image']['id'], 'full','', array( "class" => "img-fluid")) !!}
         @endif
       </div>
