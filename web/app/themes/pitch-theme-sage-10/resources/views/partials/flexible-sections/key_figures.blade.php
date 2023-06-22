@@ -13,10 +13,11 @@
               @if($block['picto'])
                 {!! wp_get_attachment_image($block['picto'], 'full','', array( "class" => "picto")) !!}
               @endif
-              <span class="d-block number purecounter text-center font-weight-bold"
+              <span class="d-none d-md-block number purecounter text-center font-weight-bold"
                     data-purecounter-start="0" data-purecounter-duration="1"
                     data-purecounter-delay="10" data-purecounter-once="true"
                     data-purecounter-end="{{ $block['data'] }}">0</span>
+                <span class="d-block d-md-none number text-center font-weight-bold">{{ $block['data'] }}</span>
               {!! $block['title'] !!}
             </div>
           @endforeach

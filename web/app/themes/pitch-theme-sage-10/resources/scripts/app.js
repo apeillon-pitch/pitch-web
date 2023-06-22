@@ -39,32 +39,6 @@ const main = async (err) => {
   gettechnologiesSlideshow();
   getStickyMenu();
 
-  var lastScrollTop = 0; // Cette variable permettra de suivre la direction du scroll
-
-  $(window).on('scroll', function() {
-    var st = $(this).scrollTop();
-    var direction = (st > lastScrollTop) ? -1 : 1; // Si la position actuelle est supérieure à la dernière, on scroll vers le bas, sinon on scroll vers le haut
-
-    $('.animated-section').each(function() {
-      var windowTop = $(window).scrollTop();
-      var sectionTop = $(this).offset().top;
-      var sectionBottom = sectionTop + $(this).outerHeight();
-
-      if (windowTop > sectionTop && windowTop < sectionBottom) {
-        var img = $(this).find('.animated-img');
-        var currentTransform = parseInt(img.css('transform').split(',')[5]);
-        var newTransform = currentTransform + (10 * direction);
-
-        img.css({
-          transform: 'translateY(' + newTransform + 'px)',
-        });
-      }
-    });
-
-    lastScrollTop = st; // On met à jour la position du dernier scroll pour le prochain évènement
-  });
-
-
   function getMainSlideshow() {
     $('.main-slideshow').slick({
       dots: false,
