@@ -53,7 +53,7 @@
             {
                 "param": "post_type",
                 "operator": "==",
-                "value": "post"
+                "value": "project"
             }
         ]
     ],
@@ -66,5 +66,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1687427860
+    "modified": 1687428394
 }
