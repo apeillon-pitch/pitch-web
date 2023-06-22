@@ -60,3 +60,43 @@ function project_post_type() {
 
 }
 add_action( 'init', 'project_post_type', 0 );
+
+// Register Custom Taxonomy
+function custom_taxonomy_project_category() {
+
+  $labels = array(
+    'name'                       => _x( 'Catégories', 'Taxonomy General Name', 'lepitch' ),
+    'singular_name'              => _x( 'Catégorie', 'Taxonomy Singular Name', 'lepitch' ),
+    'menu_name'                  => __( 'Catégories', 'lepitch' ),
+    'all_items'                  => __( 'All Items', 'lepitch' ),
+    'parent_item'                => __( 'Parent Item', 'lepitch' ),
+    'parent_item_colon'          => __( 'Parent Item:', 'lepitch' ),
+    'new_item_name'              => __( 'New Item Name', 'lepitch' ),
+    'add_new_item'               => __( 'Add New Item', 'lepitch' ),
+    'edit_item'                  => __( 'Edit Item', 'lepitch' ),
+    'update_item'                => __( 'Update Item', 'lepitch' ),
+    'view_item'                  => __( 'View Item', 'lepitch' ),
+    'separate_items_with_commas' => __( 'Separate items with commas', 'lepitch' ),
+    'add_or_remove_items'        => __( 'Add or remove items', 'lepitch' ),
+    'choose_from_most_used'      => __( 'Choose from the most used', 'lepitch' ),
+    'popular_items'              => __( 'Popular Items', 'lepitch' ),
+    'search_items'               => __( 'Search Items', 'lepitch' ),
+    'not_found'                  => __( 'Not Found', 'lepitch' ),
+    'no_terms'                   => __( 'No items', 'lepitch' ),
+    'items_list'                 => __( 'Items list', 'lepitch' ),
+    'items_list_navigation'      => __( 'Items list navigation', 'lepitch' ),
+  );
+  $args = array(
+    'labels'                     => $labels,
+    'hierarchical'               => false,
+    'public'                     => true,
+    'show_ui'                    => true,
+    'show_admin_column'          => true,
+    'show_in_nav_menus'          => true,
+    'show_tagcloud'              => true,
+    'show_in_rest'               => false,
+  );
+  register_taxonomy( 'project-category', array( 'project' ), $args );
+
+}
+add_action( 'init', 'custom_taxonomy_project_category', 0 );
