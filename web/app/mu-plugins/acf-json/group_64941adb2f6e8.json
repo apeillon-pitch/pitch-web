@@ -96,6 +96,29 @@
             "multiple": 0
         },
         {
+            "key": "field_64943e1a145e8",
+            "label": "Tags",
+            "name": "tag",
+            "aria-label": "",
+            "type": "taxonomy",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": "post_tag",
+            "add_term": 1,
+            "save_terms": 1,
+            "load_terms": 1,
+            "return_format": "object",
+            "field_type": "radio",
+            "allow_null": 0,
+            "multiple": 0
+        },
+        {
             "key": "field_64943dba5aa78",
             "label": "domain",
             "name": "domain",
@@ -134,5 +157,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1687436743
+    "modified": 1687436840
 }
