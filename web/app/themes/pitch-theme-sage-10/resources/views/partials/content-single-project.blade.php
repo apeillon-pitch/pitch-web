@@ -7,7 +7,9 @@
         @endif
       </div>
       <div class="col-12 col-lg-6 p-4 text-center text-lg-left">
-        <h1 class="entry-title">{!! get_the_title() !!}</h1>
+        <h1 class="entry-title">
+          {!! wp_get_attachment_image( $portfolio_data['logo']['id'], 'full','', array( "class" => "img-fluid")) !!}
+        </h1>
         <ul class="post-categories">
           <li><a href="#" rel="category tag mt-4">{!! $portfolio_data['category']->name !!}</a></li>
         </ul>
