@@ -9,7 +9,7 @@
       <div class="col-12 col-lg-6 p-4 text-center text-lg-left">
         <h1 class="entry-title">{!! get_the_title() !!}</h1>
         <ul class="post-categories">
-          <li><a href="#" rel="category tag">{!! $category->name !!}</a></li>
+          <li><a href="#" rel="category tag mt-4">{!! $portfolio_data['category'->name !!}</a></li>
         </ul>
       </div>
     </div>
