@@ -32,6 +32,7 @@ class App extends Composer
             'siteName' => $this->siteName(),
             'sectionData' => $this->sectionData(),
             'article_data' => $this->article_data(),
+            'portfolio_data' => $this->portfolio_data(),
         ];
     }
 
