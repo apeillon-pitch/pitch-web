@@ -55,9 +55,10 @@
                 @if($block['image'])
                   <div class="middle">
                     @php $image = $block['image']['sizes'][ 'large' ] @endphp
-                    <a href="{{ $block['url'] }}" target="_blank" aria-label="Site vitrine Wordpress">
+                    {{--<a href="{{ $block['url'] }}" target="_blank" aria-label="Site vitrine Wordpress">
                       <img src="{{ $image }}" class="img-fluid" alt="Projet Wordpress">
-                    </a>
+                    </a>--}}
+                      <img src="{{ $image }}" class="img-fluid" alt="Projet Wordpress">
                   </div>
                 @endif
               </div>
