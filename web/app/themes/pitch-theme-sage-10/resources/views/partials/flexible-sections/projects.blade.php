@@ -5,7 +5,6 @@
       <div class="col-12 text-center">
         <h1 class="section-title">Portfolio</h1>
         <div class="row">
-          {{  }}
           @php echo '[ess_grid alias="portfolio"][/ess_grid]' @endphp
         </div>
       </div>
