@@ -113,10 +113,12 @@ class App extends Composer
         $title = get_the_title();
         $permalink = get_the_permalink();
         $image = get_field('image');
+        $category = get_field('category');
         $data = array(
             'title' => $title,
             'permalink' => $permalink,
             'image' => $image,
+            'category' => $category,
         );
         return $data;
     }

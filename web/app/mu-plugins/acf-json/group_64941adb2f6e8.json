@@ -28,26 +28,6 @@
             "preview_size": "medium"
         },
         {
-            "key": "field_64941adb32927",
-            "label": "Description",
-            "name": "description",
-            "aria-label": "",
-            "type": "wysiwyg",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 1,
-            "delay": 0
-        },
-        {
             "key": "field_649435f177101",
             "label": "Thumbnail",
             "name": "image",
@@ -157,5 +137,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1687436840
+    "modified": 1687436907
 }
