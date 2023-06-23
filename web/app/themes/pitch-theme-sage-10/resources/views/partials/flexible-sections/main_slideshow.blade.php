@@ -26,13 +26,13 @@
                       {!! $slide['text'] !!}
                     </p>
                   @endif
-                  <div class="row" data-aos="fade-up" data-aos-delay="600" data-aos-duration="300">
-                    <div class="col-12 col-lg-8">
-                      <p>Le Pitch Web est votre partenaire expert en solutions WordPress. Nous allions créativité,
-                        technicité et passion pour concevoir des sites web qui se démarquent.</p>
-
+                  @if ($slide['introduction'])
+                    <div class="row" data-aos="fade-up" data-aos-delay="600" data-aos-duration="300">
+                      <div class="col-12 col-lg-8">
+                        <p>{!! $slide['introduction'] !!}</p>
+                      </div>
                     </div>
-                  </div>
+                  @endif
                 </div>
               @endif
             </div>
