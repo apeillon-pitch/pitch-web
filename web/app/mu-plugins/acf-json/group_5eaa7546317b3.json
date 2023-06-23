@@ -928,6 +928,27 @@
                                     "parent_repeater": "field_5eaaa76d474b6"
                                 },
                                 {
+                                    "key": "field_64958d46d790e",
+                                    "label": "Suffix",
+                                    "name": "suffix",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_5eaaa76d474b6"
+                                },
+                                {
                                     "key": "field_5eaaa7ac474b8",
                                     "label": "Titre",
                                     "name": "title",
@@ -3938,5 +3959,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1687510151
+    "modified": 1687522641
 }
