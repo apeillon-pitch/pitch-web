@@ -9,6 +9,12 @@
         <div class="row">
           {!! $section['content'] !!}
         </div>
+        @if($section['link'])
+          <div class="col-12 text-center">
+            <a href="{{ $section['link']['url'] }}" class="cta"
+               target="{{ $section['link']['target'] }}">{!! $section['link']['title'] !!}</a>
+          </div>
+        @endif
       </div>
     </div>
   </div>
