@@ -78,6 +78,10 @@ function get_testimony_data($args) {
       $query->the_post();
       $testimony_data[] = array(
         'title' => get_the_title(),
+        'image' => get_field('logo'),
+        'text' => get_the_content(),
+        'name' => get_field('author'),
+        'job' => get_field('job'),
       );
 
     }
