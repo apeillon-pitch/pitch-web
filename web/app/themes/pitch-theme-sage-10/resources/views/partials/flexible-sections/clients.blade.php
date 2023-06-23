@@ -5,11 +5,11 @@
       @include('partials.flexible-sections.section_title')
     @endif
     @if($section['logos_repeater'])
-      <div class="row">
-        @php $i =0; $t = count($section['logos_repeater']); @endphp
-        @if ($t === 5)
+      @php $i =0; $t = count($section['logos_repeater']); @endphp
+      @if ($t === 5)
+        <div class="flex flex-column flex-md-row justify-content-between">
           @foreach($section['logos_repeater'] as $index => $logo)
-            <div class="col- mb-4">
+            <div class="mb-4">
               <div class="logo-container" data-aos="zoom-out-down"
                    data-aos-duration="500"
                    data-aos-delay="{{ $i += 200 }}">
@@ -18,7 +18,9 @@
               </div>
             </div>
           @endforeach
-        @else
+        </div>
+      @else
+        <div class="row">
           @foreach($section['logos_repeater'] as $index => $logo)
             @if($index < 12)
               <div class="col-6 col-md-4 col-lg-3 mb-4">
@@ -31,8 +33,8 @@
               </div>
             @endif
           @endforeach
-        @endif
-      </div>
+        </div>
+      @endif
       <div class="collapse" id="collapseExample">
         <div class="card card-body bg-transparent p-0 border-0">
           <div class="row">
