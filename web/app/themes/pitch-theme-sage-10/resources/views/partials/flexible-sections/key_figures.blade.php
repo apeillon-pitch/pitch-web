@@ -14,7 +14,7 @@
                 {!! wp_get_attachment_image($block['picto'], 'full','', array( "class" => "picto")) !!}
               @endif
               <div class="d-block w-100">
-                <div class="d-inline-block mx-auto position-relative">
+                <div class="d-inline-block mx-auto position-relative wp">
               <span class="d-none d-md-block number purecounter text-center font-weight-bold"
                     data-purecounter-start="0" data-purecounter-duration="1"
                     data-purecounter-delay="10" data-purecounter-once="true"

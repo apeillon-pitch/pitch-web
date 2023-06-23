@@ -24,8 +24,14 @@
   .block {
     position: relative;
 
+    .wp {
+      min-width: 120px;
+    }
+
     .suffix {
       position: absolute;
+      font-size: 24px;
+      font-weight: 700;
       right: 0;
       bottom: 0;
     }
