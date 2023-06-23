@@ -5,3 +5,16 @@
 .slick-slide {
   height: inherit !important;
 }
+
+.arrows {
+  .slick-arrow {
+    cursor: pointer;
+
+    &.slick-disabled {
+      opacity: 0.35;
+      cursor: auto;
+      pointer-events: none;
+      filter: grayscale(1);
+    }
+  }
+}
