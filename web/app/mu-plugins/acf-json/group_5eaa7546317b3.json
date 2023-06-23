@@ -3742,6 +3742,26 @@
                             "placeholder": ""
                         },
                         {
+                            "key": "field_64955c7133e87",
+                            "label": "Content",
+                            "name": "content",
+                            "aria-label": "",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        },
+                        {
                             "key": "field_64944d15850d1",
                             "label": "Lien",
                             "name": "link",
@@ -3918,5 +3938,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1687509760
+    "modified": 1687510151
 }
