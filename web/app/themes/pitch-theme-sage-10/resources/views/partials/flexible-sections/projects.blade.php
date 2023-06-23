@@ -11,7 +11,7 @@
         </div>
         @if($section['link'])
           <div class="col-12 text-center mt-5">
-            <a href="{{ $section['link']['url'] }}" class="cta"
+            <a href="{{ $section['link']['url'] }}" class="cta mt-5"
                target="{{ $section['link']['target'] }}">{!! $section['link']['title'] !!}</a>
           </div>
         @endif
