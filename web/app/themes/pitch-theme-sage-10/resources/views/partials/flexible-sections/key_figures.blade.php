@@ -17,7 +17,10 @@
                     data-purecounter-start="0" data-purecounter-duration="1"
                     data-purecounter-delay="10" data-purecounter-once="true"
                     data-purecounter-end="{{ $block['data'] }}">0</span>
-                <span class="d-block d-md-none number text-center font-weight-bold">{{ $block['data'] }}</span>
+              <span class="d-block d-md-none number text-center font-weight-bold">{{ $block['data'] }}</span>
+              @if ($block['suffix'])
+                <span class="suffix">{!! $block['suffix'] !!}</span>
+              @endif
               {!! $block['title'] !!}
             </div>
           @endforeach
