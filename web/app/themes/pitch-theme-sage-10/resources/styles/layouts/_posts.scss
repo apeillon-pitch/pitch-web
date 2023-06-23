@@ -61,7 +61,7 @@
 }
 
 .single-project {
-  h1 {
+  figure.logo {
     background-color: #fff;
     border-radius: 1.25rem;
     min-height: 170px;
@@ -81,5 +81,9 @@
       top: 50%;
       transform: translate(-50%, -50%);
     }
+  }
+
+  h1 {
+    font-size: 1rem;
   }
 }
