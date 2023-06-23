@@ -6,7 +6,7 @@
         @if ( $section['section_title'])
           @include('partials.flexible-sections.section_title')
         @endif
-        <div class="row">
+        <div class="row justify-content-center">
 
           @foreach($section['key_figures_repeater'] as $block)
             <div class="col-6 col-sm-3 mb-3 ps-4 pe-4 mb-lg-0 text-center block">
