@@ -5,6 +5,7 @@ namespace App\View\Composers;
 use bootstrap_5_wp_nav_menu_walker;
 use Roots\Acorn\View\Composer;
 use function get_field;
+use function get_the_excerpt;
 use function get_the_permalink;
 use function get_the_title;
 
@@ -111,12 +112,14 @@ class App extends Composer
     public function portfolio_data()
     {
         $title = get_the_title();
+        $excerpt = get_the_excerpt();
         $permalink = get_the_permalink();
         $image = get_field('image');
         $category = get_field('category');
         $logo = get_field('logo');
         $data = array(
             'title' => $title,
+            'excerpt' => $excerpt,
             'permalink' => $permalink,
             'image' => $image,
             'category' => $category,

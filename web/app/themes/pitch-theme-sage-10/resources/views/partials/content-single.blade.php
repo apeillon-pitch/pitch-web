@@ -10,7 +10,6 @@
       <div class="col-12 col-lg-6 p-4 text-center text-lg-left">
         <h1 class="entry-title">{!! get_the_title() !!}</h1>
         @php echo the_category(); @endphp
-
         @include('partials/entry-meta')
       </div>
     </div>

@@ -10,6 +10,9 @@
         <h1 class="entry-title mb-5">
           {!! wp_get_attachment_image( $portfolio_data['logo']['id'], 'full','', array( "class" => "img-fluid")) !!}
         </h1>
+        @if ($portfolio_data['excerpt'])
+          <p>{!! $portfolio_data['excerpt'] !!}</p>
+        @endif
         <ul class="post-categories">
           <li><a href="#" rel="category tag mt-4">{!! $portfolio_data['category']->name !!}</a></li>
         </ul>
