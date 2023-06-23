@@ -7,7 +7,7 @@
     @if($section['logos_repeater'])
       @php $i =0; $t = count($section['logos_repeater']); @endphp
       @if ($t === 5)
-        <div class="flex flex-column flex-md-row justify-content-between">
+        <div class="d-flex flex-column flex-md-row justify-content-between">
           @foreach($section['logos_repeater'] as $index => $logo)
             <div class="mb-4">
               <div class="logo-container" data-aos="zoom-out-down"
