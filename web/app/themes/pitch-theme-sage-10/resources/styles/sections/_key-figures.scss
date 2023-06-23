@@ -24,6 +24,12 @@
   .block {
     position: relative;
 
+    .suffix {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+
     .picto {
       position: absolute;
       left: 50%;
