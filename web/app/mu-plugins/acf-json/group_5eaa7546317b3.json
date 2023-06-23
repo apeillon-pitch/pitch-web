@@ -132,6 +132,46 @@
                                                     "prepend": "",
                                                     "append": "",
                                                     "maxlength": ""
+                                                },
+                                                {
+                                                    "key": "field_64954bf7b45c2",
+                                                    "label": "Introduction",
+                                                    "name": "introduction",
+                                                    "aria-label": "",
+                                                    "type": "textarea",
+                                                    "instructions": "",
+                                                    "required": 0,
+                                                    "conditional_logic": 0,
+                                                    "wrapper": {
+                                                        "width": "",
+                                                        "class": "",
+                                                        "id": ""
+                                                    },
+                                                    "default_value": "",
+                                                    "maxlength": "",
+                                                    "rows": 4,
+                                                    "placeholder": "",
+                                                    "new_lines": "br"
+                                                },
+                                                {
+                                                    "key": "field_64954c14b45c3",
+                                                    "label": "Lien",
+                                                    "name": "link",
+                                                    "aria-label": "",
+                                                    "type": "text",
+                                                    "instructions": "",
+                                                    "required": 0,
+                                                    "conditional_logic": 0,
+                                                    "wrapper": {
+                                                        "width": "",
+                                                        "class": "",
+                                                        "id": ""
+                                                    },
+                                                    "default_value": "",
+                                                    "maxlength": "",
+                                                    "placeholder": "",
+                                                    "prepend": "",
+                                                    "append": ""
                                                 }
                                             ],
                                             "min": "",
@@ -3882,5 +3922,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1687440702
+    "modified": 1687505981
 }

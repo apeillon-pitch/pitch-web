@@ -6,7 +6,7 @@
     @endif
     @if($section['logos_repeater'])
       <div class="row">
-        @php $i =0; @endphp
+        @php $i =0; $t = count($section['logos_repeater']); @endphp
         @foreach($section['logos_repeater'] as $index => $logo)
           @if($index < 12)
             <div class="col-6 col-md-4 col-lg-3 mb-4">
@@ -40,13 +40,15 @@
         </div>
       </div>
     @endif
-    <div class="text-center">
-      <a class="cta d-inline-block mx-auto" data-aos="fade-up" data-aos-duration="500" data-aos-delay="2000" data-bs-toggle="collapse" href="#collapseExample" role="button"
-         aria-expanded="false"
-         aria-controls="collapseExample">
-        Voir plus
-      </a>
-    </div>
+    @if($t >= 12)
+      <div class="text-center">
+        <a class="cta d-inline-block mx-auto" data-aos="fade-up" data-aos-duration="500" data-aos-delay="2000"
+           data-bs-toggle="collapse" href="#collapseExample" role="button"
+           aria-expanded="false"
+           aria-controls="collapseExample">
+          Voir plus
+        </a>
+      </div>
+    @endif
   </div>
-</div>
 
