@@ -31,13 +31,18 @@
       border: 4px solid #fff;
       transform: translateY(2rem);
       box-shadow: 0 2px 4px 0 rgb(0 0 0 / 12%);
+      background: white;
     }
 
     img {
       display: block;
-      object-fit: cover;
-      width: 100%;
-      height: 100%;
+      top: 50%;
+      transform: translateY(-50%);
+      position: relative;
+      max-width: 90%;
+      max-height: 90%;
+      width: auto;
+      height: auto;
     }
   }
 
