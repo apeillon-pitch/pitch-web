@@ -11,7 +11,7 @@
           {!! wp_get_attachment_image( $portfolio_data['logo']['id'], 'full','', array( "class" => "img-fluid")) !!}
         </figure>
         <div class="row justify-content-center">
-          <div class="col-12 col-lg-8">
+          <div class="col-12 col-lg-8 col-xl-7 col-xxl-6">
         @if ($portfolio_data['excerpt'])
           <h1 class="entry-title mb-4">{!! $portfolio_data['excerpt'] !!}</h1>
         @endif
