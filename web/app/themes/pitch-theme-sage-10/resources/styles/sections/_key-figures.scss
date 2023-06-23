@@ -25,15 +25,15 @@
     position: relative;
 
     .wp {
-      min-width: 120px;
+      min-width: 130px;
     }
 
     .suffix {
-      position: absolute;
-      font-size: 24px;
+      bottom: 10px;
+      font-size: 31px;
       font-weight: 700;
-      right: 0;
-      bottom: 0;
+      position: absolute;
+      right: -10px;
     }
 
     .picto {
