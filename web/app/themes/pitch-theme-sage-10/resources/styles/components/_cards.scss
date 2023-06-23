@@ -9,6 +9,18 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+    &.style-1 {
+      background-color: $blue_pitch;
+    }
+
+    &.style-2 {
+      background-color: $blue_pitch;
+    }
+
+    &.style-3 {
+      background-color: $blue_pitch;
+    }
+
     figure {
       display: block;
       width: 100px;
@@ -32,7 +44,7 @@
   .client-content {
     flex-grow: 1;
     padding: 5rem 2.188rem 2.188rem;
-    background-color: black;
+    background-color: #fafafa;
 
     .name {
       display: block;
