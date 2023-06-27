@@ -15,8 +15,10 @@
         @endif
         @if ($section['third_picture'])
             <div class="parallax"  data-aos="fade-right">
-                <img src="{{ $section['third_picture']['url'] }}" data-aos="fade-right" data-aos-delay="600" data-aos-duration="1000"
+              <figure class="mb-0" data-aos="fade-right" data-aos-delay="600" data-aos-duration="1000">
+                <img src="{{ $section['third_picture']['url'] }}"
                      alt="Illustration site Wordpress" class="img-fluid out picture-third"/>
+              </figure>
             </div>
         @endif
     </div>
