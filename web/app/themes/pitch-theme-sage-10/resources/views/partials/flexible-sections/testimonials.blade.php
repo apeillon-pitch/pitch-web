@@ -32,7 +32,7 @@
         @php $i = 0; @endphp
         @foreach($section['logos_repeater'] as $logo)
           @if ($logo['logo'])
-            <figure class="mb-0" data-aos="flip-left" data-aos-duration="500" data-aos-delay="{{ $i += 150 }}">
+            <figure class="mb-0">
             <img src="{{ $logo['logo']['url'] }}" alt="Client Le Pitch - Site Wordpress"
                  class="logo-{{ $index }}"/>
             </figure>
