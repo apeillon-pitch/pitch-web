@@ -158,7 +158,7 @@
                                                     "label": "Lien",
                                                     "name": "link",
                                                     "aria-label": "",
-                                                    "type": "text",
+                                                    "type": "link",
                                                     "instructions": "",
                                                     "required": 0,
                                                     "conditional_logic": 0,
@@ -167,11 +167,7 @@
                                                         "class": "",
                                                         "id": ""
                                                     },
-                                                    "default_value": "",
-                                                    "maxlength": "",
-                                                    "placeholder": "",
-                                                    "prepend": "",
-                                                    "append": ""
+                                                    "return_format": "array"
                                                 }
                                             ],
                                             "min": "",
@@ -4171,5 +4167,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1687524922
+    "modified": 1688116920
 }
