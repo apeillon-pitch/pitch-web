@@ -33,6 +33,14 @@
                       </div>
                     </div>
                   @endif
+                  @if ($slide['link'])
+                    <div class="row" data-aos="fade-up" data-aos-delay="600" data-aos-duration="300">
+                      <div class="col-12 col-lg-8 mt-2">
+                        <a href="{{ $slide['link']['url'] }}" aria-label="{!! $slide['link']['title'] !!}"
+                           class="cta">{!! $slide['link']['title'] !!}</a>
+                      </div>
+                    </div>
+                  @endif
                 </div>
               @endif
             </div>
