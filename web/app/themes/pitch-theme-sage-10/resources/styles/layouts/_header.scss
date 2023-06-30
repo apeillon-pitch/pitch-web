@@ -4,6 +4,10 @@
   transition: all 0.4s;
   background-color: white;
 
+  a.cta {
+    padding: 8px 20px !important;
+  }
+
   @media (max-width: 767.98px) {
     padding: 20px 10px;
   }
