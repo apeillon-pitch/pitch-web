@@ -8,7 +8,7 @@
       </div>
       <div class="col-12 col-lg-6 p-4 text-center text-lg-left">
         <figure class="logo mb-4">
-          {!! wp_get_attachment_image( $portfolio_data['logo']['id'], 'full','', array( "class" => "img-fluid")) !!}
+          {!! wp_get_attachment_image( $portfolio_data['logo']['id'], 'full','', array( "class" => "img-fluid h-auto")) !!}
         </figure>
         <div class="row justify-content-center">
           <div class="col-12 col-lg-8 col-xl-7 col-xxl-6">

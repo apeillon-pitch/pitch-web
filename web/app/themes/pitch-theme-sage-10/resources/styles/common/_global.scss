@@ -63,6 +63,10 @@ h3.section-title {
 img {
   max-width: 100%;
 
+  &.h-auto {
+    height: auto;
+  }
+
   &:hover {
     cursor: url("../../images/cursor-hover.svg"), default !important;
   }
