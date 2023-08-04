@@ -36,7 +36,6 @@
     "postcss-scss": "^4.0.6"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-pro": "^6.2.0",
     "aos": "^2.3.4",
     "jquery": "^3.6.4",
     "slick-carousel": "^1.8.1"
