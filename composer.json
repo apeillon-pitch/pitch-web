@@ -93,6 +93,7 @@
     "wpackagist-plugin/wp-mail-smtp": "^3.7.0",
     "wpackagist-plugin/amp": "^2.4.1",
     "wpackagist-plugin/page-scroll-to-id": "1.7.6",
+    "wpackagist-plugin/advanced-nocaptcha-recaptcha": "^7.3.1",
     "wpackagist-plugin/wp-seo-structured-data-schema": "^2.7.6",
     "roots/acorn": "^2.1"
   },
