@@ -26,7 +26,7 @@
                'date' => get_the_date('d/m/Y'),
               );
             @endphp
-            <div class="col-12 col-lg-4 mb-4">
+            <div class="col-12 col-sm-6 col-lg-4 mb-4">
               <div class="inner-content bg-white h-100">
                 <div class="hovereffect mb-3">
                   @php

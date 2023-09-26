@@ -1549,3 +1549,9 @@
 0000.003 (1) [Info] Lock (updraft_lock_9e03bf32d7f3, tv2w2j_options) acquired after initialising the database
 0000.003 (1) This backup task (9e03bf32d7f3) failed to load its job data (possible database server malfunction), but has only recently started: scheduling a fresh resumption in order to try again, and then ending this resumption (1694785303.1774, ) (existing jobdata keys: )
 0000.004 (1) Rescheduling resumption 2: moving to 120 seconds from now (1694785423)
+0000.000 (2) Opened log file at time: Wed, 20 Sep 2023 13:00:30 +0000 on http://pitch.local/wp
+0000.001 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.10 WP: 6.3.1 PHP: 8.0.29 (fpm-fcgi, Darwin Svartalfeim 22.6.0 Darwin Kernel Version 22.6.0: Wed Jul  5 22:21:53 PDT 2023; root:xnu-8796.141.3~6/RELEASE_ARM64_T6020 arm64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 130.3M | 136M) multisite: N openssl: OpenSSL 1.1.1v  1 Aug 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 (2) Free space on disk containing Updraft's temporary directory: 747280.9 MB
+0000.002 (2) Requesting backup semaphore lock (9e03bf32d7f3)
+0000.003 (2) [Info] Lock (updraft_lock_9e03bf32d7f3, tv2w2j_options) acquired
+0000.005 (2) This backup task (9e03bf32d7f3) is either complete or began over 2 days ago: ending (1695214830.2758, ) (existing jobdata keys: )
