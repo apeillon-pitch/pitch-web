@@ -1,6 +1,6 @@
 <footer class="content-info @php echo is_page(313) ? 'd-none' : '' @endphp">
   <div class="container">
-    <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
       <div class="text-start">
         <a href="{{ home_url() }}" aria-label="Accueil">
           <img src="@asset('images/pitch-white.svg')"
