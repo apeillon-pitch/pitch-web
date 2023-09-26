@@ -1,6 +1,6 @@
 <footer class="content-info @php echo is_page(313) ? 'd-none' : '' @endphp">
   <div class="container">
-    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+    <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center">
       <div class="text-start">
         <a href="{{ home_url() }}" aria-label="Accueil">
           <img src="@asset('images/pitch-white.svg')"
@@ -13,7 +13,7 @@
       </div>
 
       <div class="d-flex flex-column flex-sm-row">
-        <div class="text-start me-md-5">
+        <div class="text-start me-sm-4 me-md-5">
           <div class="d-flex flex-column">
             <a href="{{ home_url() }}/agence/" aria-label="L'agence">L'agence</a>
             <a href="{{ home_url() }}/realisations/" aria-label="Réalisations">Réalisations</a>
