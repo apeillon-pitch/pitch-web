@@ -12,7 +12,7 @@
         </p>
       </div>
 
-      <div class="d-flex flex-column flex-sm-row">
+      <div class="d-flex flex-row flex-sm-column flex-sm-row">
         <div class="text-start me-sm-4 me-md-5">
           <div class="d-flex flex-column">
             <a href="{{ home_url() }}/agence/" aria-label="L'agence">L'agence</a>
