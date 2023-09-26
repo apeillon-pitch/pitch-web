@@ -12,27 +12,32 @@
         </p>
       </div>
 
-      <div class="text-start">
-        <div class="d-flex flex-column">
-          <a href="{{ home_url() }}/agence/" aria-label="L'agence">L'agence</a>
-          <a href="{{ home_url() }}/realisations/" aria-label="Réalisations">Réalisations</a>
-          <a href="{{ home_url() }}/clients/" aria-label="Références">Références</a>
-          <a href="{{ home_url() }}/nos-actualites/" aria-label="Actualités">Actualités</a>
+      <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center">
+        <div class="text-start">
+          <div class="d-flex flex-column">
+            <a href="{{ home_url() }}/agence/" aria-label="L'agence">L'agence</a>
+            <a href="{{ home_url() }}/realisations/" aria-label="Réalisations">Réalisations</a>
+            <a href="{{ home_url() }}/clients/" aria-label="Références">Références</a>
+            <a href="{{ home_url() }}/nos-actualites/" aria-label="Actualités">Actualités</a>
+          </div>
         </div>
-      </div>
 
-      <div class="text-start">
-        <div class="d-flex flex-column">
-          <a href="{{ home_url() }}/agence/#section-5" aria-label="Faq">Faq</a>
-          <a href="{{ home_url() }}/lexique/" aria-label="Lexique">Lexique</a>
-          <a href="{{ home_url() }}/partenaires/" aria-label="Partenaires">Partenaires</a>
+        <div class="text-start">
+          <div class="d-flex flex-column">
+            <a href="{{ home_url() }}/agence/#section-5" aria-label="Faq">Faq</a>
+            <a href="{{ home_url() }}/lexique/" aria-label="Lexique">Lexique</a>
+            <a href="{{ home_url() }}/partenaires/" aria-label="Partenaires">Partenaires</a>
+          </div>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-12 text-start mt-4">
         <p class="mentions">
-          <a href="<?php echo home_url(); ?>/mentions-legales" aria-label="Mentions légales" target="_blank"> Mentions légales</a> - <a href="<?php echo home_url(); ?>/politique-de-confidentialite" aria-label="Politique de confidentialité" target="_blank"> Politique de confidentialité</a> - Paris - Nice - ©2023 Le Pitch Web
+          <a href="<?php echo home_url(); ?>/mentions-legales" aria-label="Mentions légales" target="_blank"> Mentions
+            légales</a> - <a href="<?php echo home_url(); ?>/politique-de-confidentialite"
+                             aria-label="Politique de confidentialité" target="_blank"> Politique de confidentialité</a>
+          - Paris - Nice - ©2023 Le Pitch Web
         </p>
       </div>
     </div>
@@ -44,9 +49,10 @@
     clientId: "6436bc57c1f32a3562578bd5",
   };
 
-  (function(d, s) {
+  (function (d, s) {
     var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
-    e.async = true; e.src = "//static.axept.io/sdk.js";
+    e.async = true;
+    e.src = "//static.axept.io/sdk.js";
     t.parentNode.insertBefore(e, t);
   })(document, "script");
 </script>
