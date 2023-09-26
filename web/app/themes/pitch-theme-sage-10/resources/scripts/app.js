@@ -63,14 +63,14 @@ const main = async (err) => {
             },
           },
           {
-            breakpoint: 600,
+            breakpoint: 800,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 2,
             },
           },
           {
-            breakpoint: 480,
+            breakpoint: 680,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
