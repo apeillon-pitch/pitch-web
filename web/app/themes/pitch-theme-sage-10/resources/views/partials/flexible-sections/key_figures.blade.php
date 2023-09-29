@@ -17,9 +17,9 @@
                 <div class="d-inline-block mx-auto position-relative wp">
               <span class="d-none d-md-block number purecounter text-center font-weight-bold"
                     data-purecounter-start="0" data-purecounter-duration="1"
-                    data-purecounter-delay="10" data-purecounter-once="true"
+                    data-purecounter-delay="15" data-purecounter-once="true"
                     data-purecounter-end="{{ $block['data'] }}">0</span>
-                  <span class="d-block d-md-none number text-center font-weight-bold">{{ $block['data'] }}</span>
+                  <span class="d-block d-md-none numbzer text-center font-weight-bold">{{ $block['data'] }}</span>
                   @if ($block['suffix'])
                     <span class="suffix">{!! $block['suffix'] !!}</span>
                   @endif
