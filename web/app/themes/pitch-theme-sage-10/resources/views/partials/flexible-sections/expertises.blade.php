@@ -52,7 +52,7 @@
                     <div class="col-3">
                       @if($block['image'])
                         <img src="{{ $block['image']['url'] }}"
-                             class="img-fluid" alt="Conception web" width=82px" height="82px"/>
+                             class="img-fluid" alt="Conception web" width="82px" height="82px"/>
                       @endif
                     </div>
                     <div class="col-9">
