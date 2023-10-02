@@ -2696,6 +2696,54 @@
                             "placeholder": ""
                         },
                         {
+                            "key": "field_651ad8960742b",
+                            "label": "Sous-titre",
+                            "name": "section_subtitle",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_651ad89b0742c",
+                            "label": "Valeur du sous-titre",
+                            "name": "subtitle_value",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "h1": "H1",
+                                "h2": "H2",
+                                "h3": "H3",
+                                "section-title": "Sans valeur"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
+                        {
                             "key": "field_5eabff82f705b",
                             "label": "Texte",
                             "name": "text",
@@ -4167,5 +4215,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688116920
+    "modified": 1696258241
 }
