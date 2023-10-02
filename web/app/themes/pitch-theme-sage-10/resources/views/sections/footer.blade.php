@@ -24,15 +24,15 @@
 
         <div class="text-start">
           <div class="d-flex flex-column">
-            <a href="{{ home_url() }}/agence/#section-5" aria-label="Faq">Faq</a>
-            <a href="{{ home_url() }}/lexique/" aria-label="Lexique">Lexique</a>
-            <a href="{{ home_url() }}/partenaires/" aria-label="Partenaires">Partenaires</a>
+            <a href="{{ home_url() }}/agence/#section-5" class="mb-2 mb-sm-0" aria-label="Faq">Faq</a>
+            <a href="{{ home_url() }}/lexique/" class="mb-2 mb-sm-0" aria-label="Lexique">Lexique</a>
+            <a href="{{ home_url() }}/partenaires/" class="mb-2 mb-sm-0" aria-label="Partenaires">Partenaires</a>
           </div>
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="col-12 text-start mt-4">
+      <div class="col-12 text-center text-sm-start mt-4">
         <p class="mentions">
           <a href="<?php echo home_url(); ?>/mentions-legales/" aria-label="Mentions légales" target="_blank">Mentions légales</a> - <a href="<?php echo home_url(); ?>/politique-de-confidentialite/"
                              aria-label="Politique de confidentialité" target="_blank"> Politique de confidentialité</a>
