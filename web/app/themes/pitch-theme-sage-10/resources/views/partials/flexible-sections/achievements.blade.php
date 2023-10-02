@@ -2,7 +2,7 @@
      data-aos="fade-up"
      class="section-achievements overflow-hidden {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
   <div class="container">
-    <div class="row align-items-end mb-5">
+    <div class="row align-items-center mb-5">
       <div class="col-12 col-lg-8">
         @if ( $section['section_title'])
           @include('partials.flexible-sections.section_title')
