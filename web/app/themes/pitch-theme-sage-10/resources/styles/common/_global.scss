@@ -44,6 +44,17 @@ h3.section-title {
   }
 }
 
+.wp-title {
+  margin-bottom: 50px;
+
+  .section-title,
+  h1.section-title,
+  h2.section-title,
+  h3.section-title {
+    margin-bottom: 0;
+  }
+}
+
 .pt {
   padding-top: 100px;
 }
