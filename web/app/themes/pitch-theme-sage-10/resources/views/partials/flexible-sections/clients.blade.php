@@ -43,8 +43,7 @@
                   <div class="logo-container" data-aos="zoom-out-down"
                        data-aos-duration="500"
                        data-aos-delay="{{ $i + 200 }}">
-                    <img src="{{ $logo['logo']['url'] }}" alt="Client Le Pitch - Site Wordpress"
-                         class="img-fluid"/>
+                    {!! wp_get_attachment_image(  $logo['logo']['id'], 'full', '', array( "class" => "img-fluid") ) !!}
                   </div>
                 </div>
               @endif
