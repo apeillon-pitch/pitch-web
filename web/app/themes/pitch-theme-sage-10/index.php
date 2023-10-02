@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <?php if (is_front_page()) { ?>
-      <link rel="preload" fetchpriority="high" as="image" href="<?php echo home_url(); ?>/app/uploads/2023/06/Teaser-1.webp" type="image/webp">
+      <link rel="preload" fetchpriority="high" as="image" href="<?php echo home_url(); ?>/app/uploads/2023/06/Teaser-1.png.webp" type="image/webp">
     <?php } ?>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.onload=null;this.media='all'">
     <script src="https://kit.fontawesome.com/0b51096d56.js" defer crossorigin="anonymous"></script>
