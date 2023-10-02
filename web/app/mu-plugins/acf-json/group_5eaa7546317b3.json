@@ -3330,6 +3330,54 @@
                             "placeholder": ""
                         },
                         {
+                            "key": "field_651adc23f67c8",
+                            "label": "Sous-titre",
+                            "name": "section_subtitle",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_651adc36f67c9",
+                            "label": "Valeur du sous-titre",
+                            "name": "subtitle_value",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "h1": "H1",
+                                "h2": "H2",
+                                "h3": "H3",
+                                "section-title": "Sans valeur"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
+                        {
                             "key": "field_5eb527318f69e",
                             "label": "Nombre d'actualités",
                             "name": "posts_number",
@@ -4215,5 +4263,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1696258241
+    "modified": 1696259146
 }
