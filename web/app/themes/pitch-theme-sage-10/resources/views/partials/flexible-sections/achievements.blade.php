@@ -54,11 +54,7 @@
               <div class="slide h-100">
                 @if($block['image'])
                   <div class="middle">
-                    @php $image = $block['image']['sizes'][ 'large' ] @endphp
-                    {{--<a href="{{ $block['url'] }}" target="_blank" aria-label="Site vitrine Wordpress">
-                      <img src="{{ $image }}" class="img-fluid" alt="Projet Wordpress">
-                    </a>--}}
-                      <img src="{{ $image }}" class="img-fluid" alt="Projet Wordpress">
+                    {!! wp_get_attachment_image(  $block['image']['id'], 'full', '', array( "class" => "img-fluid") ) !!}
                   </div>
                 @endif
               </div>
