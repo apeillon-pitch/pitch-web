@@ -9,7 +9,7 @@
                 <div class="row align-items-center">
                     @foreach($section['images'] as $block)
                         <div class="col-6 col-md-4 mb-3 mb-lg-4 text-center">
-                            <img src="{{ $block['image']['url'] }}" class="img-fluid" alt="Agence web">
+                          {!! wp_get_attachment_image(  $block['image']['id'], 'full', '', array( "class" => "first img-fluid", "fetchpriority" => "high") ) !!}
                         </div>
                     @endforeach
                 </div>
