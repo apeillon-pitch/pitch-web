@@ -34,8 +34,7 @@
     <div class="row">
       <div class="col-12 text-start mt-4">
         <p class="mentions">
-          <a href="<?php echo home_url(); ?>/mentions-legales/" aria-label="Mentions légales" target="_blank">Mentions
-            légales</a> - <a href="<?php echo home_url(); ?>/politique-de-confidentialite/"
+          <a href="<?php echo home_url(); ?>/mentions-legales/" aria-label="Mentions légales" target="_blank">Mentions légales</a> - <a href="<?php echo home_url(); ?>/politique-de-confidentialite/"
                              aria-label="Politique de confidentialité" target="_blank"> Politique de confidentialité</a>
           - Paris - Nice - ©2023 Le Pitch Web
         </p>
