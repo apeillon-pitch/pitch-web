@@ -7,8 +7,7 @@
             <div class="row align-items-center justify-content-end h-100">
               <div class="col-12 col-lg-6 col-xl-5 h-100 ps-5 mb-5 mb-lg-0">
                 <figure class="flex mb-0">
-                  <link rel="preload" fetchpriority="high" as="image" href="{{ $slide['bg_image']['url'] }}" type="image/webp">
-                  {!! wp_get_attachment_image( $slide['bg_image']['id'], 'full', '', array( "class" => "first img-fluid") ) !!}
+                  {!! wp_get_attachment_image( $slide['bg_image']['id'], 'full', '', array( "class" => "first img-fluid", "fetchpriority" => "high") ) !!}
                 </figure>
               </div>
             </div>
