@@ -6,6 +6,9 @@
                 @if ( $section['section_title'])
                     @include('partials.flexible-sections.section_title')
                 @endif
+                  @if ( $section['section_subtitle'])
+                    @include('partials.flexible-sections.section_subtitle')
+                  @endif
                 @include('partials.flexible-sections.news_list')
             </div>
         </div>
