@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12">
-        <div class="wp-title">
+        <div class="wp-title text-center">
           @if ( $section['section_title'])
             @include('partials.flexible-sections.section_title')
           @endif
