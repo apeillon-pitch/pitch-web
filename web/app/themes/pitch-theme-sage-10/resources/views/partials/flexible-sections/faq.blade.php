@@ -10,12 +10,12 @@
           <div class="accordion" id="accordion-{{ $row }}">
             @foreach($section['item_repeater'] as $index => $item)
               <div class="accordion-item">
-                <h4 class="accordion-header" id="heading-{{ $row }}-{{ $index }}">
+                <strong class="accordion-header" id="heading-{{ $row }}-{{ $index }}">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ $row }}-{{ $index }}"
                           aria-expanded="false" aria-controls="collapse-{{ $row }}-{{ $index }}">
                     {!! $item['title'] !!}
                   </button>
-                </h4>
+                </strong>
                 <div id="collapse-{{ $row }}-{{ $index }}" class="accordion-collapse collapse" aria-labelledby="heading-{{ $row }}-{{ $index }}"
                      data-bs-parent="#accordion-{{ $row }}">
                   <div class="accordion-body">
