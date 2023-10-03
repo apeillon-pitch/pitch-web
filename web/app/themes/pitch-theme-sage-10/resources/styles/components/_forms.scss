@@ -47,15 +47,14 @@
 
       input.button {
         color: white;
-        padding: 8px 20px !important;
+        padding: 10px 20px !important;
         border-radius: 25px;
-        border-color: $black_pitch;
+        border: 0;
         background-color: $black_pitch;
         transition: all 0.4s;
 
         &:hover {
           color: white;
-          border-color: $blue_pitch;
           text-decoration: none;
           background-color: $blue_pitch;
           transition: all 0.4s;
