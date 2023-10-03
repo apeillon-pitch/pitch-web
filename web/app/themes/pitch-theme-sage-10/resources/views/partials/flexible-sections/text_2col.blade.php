@@ -2,16 +2,16 @@
      class="section-text-2col animated-section {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
   <div class="container" data-aos="fade-up">
     <div class="row justify-content-center">
-      <div class="col-4">
+      <div class="col-12 col-lg-4">
         @if ( $section['section_title'])
           @include('partials.flexible-sections.section_title')
         @endif
       </div>
-      <div class="col-8 ps-5">
+      <div class="col-12 col-lg-8 ps-5">
         @if($section['item_repeater'])
           @foreach($section['item_repeater'] as $item)
             <div class="row @php echo $loop->iteration % 2 == 0 ? 'justify-content-end' : '' @endphp">
-              <div class="col-6">
+              <div class="col-12 col-lg-6">
                 @if ( $item['section_subtitle'])
                   <span class="title mb-2">{!! $item['section_subtitle'] !!}</span>
                 @endif

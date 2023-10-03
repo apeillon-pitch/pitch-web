@@ -4516,6 +4516,15 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_651c15a3e57e6": {
+                    "key": "layout_651c15a3e57e6",
+                    "name": "banner_cta_style_one",
+                    "label": "Banner CTA",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
                 }
             },
             "min": "",
@@ -4553,5 +4562,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1696319622
+    "modified": 1696339382
 }
