@@ -34,9 +34,14 @@
       @if ($client['name'])
         <span class="name">{!! $client['name'] !!}</span>
       @endif
-      @if ($client['job'])
-        <span class="job">{!! $client['job'] !!}</span>
-      @endif
+      <div class="d-flex flex-row">
+        @if ($client['job'])
+          <span class="job">{!! $client['job'] !!} | </span>
+        @endif
+        @if ($client['company'])
+          <strong class="company">{!! $client['company'] !!}</strong>
+        @endif
+      </div>
     </div>
   </div>
 </div>
