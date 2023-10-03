@@ -39,7 +39,7 @@
           <span class="job">{!! $client['job'] !!} | </span>
         @endif
         @if ($client['company'])
-          <strong class="company">{!! $client['company'] !!}</strong>
+          <strong class="company ms-1">{!! $client['company'] !!}</strong>
         @endif
       </div>
     </div>
