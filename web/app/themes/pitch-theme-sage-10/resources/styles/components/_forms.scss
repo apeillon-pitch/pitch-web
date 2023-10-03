@@ -37,14 +37,29 @@
         border-right: 0;
         border-top: 0;
         background: transparent;
+
+        &:focus,
+        &:focus-within,
+        &:focus-visible {
+          outline: none;
+        }
       }
 
       input.button {
         color: white;
         padding: 8px 20px !important;
-        border: 0;
         border-radius: 25px;
-        background-color: $blue_pitch;
+        border-color: $black_pitch;
+        background-color: $black_pitch;
+        transition: all 0.4s;
+
+        &:hover {
+          color: white;
+          border-color: $blue_pitch;
+          text-decoration: none;
+          background-color: $blue_pitch;
+          transition: all 0.4s;
+        }
       }
     }
   }
