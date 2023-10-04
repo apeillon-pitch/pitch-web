@@ -8,13 +8,13 @@
           @if ( $section['section_title'])
             @include('partials.flexible-sections.section_title')
           @endif
-          @if ($section['text'])
+         {{-- @if ($section['text'])
             <div class="row justify-content-center">
               <div class="col-12 col-sm-11 col-md-10">
                 {!! $section['text'] !!}
               </div>
             </div>
-          @endif
+          @endif--}}
         </div>
         <div class="col-12 col-lg-4">
           <div class="wp-nav d-none d-sm-flex flex-row justify-content-end">

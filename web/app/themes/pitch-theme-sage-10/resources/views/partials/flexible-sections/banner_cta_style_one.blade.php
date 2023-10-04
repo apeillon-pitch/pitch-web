@@ -1,14 +1,19 @@
 <div id="section-{{ $row }}"
-     class="section-banner-cta section-bg-color pt pb mt-none mb">
-  <div class="container text-center">
-    <h3 class="section-title">Un projet Wordpress ?</h3>
-    <div class="row justify-content-center">
-      <div class="col-12 col-lg-8 col-xl-7 col-xxl-6">
-        <p class="mb-5">Vous avez le projet de créer ou de refondre un site web utilisant Wordpress, nous sommes là pour vous accompagner. </p>
+     class="section banner-cta mt-none mb">
+  <div class="container text-start">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-4 pe-5">
+        @if($section['image'])
+          {!! wp_get_attachment_image( $section['image']['id'], 'full','', array( "class" => "img-fluid")) !!}
+        @endif
       </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-12 col-lg-8 col-xl-7 col-xxl-4">
+      <div class="col-8 ps-5">
+        @if ( $section['section_title'])
+          @include('partials.flexible-sections.section_title')
+        @endif
+        @if($section['text'])
+          <p>{!! $section['text'] !!}</p>
+        @endif
         {{gravity_form(2, false, false, false, false, true, 12 )}}
       </div>
     </div>
