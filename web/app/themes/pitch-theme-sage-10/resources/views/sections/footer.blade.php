@@ -4,8 +4,8 @@
       <img src="@asset('images/pitch-white.svg')"
            class="logo mb-3" alt="Logo Le Pitch" width="200px" height="48px" style="max-width: 200px">
     </a>
-    <div class="row text-start">
-      <div class="col-12 col-md-3">
+    <div class="row justify-content-center text-start">
+      <div class="col-11 col-md-3 mb-5 mb-md-0">
         <div class="d-flex flex-column wp-col">
           <p>
             15 rue de Vandrezanne <br> 75013 Paris </p>
@@ -14,7 +14,7 @@
               class="fa-brands fa-linkedin-in"></i></a>
         </div>
       </div>
-      <div class="col-12 col-md-3">
+      <div class="col-11 col-md-3 mb-5 mb-md-0">
         <div class="d-flex flex-column wp-col">
           <strong>Actualités</strong>
           @php $articles = get_articles(3); @endphp
@@ -24,7 +24,7 @@
           @endforeach
         </div>
       </div>
-      <div class="col-12 col-md-3">
+      <div class="col-11 col-md-3 mb-5 mb-md-0">
         <div class="d-flex flex-column wp-col">
           <strong>Agence</strong>
           <a href="{{ home_url() }}/agence/" class="mb-2 mb-sm-0" aria-label="L'agence">Découvrir l'agence</a>
@@ -35,7 +35,7 @@
             Wordpress</a>
         </div>
       </div>
-      <div class="col-12 col-md-3">
+      <div class="col-11 col-md-3 mb-5 mb-md-0">
         <div class="d-flex flex-column wp-col last">
           <strong>Expertises</strong>
           <a href="#" class="mb-2 mb-sm-0" aria-label="L'Création de site web">Création de site web</a>
