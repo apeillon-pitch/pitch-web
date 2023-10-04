@@ -39,7 +39,7 @@
         <div class="d-flex flex-column wp-col last">
           <strong>Expertises</strong>
           <a href="#" class="mb-2 mb-sm-0" aria-label="L'Création de site web">Création de site web</a>
-          <a href="{{ home_url() }}/realisations/" class="mb-2 mb-sm-0" aria-label="Maintenance corrective">Maintenance
+          <a href="{{ home_url() }}/maintenance-corrective-wordpress/" class="mb-2 mb-sm-0" aria-label="Maintenance corrective">Maintenance
             corrective</a>
           <a href="{{ home_url() }}/realisations/" class="mb-2 mb-sm-0" aria-label="Maintenance évolutive">Maintenance
             évolutive</a>
