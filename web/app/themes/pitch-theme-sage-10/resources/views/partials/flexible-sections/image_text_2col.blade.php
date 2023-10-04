@@ -25,7 +25,7 @@
             @endif
             @if ($section['link'])
               <div class="row" data-aos="fade-up" data-aos-delay="600" data-aos-duration="300">
-                <div class="col-12 col-lg-8 mt-3">
+                <div class="col-12 col-lg-8 mt-4">
                   <a href="{{ $section['link']['url'] }}" aria-label="{!! $section['link']['title'] !!}"
                      class="cta">{!! $section['link']['title'] !!}</a>
                 </div>
