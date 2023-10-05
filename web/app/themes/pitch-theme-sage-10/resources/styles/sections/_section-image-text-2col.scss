@@ -19,6 +19,7 @@
         max-width: inherit;
         width: calc(100% + 40px);
         height: auto;
+        border-radius: 1.25rem;
         transition: transform 10s ease; /* Cela rend le mouvement "smooth" */
       }
     }
