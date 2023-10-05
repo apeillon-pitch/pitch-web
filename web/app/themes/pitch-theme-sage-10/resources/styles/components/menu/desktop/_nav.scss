@@ -7,38 +7,67 @@ nav.navbar {
 
     li {
       display: inline-block;
-      padding: 8px 15px;
+      padding: 8px 10px;
 
       a {
         color: black;
 
-        &::after {
+        &.dropdown-toggle {
+          &::after {
+            content: url("../../../../images/fleche.svg");
+            position: absolute;
+            border: 0;
+            margin-left: 0;
+            right: 0;
+            top: 47%;
+            transform: translateY(-50%);
+            vertical-align: inherit;
+            transition: all 0.2s;
+          }
+        }
+
+        &.dropdown-toggle.show {
+          &::after {
+            content: url("../../../../images/fleche.svg");
+            top: 59%;
+            transform: translateY(-50%) rotate(180deg);
+          }
+        }
+
+        &::before {
           content: "";
           position: relative;
           display: block;
           width: 0;
           height: 2px;
-          bottom: 2px;
+          bottom: -25px;
           background-color: $blue_pitch;
           transition: all 0.4s;
         }
 
         &.active:not(._mPS2id),
         &._mPS2id.mPS2id-highlight.active {
-          &::after {
+          &::before {
             width: 100%;
           }
         }
 
+        &.dropdown-toggle.show,
         &:hover {
-          &::after {
+          &::before {
             width: 100%;
             transition: all 0.4s;
+          }
+
+          &::after {
+            top: 59%;
+            transform: translateY(-50%) rotate(180deg);
+            transition: all 0.2s;
           }
         }
 
         &.brand {
-          &::after {
+          &::before {
             content: none;
           }
         }
@@ -48,7 +77,7 @@ nav.navbar {
           border-radius: 25px;
           padding: 8px 20px !important;
 
-          &::after {
+          &::before {
             content: none;
           }
         }
@@ -66,19 +95,76 @@ nav.navbar {
       &.menu-item-home {
         a {
           &.active {
-            &::after {
+            &::before {
               width: 0;
             }
           }
 
           &.mPS2id-highlight,
           &:hover {
-            &::after {
+            &::before {
               width: 100% !important;
             }
           }
         }
       }
+
+      ul.dropdown-menu {
+        left: 50%;
+        border: 0;
+        border-radius: 0;
+        padding-top: 44px;
+        top: 25px;
+        z-index: 9;
+        background: transparent !important;
+        transform: translateX(-50%);
+
+        div {
+          padding: 30px;
+          background-color: white;
+          transition: all ease-in-out 0.3s;
+        }
+
+        li {
+          display: inline-block;
+          padding: 8px 10px;
+          background-color: white !important;
+
+          a {
+            color: black;
+            background-color: white !important;
+
+            &:hover {
+              color: $blue_pitch;
+              transition: all ease-in-out 0.2s;
+            }
+
+            &::before {
+              content: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .navbar .nav-item .dropdown-menu {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.3s;
+
+    div {
+      box-shadow: 0 2px 10px 0 rgb(7 7 7 / 15%);
     }
   }
 }

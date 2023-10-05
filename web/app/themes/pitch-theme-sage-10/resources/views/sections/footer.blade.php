@@ -40,7 +40,7 @@
           <strong>Expertises</strong>
           <a href="{{ home_url() }}/creation-site-wordpress/" class="mb-2 mb-sm-0" aria-label="Création de site web">Création de site web</a>
           <a href="{{ home_url() }}/maintenance-site-wordpress/" class="mb-2 mb-sm-0" aria-label="Maintenance site Wordpress">Maintenance site Wordpress</a>
-          <a href="{{ home_url() }}/nos-actualites/" class="mb-2 mb-sm-0" aria-label="Hébergement">Hébergement</a>
+          <a href="{{ home_url() }}/hebergement-site-wordpress/" class="mb-2 mb-sm-0" aria-label="Hébergement">Hébergement</a>
         </div>
       </div>
     </div>
