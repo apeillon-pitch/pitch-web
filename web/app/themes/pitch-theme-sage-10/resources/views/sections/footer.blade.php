@@ -38,7 +38,7 @@
       <div class="col-11 col-md-3 mb-4 mb-md-0">
         <div class="d-flex flex-column wp-col last">
           <strong>Expertises</strong>
-          <a href="#" class="mb-2 mb-sm-0" aria-label="L'Création de site web">Création de site web</a>
+          <a href="{{ home_url() }}/creation-site-wordpress/" class="mb-2 mb-sm-0" aria-label="Création de site web">Création de site web</a>
           <a href="{{ home_url() }}/maintenance-site-wordpress/" class="mb-2 mb-sm-0" aria-label="Maintenance site Wordpress">Maintenance site Wordpress</a>
           <a href="{{ home_url() }}/nos-actualites/" class="mb-2 mb-sm-0" aria-label="Hébergement">Hébergement</a>
         </div>
