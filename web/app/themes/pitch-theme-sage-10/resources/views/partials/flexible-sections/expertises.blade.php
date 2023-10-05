@@ -32,7 +32,8 @@
         @include('partials.flexible-sections.section_title')
       @endif
       @if ($section['text'])
-        <div class="row justify-content-center">@if(empty($section['first_picture']) && empty($section['second_picture']) && empty($section['third_picture']))
+        <div class="row justify-content-center">
+          @if(empty($section['first_picture']) && empty($section['second_picture']) && empty($section['third_picture']))
             @php
               $introSize = 'col-10 col-lg-8'
             @endphp
@@ -53,7 +54,7 @@
       @php
         $justification = 'justify-content-center'
       @endphp
-      @else
+    @else
       @php
         $justification = 'justify-content-end'
       @endphp
@@ -63,30 +64,47 @@
         <div class="col-12 col-lg-9">
           <div class="row">
             @foreach($section['blocks'] as $block)
-              <div class="col-12 col-md-6 mb-4">
-                <div class="block">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col-3">
-                      @if($block['image'])
-                        <img src="{{ $block['image']['url'] }}"
-                             class="img-fluid" alt="Conception web" width="82px" height="82px"/>
-                      @endif
-                    </div>
-                    <div class="col-9">
-                      @if($block['title'])
-                        <h3 class="mb-2">{!! $block['title'] !!}</h3>
-                      @endif
-                    </div>
+              @if(empty($section['first_picture']) && empty($section['second_picture']) && empty($section['third_picture']))
+                <div class="col-6 col-md-3 mb-4">
+                  <div class="block">
+                    @if($block['image'])
+                      <img src="{{ $block['image']['url'] }}"
+                           class="img-fluid" alt="Conception web" width="82px" height="82px"/>
+                    @endif
+                    @if($block['title'])
+                      <h3 class="mb-2">{!! $block['title'] !!}</h3>
+                    @endif
+                    @if($block['text'])
+                      <p>{!! $block['text'] !!}</p>
+                    @endif
                   </div>
-                  <div class="row no-gutters justify-content-end">
-                    <div class="col-9">
-                      @if($block['text'])
-                        <p>{!! $block['text'] !!}</p>
-                      @endif
+                </div>
+              @else
+                <div class="col-12 col-md-6 mb-4">
+                  <div class="block">
+                    <div class="row no-gutters align-items-center">
+                      <div class="col-3">
+                        @if($block['image'])
+                          <img src="{{ $block['image']['url'] }}"
+                               class="img-fluid" alt="Conception web" width="82px" height="82px"/>
+                        @endif
+                      </div>
+                      <div class="col-9">
+                        @if($block['title'])
+                          <h3 class="mb-2">{!! $block['title'] !!}</h3>
+                        @endif
+                      </div>
+                    </div>
+                    <div class="row no-gutters justify-content-end">
+                      <div class="col-9">
+                        @if($block['text'])
+                          <p>{!! $block['text'] !!}</p>
+                        @endif
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              @endif
             @endforeach
           </div>
         </div>
