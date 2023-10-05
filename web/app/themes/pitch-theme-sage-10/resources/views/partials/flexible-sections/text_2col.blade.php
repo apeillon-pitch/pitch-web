@@ -11,8 +11,9 @@
         @if($section['item_repeater'])
           @foreach($section['item_repeater'] as $item)
             <div class="row @php echo $loop->iteration % 2 == 0 ? 'justify-content-end' : '' @endphp">
-              <div class="col-12 col-lg-6">
+              <div class="col-12 col-lg-7 mt-5 mb-5">
                 @if ( $item['section_subtitle'])
+                  <span class="number">{{  $loop->iteration }}.</span>
                   <span class="title mb-2">{!! $item['section_subtitle'] !!}</span>
                 @endif
                 {!! $item['text'] !!}

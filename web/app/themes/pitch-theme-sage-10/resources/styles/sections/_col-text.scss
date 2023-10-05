@@ -5,10 +5,16 @@
     font-size: 3rem;
   }
 
+  .number {
+    font-size: 100px;
+    font-weight: 700;
+    color: $blue_pitch;
+  }
+
   .title {
     font-size: 2rem;
     font-weight: 700;
     line-height: 1.78;
-    text-transform: lowercase;
+    color: $blue_pitch;
   }
 }
