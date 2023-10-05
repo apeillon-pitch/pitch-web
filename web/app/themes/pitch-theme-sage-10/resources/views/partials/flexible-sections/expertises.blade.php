@@ -32,8 +32,16 @@
         @include('partials.flexible-sections.section_title')
       @endif
       @if ($section['text'])
-        <div class="row justify-content-center">
-          <div class="col-10">
+        <div class="row justify-content-center">@if(empty($section['first_picture']) && empty($section['second_picture']) && empty($section['third_picture']))
+            @php
+              $introSize = 'col-10 col-lg-8'
+            @endphp
+          @else
+            @php
+              $introSize = 'col-10'
+            @endphp
+          @endif
+          <div class="{{ $introSize }}">
             <div class="introduction">
               {!! $section['text'] !!}
             </div>
@@ -42,9 +50,13 @@
       @endif
     </div>
     @if(empty($section['first_picture']) && empty($section['second_picture']) && empty($section['third_picture']))
-      @php $justification = 'justify-content-center' @endphp
+      @php
+        $justification = 'justify-content-center'
+      @endphp
       @else
-      @php $justification = 'justify-content-end' @endphp
+      @php
+        $justification = 'justify-content-end'
+      @endphp
     @endif
     @if($section['blocks'])
       <div class="row {{ $justification }}">
