@@ -13,8 +13,10 @@
             <div class="row @php echo $loop->iteration % 2 == 0 ? 'justify-content-end' : '' @endphp">
               <div class="col-12 col-lg-7 mt-5 @if($loop->last) mb-5 @else mb-0 @endif">
                 @if ( $item['section_subtitle'])
+                  <div class="d-block mb-3">
                   <span class="number">{{  $loop->iteration }}.</span>
                   <span class="title mb-2">{!! $item['section_subtitle'] !!}</span>
+                  </div>
                 @endif
                 {!! $item['text'] !!}
               </div>
