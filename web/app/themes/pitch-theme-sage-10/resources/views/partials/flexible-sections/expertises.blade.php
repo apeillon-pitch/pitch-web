@@ -68,7 +68,7 @@
             @foreach($section['blocks'] as $block)
               @if(empty($section['first_picture']) && empty($section['second_picture']) && empty($section['third_picture']))
                 <div class="col-6 col-md-3 mb-4">
-                  <div class="block">
+                  <div class="block text-center">
                     @if($block['image'])
                       <img src="{{ $block['image']['url'] }}"
                            class="img-fluid" alt="Conception web" width="82px" height="82px"/>
