@@ -52,16 +52,18 @@
     </div>
     @if(empty($section['first_picture']) && empty($section['second_picture']) && empty($section['third_picture']))
       @php
-        $justification = 'justify-content-center'
+        $justification = 'justify-content-center';
+        $container = 'col-12';
       @endphp
     @else
       @php
-        $justification = 'justify-content-end'
+        $justification = 'justify-content-end';
+         $container = 'col-12 col-lg-9';
       @endphp
     @endif
     @if($section['blocks'])
       <div class="row {{ $justification }}">
-        <div class="col-12 col-lg-9">
+        <div class="{{ $container }}">
           <div class="row">
             @foreach($section['blocks'] as $block)
               @if(empty($section['first_picture']) && empty($section['second_picture']) && empty($section['third_picture']))
