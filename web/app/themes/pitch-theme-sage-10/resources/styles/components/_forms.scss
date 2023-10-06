@@ -1,5 +1,9 @@
 .gform_wrapper {
   form {
+    .gform_required_legend {
+      display: none;
+    }
+
     .gform_body {
       ul {
         padding-left: 0;
@@ -26,7 +30,9 @@
         }
       }
 
-      input {
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"] {
         min-width: 100%;
         background-color: #fff;
         border-radius: 16px;
