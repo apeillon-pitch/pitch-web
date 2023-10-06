@@ -112,12 +112,12 @@
   border: 1px solid #dad4d4 !important;
 
   .select2-selection__rendered {
-    line-height: inherit;
     padding: 14px 20px;
+    line-height: 35px !important;
   }
 }
 
 .select2-selection__arrow {
-  right: 15px;
-  top: 15px;
+  right: 15px !important;
+  top: 22px !important;
 }
