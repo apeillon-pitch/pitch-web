@@ -1,5 +1,5 @@
 <div id="section-{{ $row }}"
-     class="section banner-cta mt-none mb">
+     class="section banner-cta section-bg-color mt-none mb">
   <div class="container text-start">
     <div class="row justify-content-center justify-content-md-between align-items-center">
       <div class="d-none d-md-block col-md-4 pe-md-5">
