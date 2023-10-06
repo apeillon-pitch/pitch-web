@@ -107,6 +107,7 @@
 }
 
 .select2-selection {
+  height: 66px;
   border-radius: 16px;
   border: 1px solid #dad4d4;
 
@@ -114,4 +115,9 @@
     line-height: inherit;
     padding: 14px 20px;
   }
+}
+
+.select2-selection__arrow {
+  right: 15px;
+  top: 15px;
 }
