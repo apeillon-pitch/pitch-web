@@ -11,10 +11,13 @@
           width: 50%;
           padding-right: 16px;
           float: none;
-          margin-bottom: 20px;
 
           @media (max-width: 767.98px) {
             width: 100%;
+          }
+
+          .ginput_container {
+            margin: 0;
           }
 
           &#field_1_5 {
@@ -23,19 +26,32 @@
 
           input {
             min-width: 100%;
+            background-color: #fff;
+            border-radius: 16px;
+            border: 1px solid #dad4d4;
+            padding: 20px !important;
+            margin: 0 !important;
           }
         }
       }
 
       textarea.large {
-        height: 175px;
+        height: 150px;
         max-width: 100%;
+        background-color: #fff;
+        border-radius: 16px;
+        border: 1px solid #dad4d4;
+        padding: 20px !important;
+        margin-top: 8px;
+
+        &:focus,
+        &:focus-within,
+        &:focus-visible {
+          outline: none;
+        }
       }
 
       input[type="text"] {
-        border-left: 0;
-        border-right: 0;
-        border-top: 0;
         background: transparent;
 
         &:focus,
@@ -44,6 +60,26 @@
           outline: none;
         }
       }
+
+      input.button {
+        color: white;
+        padding: 10px 20px !important;
+        border-radius: 25px;
+        border: 0;
+        background-color: $black_pitch;
+        transition: all 0.4s;
+
+        &:hover {
+          color: white;
+          text-decoration: none;
+          background-color: $blue_pitch;
+          transition: all 0.4s;
+        }
+      }
+    }
+
+    .gform_footer {
+      margin-top: 8px;
 
       input.button {
         color: white;
