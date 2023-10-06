@@ -14,7 +14,7 @@
         @if($section['text'])
           <p>{!! $section['text'] !!}</p>
         @endif
-        {{gravity_form(2, false, false, false, false, true, 12 )}}
+        {{gravity_form(2, false, false, false, false, true, -1 )}}
       </div>
     </div>
   </div>
