@@ -23,6 +23,10 @@ nav.navbar {
             transform: translateY(-50%);
             vertical-align: inherit;
             transition: all 0.2s;
+
+            @include media-breakpoint-down(xl) {
+              content: none;
+            }
           }
         }
 
@@ -31,6 +35,10 @@ nav.navbar {
             content: url("../../../../images/fleche.svg");
             top: 59%;
             transform: translateY(-50%) rotate(180deg);
+
+            @include media-breakpoint-down(xl) {
+              content: none;
+            }
           }
         }
 
@@ -43,12 +51,20 @@ nav.navbar {
           bottom: -25px;
           background-color: $blue_pitch;
           transition: all 0.4s;
+
+          @include media-breakpoint-down(xl) {
+            content: none;
+          }
         }
 
         &.active:not(._mPS2id),
         &._mPS2id.mPS2id-highlight.active {
           &::before {
             width: 100%;
+
+            @include media-breakpoint-down(xl) {
+              content: none;
+            }
           }
         }
 
@@ -57,12 +73,20 @@ nav.navbar {
           &::before {
             width: 100%;
             transition: all 0.4s;
+
+            @include media-breakpoint-down(xl) {
+              content: none;
+            }
           }
 
           &::after {
             top: 59%;
             transform: translateY(-50%) rotate(180deg);
             transition: all 0.2s;
+
+            @include media-breakpoint-down(xl) {
+              content: none;
+            }
           }
         }
 
@@ -122,6 +146,7 @@ nav.navbar {
         @include media-breakpoint-down(xl) {
           left: inherit;
           transform: inherit;
+          padding-top: 0;
         }
 
         div {
