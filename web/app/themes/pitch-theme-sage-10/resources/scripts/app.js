@@ -2,6 +2,7 @@ import {domReady} from '@roots/sage/client';
 import $ from 'jquery';
 import 'bootstrap';
 import './slide-menu';
+import 'select2';
 
 /**
  * Addons
@@ -31,13 +32,20 @@ const main = async (err) => {
     // handle hmr errors
     console.error(err);
   }
-
+  setSelect2();
   getSlideshowClients();
   getMainSlideshow();
   getTestimonialsSlideshow();
   getAchivementsSlideshow();
   gettechnologiesSlideshow();
   getStickyMenu();
+
+  function setSelect2()
+  {
+    $('.ginput_container_select select').select2({
+      minimumResultsForSearch: Infinity,
+    });
+  }
 
   function getSlideshowClients() {
     var slideshowClient =  $('.section.client .slideshow');
