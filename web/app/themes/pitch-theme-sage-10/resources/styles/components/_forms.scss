@@ -1,7 +1,7 @@
 .gform_wrapper {
   form {
     .gform_required_legend {
-      display: none;
+      display: none !important;
     }
 
     .gform_body {
