@@ -149,7 +149,7 @@ nav.navbar {
   }
 }
 
-@include media-breakpoint-up(lg) {
+@include media-breakpoint-up(xl) {
   .navbar .nav-item .dropdown-menu {
     display: block;
     visibility: hidden;
