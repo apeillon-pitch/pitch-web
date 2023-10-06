@@ -107,9 +107,9 @@
 }
 
 .select2-selection {
-  height: 66px;
-  border-radius: 16px;
-  border: 1px solid #dad4d4;
+  height: 66px !important;
+  border-radius: 16px !important;
+  border: 1px solid #dad4d4 !important;
 
   .select2-selection__rendered {
     line-height: inherit;
