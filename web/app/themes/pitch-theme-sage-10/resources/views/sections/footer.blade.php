@@ -28,10 +28,11 @@
         <div class="d-flex flex-column wp-col">
           <strong>Agence</strong>
           <a href="{{ home_url() }}/agence/" class="mb-2 mb-sm-0" aria-label="Découvrir l'agence">Découvrir l'agence</a>
-          <a href="{{ home_url() }}/realisations/" class="mb-2 mb-sm-0" aria-label="Nos réalisations">Nos réalisations
+          <a href="{{ home_url() }}/realisations/" class="mb-2 mb-sm-0" aria-label="Nos réalisations Wordpress">Nos réalisations
             Wordpress</a>
           <a href="{{ home_url() }}/clients/" class="mb-2 mb-sm-0" aria-label="Nos références clients">Nos références clients</a>
-          <a href="{{ home_url() }}/nos-actualites/" class="mb-2 mb-sm-0" aria-label="Toute l'actualité Wordpress">Toute l'actualité
+          <a href="{{ home_url() }}/nos-actualites/" class="mb-2 mb-sm-0" aria-label="Toute l'actualité
+            Wordpress">Toute l'actualité
             Wordpress</a>
         </div>
       </div>
@@ -48,8 +49,7 @@
       <div class="col-12 text-center mt-5">
         <p class="mentions">
           <a href="<?php echo home_url(); ?>/mentions-legales/" aria-label="Mentions
-            légales" target="_blank">Mentions
-            légales</a> - <a href="<?php echo home_url(); ?>/politique-de-confidentialite/"
+            légales" target="_blank">Mentions légales</a> - <a href="<?php echo home_url(); ?>/politique-de-confidentialite/"
                              aria-label="Politique de confidentialité" target="_blank">Politique de confidentialité</a>
           - Paris - Nice - ©2023 Le Pitch Web
         </p>
