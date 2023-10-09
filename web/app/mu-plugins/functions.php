@@ -117,7 +117,7 @@ add_action('wp_default_scripts', 'remove_jquery_migrate');
 
 function remove_category_title($title) {
     if (is_category()) {
-        $title = single_cat_title('', false);
+        $title = single_cat_title('L\'actualité web : , false);
     } elseif(is_tag()) {
         $title = single_cat_title('Articles sur le thème : ', false);
     }
