@@ -13,7 +13,13 @@
   <div class="section-news section-bg-color pt pb mt-none mb-none">
     <div class="container">
       <div class="d-flex flex-column">
-        <h1 class="section-title mb-5">Nos actualités</h1>
+        <h1 class="section-title mb-5">
+          @if(is_home())
+            Nos actualités
+          @elseif(is_category())
+            {!! get_the_archive_title(false, '') !!}
+          @endif
+        </h1>
         <div class="row justify-content-start mb-4">
           @while(have_posts())
             @php the_post() @endphp
