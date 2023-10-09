@@ -17,7 +17,9 @@
           @if(is_home())
             Nos actualités
           @elseif(is_category())
-            {!! get_the_archive_title(false, '') !!}
+            {!! get_the_archive_title() !!}
+          @elseif(is_tag())
+            {!! get_the_archive_title() !!}
           @endif
         </h1>
         <div class="row justify-content-start mb-4">
