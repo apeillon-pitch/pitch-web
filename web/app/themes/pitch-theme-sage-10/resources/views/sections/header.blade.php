@@ -1,5 +1,5 @@
 <header id="o-wrapper" class="banner o-wrapper @php echo is_page(313) ? 'd-none' : '' @endphp">
-  <div class="container">
+  <div class="container-lg">
     <div class="wp-nav">
       <div class="d-flex flex-row justify-content-between align-items-center gx-0">
         <div class="d-block">

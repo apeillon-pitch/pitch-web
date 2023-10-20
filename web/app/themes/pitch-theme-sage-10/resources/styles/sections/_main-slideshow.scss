@@ -34,14 +34,25 @@
         position: relative;
         height: 100%;
 
-        @include media-breakpoint-up(lg) {
-          img {
-            position: absolute;
-            width: 100%;
+        img {
+          position: absolute;
+          width: 100%;
+          height: auto;
+          max-height: inherit;
+          object-fit: cover;
+          top: 50%;
+          transform: translateY(-50%);
+          margin: inherit;
+
+          @include media-breakpoint-down(lg) {
+            position: relative;
+            max-height: 400px;
             height: auto;
-            object-fit: cover;
-            top: 50%;
-            transform: translateY(-50%);
+            width: auto;
+            margin: 0 auto;
+            object-fit: inherit;
+            top: inherit;
+            transform: inherit;
           }
         }
       }
