@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row justify-content-center">
   @php $number = $section['posts_number'] ?? 3; @endphp
   @if(is_single())
     @php
@@ -9,7 +9,7 @@
     @php $articles = get_articles($number); @endphp
   @endif
   @foreach($articles as $article)
-    <div class="col-12 col-lg-4 mb-4">
+    <div class="col-11 col-lg-4 mb-4">
       <div class="inner-content bg-white h-100">
         <div class="hovereffect mb-3">
           @php
