@@ -34,7 +34,7 @@
       @if ($client['name'])
         <span class="name">{!! $client['name'] !!}</span>
       @endif
-      <div class="d-flex flex-row">
+      <div class="d-flex flex-column flex-lg-row">
         @if ($client['job'])
           <span class="job">{!! $client['job'] !!} | </span>
         @endif
