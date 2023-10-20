@@ -12,8 +12,8 @@
               </div>
             </div>
           </div>
-          <div class="row align-items-center h-100">
-            <div class="col-12 col-lg-8">
+          <div class="row justify-content-center justify-content-lg-start align-items-center h-100">
+            <div class="col-11 col-lg-8">
               @if ($slide['acf_fc_layout'] == 'reference_type')
                 <div class="wrapper-text fadeInLeft">
                   @if ($slide['title'])
