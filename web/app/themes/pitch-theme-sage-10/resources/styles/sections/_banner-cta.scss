@@ -29,7 +29,7 @@
               left: -75px;
               top: 10px;
 
-              @include media-breakpoint-down(md) {
+              @include media-breakpoint-down(lg) {
                 left: 0;
               }
             }
