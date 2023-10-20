@@ -6,7 +6,7 @@
       <h2>{!! $section['section_title'] !!}</h2>
     @endif
     <div class="row justify-content-center">
-      <div class="col-12 col-md-8">
+      <div class="col-11 col-md-8">
         <div class="slideshow-testimonials">
           @if($section['testimonials_repeater'])
             @foreach($section['testimonials_repeater'] as $testimony)

@@ -3,8 +3,8 @@
   <div
     class="section client {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
     <div class="container">
-      <div class="row align-items-end mb-5">
-        <div class="col-12 col-lg-8">
+      <div class="row justify-content-center align-items-end mb-5">
+        <div class="col-11 col-lg-8">
           @if ( $section['section_title'])
             @include('partials.flexible-sections.section_title')
           @endif
@@ -16,7 +16,7 @@
             </div>
           @endif--}}
         </div>
-        <div class="col-12 col-lg-4">
+        <div class="col-11 col-lg-4">
           <div class="wp-nav d-none d-sm-flex flex-row justify-content-end">
             <div id="slick-prev" class="me-4">
               <svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">

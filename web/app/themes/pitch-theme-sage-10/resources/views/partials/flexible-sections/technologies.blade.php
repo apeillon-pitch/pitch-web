@@ -6,7 +6,7 @@
     @endif
     @if($section['logos_repeater'])
       <div class="row justify-content-center">
-        <div class="col-12 col-lg-4">
+        <div class="col-11 col-lg-4">
           <div class="slideshow">
             @php $i =0; @endphp
             @foreach($section['logos_repeater'] as $index => $logo)
