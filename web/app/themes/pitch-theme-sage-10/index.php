@@ -12,13 +12,13 @@
     <script src="https://kit.fontawesome.com/0b51096d56.js" defer crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JHS0ZQC2JD"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VQ049SLCRM"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-JHS0ZQC2JD');
+      gtag('config', 'G-VQ049SLCRM');
     </script>
     <?php wp_head(); ?>
   </head>
