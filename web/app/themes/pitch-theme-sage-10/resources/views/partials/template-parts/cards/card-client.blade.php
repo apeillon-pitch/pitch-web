@@ -36,7 +36,7 @@
       @endif
       <div class="d-flex flex-column flex-xl-row">
         @if ($client['job'])
-          <span class="job">{!! $client['job'] !!} | </span>
+          <div class="job">{!! $client['job'] !!} <span class="d-none d-xl-inline"> | </span></div>
         @endif
         @if ($client['company'])
           <strong class="company ms-xl-1">{!! $client['company'] !!}</strong>
