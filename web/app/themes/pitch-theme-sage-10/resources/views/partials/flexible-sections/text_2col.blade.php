@@ -7,7 +7,7 @@
           @include('partials.flexible-sections.section_title')
         @endif
       </div>
-      <div class="col-12 col-lg-8 ps-5">
+      <div class="col-12 col-lg-8 ps-lg-5">
         @if($section['item_repeater'])
           @foreach($section['item_repeater'] as $item)
             <div class="row @php echo $loop->iteration % 2 == 0 ? 'justify-content-end' : '' @endphp">
