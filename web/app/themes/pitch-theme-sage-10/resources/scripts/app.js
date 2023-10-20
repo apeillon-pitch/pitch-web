@@ -33,6 +33,7 @@ const main = async (err) => {
     console.error(err);
   }
   setSelect2();
+  dropdownMenu();
   getSlideshowClients();
   getMainSlideshow();
   getTestimonialsSlideshow();
@@ -158,6 +159,35 @@ const main = async (err) => {
         prevArrow: slickPrev,
       });
     }
+  }
+
+  function dropdownMenu() {
+    const navLinks = document.querySelectorAll('#o-wrapper .nav-link.dropdown-toggle');
+    const dropdownMenus = document.querySelectorAll('#o-wrapper .dropdown-menu');
+
+    navLinks.forEach(navLink => {
+      navLink.addEventListener('mouseenter', () => {
+        navLink.classList.add('show');
+      });
+
+      navLink.addEventListener('mouseleave', () => {
+        navLink.classList.remove('show');
+      });
+    });
+
+    dropdownMenus.forEach(dropdownMenu => {
+      dropdownMenu.addEventListener('mouseenter', () => {
+        Array.from(dropdownMenu.parentElement.children).forEach(child => {
+          child.classList.add('show');
+        });
+      });
+
+      dropdownMenu.addEventListener('mouseleave', () => {
+        Array.from(dropdownMenu.parentElement.children).forEach(child => {
+          child.classList.remove('show');
+        });
+      });
+    });
   }
 
   function getStickyMenu() {
