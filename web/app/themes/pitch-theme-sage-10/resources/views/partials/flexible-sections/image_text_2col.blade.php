@@ -12,7 +12,7 @@
       </div>
       <div class="col-11 col-lg-6 @php echo $section['img_position'] == 'right' ? 'order-1' : '' @endphp">
         <div class="row">
-          <div class="col-9">
+          <div class="col-12">
             @if ( $section['section_title'])
               @include('partials.flexible-sections.section_title')
             @endif
