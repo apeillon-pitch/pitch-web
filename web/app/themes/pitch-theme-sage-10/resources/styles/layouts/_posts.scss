@@ -40,10 +40,10 @@
     }
 
     .entry-content {
-      ul {
+      ul:not(.tags) {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 17px;
       }
     }
 
