@@ -39,6 +39,14 @@
       }
     }
 
+    .entry-content {
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+    }
+
     header {
       background-color: #f7f0f0;
 
