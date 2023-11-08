@@ -1,6 +1,6 @@
 <article @php post_class() @endphp>
   <header class="mb-5">
-    <div class="row align-items-center">
+    <div class="row align-items-center gx-0">
       <div class="col-12 col-lg-6 bg">
         @php
           $bg = $article_data['thumbnail']['sizes'][ 'large' ];
