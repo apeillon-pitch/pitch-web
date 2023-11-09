@@ -5,10 +5,10 @@
       "js/575.fb8f9f.js",
       "js/945.c1e77f.js",
       "js/459.67f916.js",
-      "js/app.6c7064.js"
+      "js/app.680b73.js"
     ],
     "css": [
-      "css/app.3e4691.css"
+      "css/app.48ae72.css"
     ],
     "dependencies": [
       "jquery"
@@ -19,6 +19,13 @@
       "js/runtime.f3c78e.js",
       "js/459.67f916.js",
       "js/menu.9d3e22.js"
+    ],
+    "dependencies": []
+  },
+  "typed": {
+    "js": [
+      "js/runtime.f3c78e.js",
+      "js/typed.2b47f3.js"
     ],
     "dependencies": []
   },

@@ -17,15 +17,19 @@
               @if ($slide['acf_fc_layout'] == 'reference_type')
                 <div class="wrapper-text fadeInLeft">
                   @if ($slide['title'])
-                    <h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
+                    <span class="overtitle" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
                       {!! $slide['title'] !!}
-                    </h1>
+                    </span>
                   @endif
                   @if ($slide['text'])
-                    <p class="title" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
+                    <h1 class="title" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
                       {!! $slide['text'] !!}
-                    </p>
+                    </h1>
                   @endif
+                  <div class="h1">
+                    <span class="typer" data-typer="créative| technique| réactive| SEO &amp; UX first"></span>
+                    <span class="typed-cursor"></span>
+                  </div>
                   @if ($slide['introduction'])
                     <div class="row" data-aos="fade-up" data-aos-delay="600" data-aos-duration="300">
                       <div class="col-12 col-lg-8">

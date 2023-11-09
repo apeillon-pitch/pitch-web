@@ -14,6 +14,7 @@ export default async (app) => {
     .entry({
       app: ["@scripts/app", "@styles/app"],
       menu: ["@scripts/slide-menu"],
+      typed: ["@scripts/typed"],
       editor: ["@scripts/editor", "@styles/editor"],
     })
 
