@@ -27,13 +27,13 @@
                     </h1>
                   @endif
                   @if(is_front_page())
-                    <div class="h1 mb-4" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
+                    <div class="h1" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
                       <span class="typer" data-typer="créative| technique| réactive| SEO &amp; UX first"></span>
                       <span class="typed-cursor"></span>
                     </div>
                   @endif
                   @if ($slide['introduction'])
-                    <div class="row" data-aos="fade-up" data-aos-delay="600" data-aos-duration="300">
+                    <div class="row mt-4" data-aos="fade-up" data-aos-delay="600" data-aos-duration="300">
                       <div class="col-12 col-lg-8">
                         <p>{!! $slide['introduction'] !!}</p>
                       </div>
