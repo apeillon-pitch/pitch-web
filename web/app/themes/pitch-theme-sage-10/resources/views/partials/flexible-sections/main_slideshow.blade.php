@@ -26,7 +26,7 @@
                       {!! $slide['text'] !!}
                     </h1>
                   @endif
-                  <div class="h1 mb-4">
+                  <div class="h1 mb-4" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
                     <span class="typer" data-typer="créative| technique| réactive| SEO &amp; UX first"></span>
                     <span class="typed-cursor"></span>
                   </div>
