@@ -26,7 +26,7 @@
                       {!! $slide['text'] !!}
                     </h1>
                   @endif
-                  <div class="h1">
+                  <div class="h1 mb-2">
                     <span class="typer" data-typer="créative| technique| réactive| SEO &amp; UX first"></span>
                     <span class="typed-cursor"></span>
                   </div>

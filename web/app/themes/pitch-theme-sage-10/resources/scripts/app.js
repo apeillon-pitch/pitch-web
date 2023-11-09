@@ -52,8 +52,8 @@ const main = async (err) => {
         strings: arr,
         loop: false,
         showCursor: true,
-        startDelay: 4000,
-        backDelay: 500,
+        startDelay: 2000,
+        backDelay: 700,
         typeSpeed: 1,
         callback: function() {
           $('.typed-cursor').text('');
