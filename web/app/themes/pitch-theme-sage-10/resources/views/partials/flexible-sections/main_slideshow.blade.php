@@ -17,7 +17,7 @@
               @if ($slide['acf_fc_layout'] == 'reference_type')
                 <div class="wrapper-text fadeInLeft">
                   @if ($slide['title'])
-                    <span class="overtitle" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
+                    <span class="overtitle mb-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
                       {!! $slide['title'] !!}
                     </span>
                   @endif
@@ -26,7 +26,7 @@
                       {!! $slide['text'] !!}
                     </h1>
                   @endif
-                  <div class="h1 mb-2">
+                  <div class="h1 mb-4">
                     <span class="typer" data-typer="créative| technique| réactive| SEO &amp; UX first"></span>
                     <span class="typed-cursor"></span>
                   </div>
