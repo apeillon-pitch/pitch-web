@@ -45,7 +45,7 @@ const main = async (err) => {
 
   function TextWriter() {
 
-    $(".typer").each(function() {
+    $(".typer").each(function () {
       var t = $(this),
         arr = t.data("typer").split("|");
       t.typed({
@@ -55,24 +55,23 @@ const main = async (err) => {
         startDelay: 2000,
         backDelay: 700,
         typeSpeed: 1,
-        callback: function() {
+        callback: function () {
           $('.typed-cursor').text('');
         },
       });
     });
   }
 
-  function setSelect2()
-  {
+  function setSelect2() {
     $('.ginput_container_select select').select2({
       minimumResultsForSearch: Infinity,
     });
   }
 
   function getSlideshowClients() {
-    var slideshowClient =  $('.section.client .slideshow');
-    var slickPrevClient =  $('.section.client #slick-prev');
-    var slickNextClient =  $('.section.client #slick-next');
+    var slideshowClient = $('.section.client .slideshow');
+    var slickPrevClient = $('.section.client #slick-prev');
+    var slickNextClient = $('.section.client #slick-next');
     slideshowClient.slick(
       {
         infinite: false,
@@ -125,7 +124,7 @@ const main = async (err) => {
 
   function getTestimonialsSlideshow() {
     $('.slideshow-testimonials').slick({
-      arrows:false,
+      arrows: false,
       dots: true,
       infinite: true,
       speed: 400,

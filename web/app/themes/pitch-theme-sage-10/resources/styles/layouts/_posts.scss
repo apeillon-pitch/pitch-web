@@ -70,6 +70,25 @@
 }
 
 .single-project {
+  article {
+    margin-top: -78px;
+  }
+
+  .banner-header {
+    position: relative;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .wp-title {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
   figure.logo {
     background-color: #fff;
     border-radius: 1.25rem;

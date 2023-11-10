@@ -48,3 +48,11 @@
 @import "sections/glossary";
 @import "sections/col-text";
 @import "sections/banner-cta";
+
+@font-face {
+  font-family: "founders";
+  src: url('../fonts/founders-grotesk-light.otf') format('otf');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}

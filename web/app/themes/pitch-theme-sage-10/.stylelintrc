@@ -9,6 +9,7 @@
     'indentation': null,
     'at-rule-no-unknown': null,
     'function-no-unknown': null,
+    'font-family-name-quotes': null,
   },
   "customSyntax": "postcss-scss",
 }
