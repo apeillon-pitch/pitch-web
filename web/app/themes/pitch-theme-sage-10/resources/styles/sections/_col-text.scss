@@ -5,28 +5,35 @@
     font-size: 3rem;
   }
 
-  .number {
-    font-size: 100px;
+  .title {
+    font-size: 1.75rem;
     font-weight: 700;
-    color: $blue_pitch;
+    line-height: 1.2 !important;
+  }
 
-    @include media-breakpoint-down(lg) {
-      font-size: 80px;
-    }
+  .collapse,
+  .collapsing {
+    border: 0;
+    padding-top: 0;
 
-    @include media-breakpoint-down(md) {
-      font-size: 70px;
-    }
-
-    @include media-breakpoint-down(sm) {
-      font-size: 60px;
+    .card-body {
+      border: 0 !important;
+      padding-top: 0 !important;
     }
   }
 
-  .title {
-    font-size: 2rem;
-    font-weight: 700;
-    line-height: 1.2 !important;
+  .btn-primary {
+    display: flex !important;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
     color: $blue_pitch;
+    border: 1px solid $blue_pitch;
+    background-color: white;
   }
 }
