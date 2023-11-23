@@ -1,7 +1,7 @@
 <div id="section-{{ $row }}"
      class="section-faq {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
   <div class="container">
-    <div class="row justify-content-center justify-content-lg-end">
+    <div class="row justify-content-center">
       <div class="col-11 col-lg-8">
         @if ( $section['section_title'])
           @include('partials.flexible-sections.section_title')
@@ -9,7 +9,7 @@
       </div>
     </div>
     @if($section['item_repeater'])
-      <div class="row justify-content-center justify-content-lg-end">
+      <div class="row justify-content-center">
         <div class="col-11 col-lg-8">
           <div class="accordion" id="accordion-{{ $row }}">
             @foreach($section['item_repeater'] as $index => $item)
