@@ -20,7 +20,7 @@
             <span class="d-block">contact[@]lepitch.fr</span>
             <div class="row align-items-center mt-4">
               <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-                <strong class="d-block mb-2">Agence web Paris</strong>
+                <h3 class="d-block mb-2">Agence web Paris</h3>
                 <span class="d-block mb-4">15 Rue Vandrezanne - 75013 Paris</span>
                 <div class="ratio ratio-16x9">
                   <iframe
@@ -31,7 +31,7 @@
                 </div>
               </div>
               <div class="col-12 col-lg-6">
-                <strong class="d-block mb-2">Agence web Nice</strong>
+                <h3 class="d-block mb-2">Agence web Nice</h3>
                 <span class="d-block mb-4">7 rue d'Autun - 06000 Nice</span>
                 <div class="ratio ratio-16x9">
                   <iframe
