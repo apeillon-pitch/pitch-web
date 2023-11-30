@@ -16,18 +16,19 @@
               </nav>
             </div>
           @endif
-          <div class="d-flex flex-row justify-content-end">
-            <a class="d-none d-sm-block nav-link cta" aria-label="contact" href="<?php echo home_url(); ?>/contact/">Contact</a>
-            <div class="d-flex d-xl-none flex-row align-items-center ms-4">
-              <div id="menu-button">
-                <div class="c-buttons">
-                  <a href="#" rel="nofollow noindex" id="c-button--slide-right" aria-label="Menu"
-                     class="hamburger c-button">
-                    <div class="top-bun"></div>
-                    <div class="meat"></div>
-                    <div class="bottom-bun"></div>
-                  </a>
-                </div>
+        </div>
+        <div class="d-flex flex-row align-items-center justify-content-end">
+          <a class="d-none d-sm-block link me-4" aria-label="contact" href="<?php echo home_url(); ?>/partenaires/">Vous êtes une agence ? </a>
+          <a class="d-none d-sm-block nav-link cta" aria-label="contact" href="<?php echo home_url(); ?>/contact/">Contact</a>
+          <div class="d-flex d-xl-none flex-row align-items-center ms-4">
+            <div id="menu-button">
+              <div class="c-buttons">
+                <a href="#" rel="nofollow noindex" id="c-button--slide-right" aria-label="Menu"
+                   class="hamburger c-button">
+                  <div class="top-bun"></div>
+                  <div class="meat"></div>
+                  <div class="bottom-bun"></div>
+                </a>
               </div>
             </div>
           </div>

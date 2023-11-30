@@ -1,10 +1,12 @@
+<div class="container">
+  @if($section['section_title'])
+    <h2 class="text-center">{!! $section['section_title'] !!}</h2>
+  @endif
+</div>
 <div
   class="d-none d-lg-block section-testimonials section-bg-color {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}"
   id="section-{{ $row }}">
   <div class="container">
-    @if($section['section_title'])
-      <h2>{!! $section['section_title'] !!}</h2>
-    @endif
     <div class="row justify-content-center">
       <div class="col-11 col-md-8">
         <div class="slideshow-testimonials">
@@ -33,8 +35,8 @@
         @foreach($section['logos_repeater'] as $logo)
           @if ($logo['logo'])
             <figure class="mb-0">
-            <img src="{{ $logo['logo']['url'] }}" alt="Client Le Pitch - Site Wordpress"
-                 class="logo-{{ $index }}"/>
+              <img src="{{ $logo['logo']['url'] }}" alt="Client Le Pitch - Site Wordpress"
+                   class="logo-{{ $index }}"/>
             </figure>
           @endif
           @php

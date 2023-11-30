@@ -1,14 +1,15 @@
 body {
   font-display: swap;
   font-family: $montserrat;
-  font-size: 0.9375rem;
-  font-weight: 400;
-  line-height: 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 100;
+  line-height: 1.6rem;
   color: $black_pitch;
-}
 
-* {
-  cursor: url("../../images/cursor.svg"), auto !important;
+  strong,
+  b {
+    font-weight: 700;
+  }
 }
 
 h1,
@@ -24,7 +25,7 @@ h3.section-title {
   display: block;
   font-size: 3rem;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.2;
   margin-bottom: 50px;
 
   &.minus {

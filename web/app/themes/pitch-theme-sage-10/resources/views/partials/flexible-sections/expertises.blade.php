@@ -93,7 +93,7 @@
                       </div>
                       <div class="col-9">
                         @if($block['title'])
-                          <h3 class="mb-2">{!! $block['title'] !!}</h3>
+                          <h3>{!! $block['title'] !!}</h3>
                         @endif
                       </div>
                     </div>

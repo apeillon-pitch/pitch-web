@@ -10,6 +10,7 @@
     'at-rule-no-unknown': null,
     'function-no-unknown': null,
     'font-family-name-quotes': null,
+    'max-line-length': null,
   },
   "customSyntax": "postcss-scss",
 }

@@ -74,13 +74,13 @@ const main = async (err) => {
     var slickNextClient = $('.section.client #slick-next');
     slideshowClient.slick(
       {
-        infinite: false,
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: true,
         dots: false,
         autoplay: false,
         speed: 800,
+        infinite: true,
         nextArrow: slickNextClient,
         prevArrow: slickPrevClient,
         responsive: [
@@ -150,7 +150,7 @@ const main = async (err) => {
         slidesToShow: 1,
         autoplay: false,
         autoplaySpeed: 8000,
-        infinite: false,
+        infinite: true,
         arrows: true,
         nextArrow: slickNext,
         prevArrow: slickPrev,

@@ -1,9 +1,8 @@
 .section-faq {
   .accordion {
     .accordion-item {
-      margin-bottom: 1rem;
-      border-radius: 1rem;
-      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 12%), 0 0 4px 0 rgba(0, 0, 0, 12%);
+      margin-bottom: 0;
+      border: 0;
 
       &:last-child {
         margin-bottom: 0;
@@ -21,8 +20,17 @@
           display: flex;
           font-weight: 700;
           align-items: center;
-          min-height: 88px;
           border-radius: 1rem;
+          box-shadow: none;
+          padding-left: 40px;
+
+          &::before {
+            content: "+";
+            display: inline-block;
+            position: absolute;
+            left: 20px;
+            font-size: 24px;
+          }
 
           &:focus {
             box-shadow: none;
@@ -39,17 +47,29 @@
           }
 
           &:hover {
-            color: white;
-            background-color: $blue_pitch;
+            color: $blue_pitch;
+            background-color: white;
 
             &.collapsing,
             &.collapse,
             &[aria-expanded="true"] {
               background-color: white;
+
+              &::before {
+                content: "-";
+                transition: all 0.3s ease-in-out;
+              }
+            }
+          }
+
+          &[aria-expanded="true"] {
+            &::before {
+              content: "-";
             }
           }
 
           &::after {
+            content: none;
             padding: 1rem;
             border-radius: 0.5rem;
             background-position: center;
@@ -61,6 +81,10 @@
       .accordion-collapse {
         .accordion-body {
           padding-top: 0;
+          font-size: 14px;
+          font-weight: 100;
+          line-height: 1.6rem;
+          padding-bottom: 0;
 
           a {
             color: black;
@@ -70,7 +94,7 @@
           h4,
           h5,
           h6 {
-            font-size: 1rem;
+            font-size: 14px;
           }
         }
       }

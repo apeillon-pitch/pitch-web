@@ -6,6 +6,7 @@ $theme-colors: (
 
 $blue_pitch: #2ba1d0;
 $red_pitch: #ce2e38;
+$pink_pitch: #c38d94;
 $black_pitch: #231f20;
 
 /** Menu mobile */
@@ -23,12 +24,3 @@ $btn-border-radius: 0.375rem;
 $btn-padding-y: 0.625rem;
 $btn-padding-x: 0.75rem;
 $btn-font-weight: 600;
-
-/** Grid */
-$container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px,
-  xxl: 1141px
-);

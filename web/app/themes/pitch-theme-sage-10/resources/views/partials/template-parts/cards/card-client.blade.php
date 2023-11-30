@@ -30,7 +30,7 @@
     @if ($client['text'])
       <p>{!! $client['text'] !!}</p>
     @endif
-    <div class="d-flex flex-column mt-3">
+    <div class="d-flex flex-column mt-1">
       @if ($client['name'])
         <span class="name">{!! $client['name'] !!}</span>
       @endif

@@ -33,6 +33,7 @@
       font-size: 31px;
       font-weight: 700;
       position: absolute;
+      color: $blue_pitch;
       right: 10px;
       transform: translateX(100%);
     }
@@ -50,17 +51,19 @@
       font-size: 4.375rem;
       line-height: 1;
       font-weight: 700;
+      color: $blue_pitch;
       margin-bottom: 15px;
     }
 
-    &:nth-child(2n) {
-      .picto {
-        top: 58px;
-      }
+    strong {
+      display: block;
+      margin-bottom: 7px;
+    }
 
-      .number {
-        margin-top: 155px;
-      }
+    p {
+      font-size: 14px;
+      font-weight: 100;
+      line-height: 1.6rem;
     }
   }
 }

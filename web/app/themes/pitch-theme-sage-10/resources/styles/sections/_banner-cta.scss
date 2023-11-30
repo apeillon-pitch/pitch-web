@@ -38,4 +38,42 @@
       }
     }
   }
+
+  &.section-cta-style-two {
+    .card {
+      height: 100%;
+      font-size: 14px;
+      line-height: 1.5;
+      border-radius: 15px;
+      border: none;
+      padding: 100px 0 15px;
+      background-color: white;
+
+      h3 {
+        font-size: 17px;
+      }
+
+      img {
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .btn-primary {
+        display: flex !important;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        color: $blue_pitch;
+        border: 1px solid $blue_pitch;
+        background-color: white;
+      }
+    }
+  }
 }

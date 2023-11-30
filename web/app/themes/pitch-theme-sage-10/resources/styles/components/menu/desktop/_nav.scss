@@ -134,30 +134,26 @@ nav.navbar {
       }
 
       ul.dropdown-menu {
-        left: 50%;
         border: 0;
         border-radius: 0;
         padding-top: 44px;
         top: 25px;
         z-index: 9;
         background: transparent !important;
-        transform: translateX(-50%);
 
         @include media-breakpoint-down(xl) {
-          left: inherit;
-          transform: inherit;
           padding-top: 0;
         }
 
         div {
-          padding: 30px;
+          padding: 15px 10px;
           background-color: white;
           transition: all ease-in-out 0.3s;
         }
 
         li {
           display: inline-block;
-          padding: 8px 10px;
+          padding: 2px 0;
           background-color: white !important;
 
           @include media-breakpoint-down(xl) {
@@ -167,6 +163,9 @@ nav.navbar {
 
           a {
             color: black;
+            font-size: 0.875rem;
+            font-weight: 100;
+            line-height: 1.6rem;
             background-color: white !important;
 
             &:hover {

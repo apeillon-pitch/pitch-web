@@ -1,7 +1,7 @@
 @php $clients = get_testimony(); @endphp
 @if($clients)
   <div
-    class="section client {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
+    class="section client overflow-hidden {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
     <div class="container">
       <div class="row justify-content-center align-items-end mb-5">
         <div class="col-11 col-lg-8">

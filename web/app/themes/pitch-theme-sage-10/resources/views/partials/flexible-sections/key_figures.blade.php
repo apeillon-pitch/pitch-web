@@ -9,10 +9,7 @@
         <div class="row justify-content-center">
 
           @foreach($section['key_figures_repeater'] as $block)
-            <div class="col-6 col-sm-3 mb-3 ps-4 pe-4 mb-lg-0 text-center block">
-              @if($block['picto'])
-                {!! wp_get_attachment_image($block['picto'], 'full','', array( "class" => "picto")) !!}
-              @endif
+            <div class="col-6 col-sm-3 mb-3 ps-4 pe-4 mb-lg-0 text-start block">
               <div class="d-block w-100">
                 <div class="d-inline-block mx-auto position-relative wp">
               <span class="d-none d-md-block number purecounter text-center font-weight-bold"
@@ -25,7 +22,12 @@
                   @endif
                 </div>
               </div>
-              {!! $block['title'] !!}
+              @if($block['title'] )
+                <strong>{!! $block['title'] !!}</strong>
+              @endif
+              @if($block['text'] )
+                <p class="pe-5">{!! $block['text'] !!}</p>
+              @endif
             </div>
           @endforeach
         </div>

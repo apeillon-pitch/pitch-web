@@ -1,5 +1,5 @@
 <?php
-function get_options($options)
+function get_section_options($options)
 {
   /*custom padding*/
   $opt = $options['padding_group']['padding_top'] ? htmlspecialchars($options['padding_group']['padding_top']) : '';
