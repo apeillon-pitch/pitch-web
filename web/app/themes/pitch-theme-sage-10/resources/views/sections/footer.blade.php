@@ -8,8 +8,9 @@
       <div class="col-11 col-md-3 mb-4 mb-md-0">
         <div class="d-flex flex-column wp-col">
           <p>
+            Agence web Paris <br>
             15 rue de Vandrezanne <br> 75013 Paris </p>
-          <p>7 rue d'Autun <br> 06000 Nice </p>
+          <p>Agence web Nice <br> 7 rue d'Autun <br> 06000 Nice </p>
           <a href="https://www.linkedin.com/company/pitch-web/" title="Linkedin" target="_blank"><i
               class="fa-brands fa-linkedin-in"></i></a>
         </div>
@@ -48,7 +49,7 @@
           <a href="<?php echo home_url(); ?>/mentions-legales/" aria-label="Mentions
             légales" target="_blank">Mentions légales</a> - <a href="<?php echo home_url(); ?>/politique-de-confidentialite/"
                              aria-label="Politique de confidentialité" target="_blank">Politique de confidentialité</a>
-          - Paris - Nice - ©2023 Le Pitch Web
+          - Agence web Paris - Agence web Nice - ©2023 Le Pitch Web
         </p>
       </div>
     </div>
