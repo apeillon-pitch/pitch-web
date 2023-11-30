@@ -2,7 +2,7 @@
   <div class="container-lg">
     <a href="{{ home_url() }}" aria-label="Accueil">
       <img src="@asset('images/pitch-white.svg')"
-           class="logo mb-3" alt="Logo Le Pitch" width="200px" height="48px" style="max-width: 200px">
+           class="logo mb-3" alt="Agence Wordpress Paris et Nice" width="200px" height="48px" style="max-width: 200px">
     </a>
     <div class="row justify-content-center text-start">
       <div class="col-11 col-md-3 mb-4 mb-md-0">

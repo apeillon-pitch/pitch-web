@@ -5,7 +5,7 @@
         <div class="d-block">
           <a href="{{ home_url() }}" aria-label="Accueil">
             <img src="@asset('images/lepitch.svg')"
-                 class="logo" alt="Logo Le Pitch" width="200px" height="48px" style="max-width: 200px">
+                 class="logo" alt="Agence Wordpress Paris et Nice" width="200px" height="48px" style="max-width: 200px">
           </a>
         </div>
         <div class="d-flex flex-row justify-content-end align-items-center gx-0">
