@@ -4,7 +4,7 @@
     <div class="d-none d-lg-block wp-image h-100">
       <div class="row gx-0 h-100">
         <div
-          class="d-none d-lg-block col-lg-6 h-100 @php echo $section['img_position'] == 'right' ? 'order-2 ps-5' : 'pe-5' @endphp">
+          class="d-none d-lg-block col-lg-6 h-100 @php echo $section['img_position'] == 'right' ? 'order-1 order-lg-2 ps-lg-5' : 'order-1 pe-lg-5' @endphp">
           <figure class="mb-0 h-100">
             <div class="image-wrapper">
               {!! wp_get_attachment_image( $section['image']['id'], 'full','', array( "class" => "animated-img")) !!}
