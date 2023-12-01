@@ -122,6 +122,10 @@
     border-radius: 1.25rem;
     overflow: hidden;
 
+    @include media-breakpoint-down(lg) {
+      height: inherit;
+    }
+
     picture {
       height: 100%;
       width: 100%;
@@ -141,6 +145,15 @@
         height: 100%;
         border-radius: 1.25rem;
         transition: transform 10s ease; /* Cela rend le mouvement "smooth" */
+
+        @include media-breakpoint-down(lg) {
+          position: relative;
+          object-fit: inherit;
+          width: 100%;
+          height: auto;
+          border-radius: 1.25rem;
+          transition: transform 10s ease; /* Cela rend le mouvement "smooth" */
+        }
       }
     }
   }
