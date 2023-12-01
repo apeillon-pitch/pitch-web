@@ -17,30 +17,30 @@
               @if ($slide['acf_fc_layout'] == 'reference_type')
                 <div class="wrapper-text fadeInLeft">
                   @if ($slide['title'])
-                    <span class="overtitle mb-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
+                    <span class="overtitle mb-3">
                       {!! $slide['title'] !!}
                     </span>
                   @endif
                   @if ($slide['text'])
-                    <h1 class="title" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
+                    <h1 class="title">
                       {!! $slide['text'] !!}
                     </h1>
                   @endif
                   @if(is_front_page())
-                    <div class="h1" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
+                    <div class="h1">
                       <span class="typer" data-typer="créative| spécialiste Wordpress| Paris et Nice| SEO &amp; UX first|"></span>
                       <span class="typed-cursor"></span>
                     </div>
                   @endif
                   @if ($slide['introduction'])
-                    <div class="row mt-4" data-aos="fade-up" data-aos-delay="600" data-aos-duration="300">
+                    <div class="row mt-4">
                       <div class="col-12 col-lg-8">
                         <p>{!! $slide['introduction'] !!}</p>
                       </div>
                     </div>
                   @endif
                   @if ($slide['link'])
-                    <div class="row" data-aos="fade-up" data-aos-delay="600" data-aos-duration="300">
+                    <div class="row">
                       <div class="col-12 col-lg-8 mt-3">
                         <a href="{{ $slide['link']['url'] }}" aria-label="{!! $slide['link']['title'] !!}"
                            class="cta">{!! $slide['link']['title'] !!}</a>
