@@ -19,7 +19,7 @@
       class="row align-items-center justify-content-center @php echo $section['img_size'] == 'container' ? '' : 'justify-content-lg-end' @endphp">
       @if($section['img_size'] == 'container')
         <div
-          class="col-12 col-lg-6 mb-4 mb-lg-0 @php echo $section['img_position'] == 'right' ? 'order-1 order-lg-2 ps-5' : 'order-1pe-lg-5' @endphp">
+          class="col-12 col-lg-6 mb-4 mb-lg-0 @php echo $section['img_position'] == 'right' ? 'order-1 order-lg-2 ps-lg-5' : 'order-1 pe-lg-5' @endphp">
           <figure class="mb-0">
             <div class="image-wrapper">
               {!! wp_get_attachment_image( $section['image']['id'], 'full','', array( "class" => "animated-img")) !!}
