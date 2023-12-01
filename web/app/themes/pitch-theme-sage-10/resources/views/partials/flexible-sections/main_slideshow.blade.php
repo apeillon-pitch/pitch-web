@@ -1,4 +1,4 @@
-<div class="main-slideshow" data-aos="fade-up">
+<div class="main-slideshow">
   @foreach($section['slideshow_repeater'] as $block)
     @foreach($block['slide_style'] as $slide)
       <div class="slide">
