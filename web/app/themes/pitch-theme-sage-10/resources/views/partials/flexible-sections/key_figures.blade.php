@@ -15,8 +15,8 @@
               <span class="number purecounter text-center font-weight-bold"
                     data-purecounter-start="0" data-purecounter-duration="1"
                     data-purecounter-delay="15" data-purecounter-once="true"
-                    data-purecounter-end="{{ $block['data'] }}">0</span>
-                  <span class="d-block numbzer text-center font-weight-bold">{{ $block['data'] }}</span>
+                    data-purecounter-end="{{ $block['data'] }}">{{ $block['data'] }}</span>
+                  <span class="d-block d-md-none numbzer text-center font-weight-bold">{{ $block['data'] }}</span>
                   @if ($block['suffix'])
                     <span class="suffix">{!! $block['suffix'] !!}</span>
                   @endif
