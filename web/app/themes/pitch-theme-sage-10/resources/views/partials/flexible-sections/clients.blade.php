@@ -27,7 +27,7 @@
           <div class="row">
             @foreach($section['logos_repeater'] as $index => $logo)
               @if($index < 18)
-                <div class="col-6 col-md-4 col-lg-3 col-xxl-2 mb-4">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-4">
                   <div class="logo-container">
                     {!! wp_get_attachment_image(  $logo['logo']['id'], 'full', '', array( "class" => "img-fluid") ) !!}
                   </div>
@@ -42,7 +42,7 @@
               @php $i = -200; @endphp
               @foreach($section['logos_repeater'] as $index => $logo)
                 @if($index >= 18)
-                  <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-4">
                     <div class="logo-container">
                       {!! wp_get_attachment_image(  $logo['logo']['id'], 'full', '', array( "class" => "img-fluid") ) !!}
                     </div>
