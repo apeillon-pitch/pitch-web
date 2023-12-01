@@ -10,7 +10,7 @@
     @if($section['item_repeater'])
       <div class="row">
         @foreach($section['item_repeater'] as $item)
-          <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0">
+          <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
             <div class="card text-center">
               @if($item['picto'])
                 <img src="{{ $item['picto']['url'] }}" class="img-fluid d-block mx-auto"
