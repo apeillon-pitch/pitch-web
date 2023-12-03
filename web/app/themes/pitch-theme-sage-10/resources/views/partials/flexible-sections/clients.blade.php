@@ -24,7 +24,7 @@
             @endforeach
           </div>
         @else
-          <div class="row">
+          <div class="row justify-content-center">
             @foreach($section['logos_repeater'] as $index => $logo)
               @if($index < 18)
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-4">
