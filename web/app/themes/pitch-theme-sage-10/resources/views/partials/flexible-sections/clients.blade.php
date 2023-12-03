@@ -13,7 +13,7 @@
     <div class="row justify-content-center">
       @if($section['logos_repeater'])
         @php $i =0; $t = count($section['logos_repeater']); @endphp
-        @if ($t === 5)
+        @if ($t === 1)
           <div class="d-flex flex-column flex-md-row justify-content-between">
             @foreach($section['logos_repeater'] as $index => $logo)
               <div class="mb-4">
