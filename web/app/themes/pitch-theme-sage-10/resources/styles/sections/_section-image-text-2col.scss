@@ -2,6 +2,12 @@
   position: relative;
   background: rgb(255, 255, 255);
 
+  img {
+    @include media-breakpoint-down(lg) {
+      border-radius: 1.25rem;
+    }
+  }
+
   a.cta {
     position: relative;
     padding-left: 30px;
