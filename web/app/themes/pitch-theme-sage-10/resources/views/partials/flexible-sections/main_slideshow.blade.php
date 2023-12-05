@@ -17,14 +17,14 @@
               @if ($slide['acf_fc_layout'] == 'reference_type')
                 <div class="wrapper-text fadeInLeft">
                   @if ($slide['title'])
-                    <span class="overtitle mb-3">
+                    <h1 class="overtitle mb-3">
                       {!! $slide['title'] !!}
-                    </span>
+                    </h1>
                   @endif
                   @if ($slide['text'])
-                    <h1 class="title">
+                    <h2 class="title">
                       {!! $slide['text'] !!}
-                    </h1>
+                    </h2>
                   @endif
                   @if(is_front_page())
                     <div class="h1">
