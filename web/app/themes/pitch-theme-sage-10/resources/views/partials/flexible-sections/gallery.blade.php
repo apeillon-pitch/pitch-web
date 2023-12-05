@@ -1,5 +1,5 @@
 <div id="section-{{ $row }}"
-     class="section-gallery d-none d-lg-block {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
+     class="section-gallery section-bg-color d-none d-lg-block {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 text-center">
