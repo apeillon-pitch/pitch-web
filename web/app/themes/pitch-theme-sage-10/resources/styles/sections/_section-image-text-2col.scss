@@ -140,6 +140,13 @@
       }
     }
 
+    img {
+      &.animated-img-hover {
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+
     .image-wrapper {
       width: 100%;
       height: 100%;
@@ -150,6 +157,13 @@
       &.hover {
         &:hover {
           picture {
+            &.animated-img-hover {
+              opacity: 1 !important;
+              transition: all 0.3s ease-in-out;
+            }
+          }
+
+          img {
             &.animated-img-hover {
               opacity: 1 !important;
               transition: all 0.3s ease-in-out;
