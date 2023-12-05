@@ -144,6 +144,10 @@
       &.animated-img-hover {
         opacity: 0;
         transition: all 0.3s ease-in-out;
+
+        @include media-breakpoint-down(lg) {
+         display: none !important;
+        }
       }
     }
 
