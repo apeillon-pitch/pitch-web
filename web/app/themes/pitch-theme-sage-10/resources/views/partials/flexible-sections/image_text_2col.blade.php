@@ -21,8 +21,11 @@
         <div
           class="col-12 col-lg-6 mb-5 mb-lg-0 @php echo $section['img_position'] == 'right' ? 'order-1 order-lg-2 ps-lg-5' : 'order-1 pe-lg-5' @endphp">
           <figure class="mb-0">
-            <div class="image-wrapper">
+            <div class="image-wrapper @php echo empty($section['image_hover']) ? "" : "hover" @endphp">
               {!! wp_get_attachment_image( $section['image']['id'], 'full','', array( "class" => "animated-img")) !!}
+              @if($section['image_hover'])
+                {!! wp_get_attachment_image( $section['image_hover']['id'], 'full','', array( "class" => "animated-img-hover")) !!}
+              @endif
             </div>
           </figure>
         </div>
