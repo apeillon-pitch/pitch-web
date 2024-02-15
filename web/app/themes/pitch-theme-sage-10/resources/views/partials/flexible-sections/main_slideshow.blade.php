@@ -1,4 +1,4 @@
-<div class="main-slideshow">
+<div class="main-slideshow d-flex flex-column justify-content-between  align-items-center">
   @foreach($section['slideshow_repeater'] as $block)
     @foreach($block['slide_style'] as $slide)
       <div class="slide">
@@ -56,19 +56,23 @@
       </div>
     @endforeach
   @endforeach
-    @if($section['logo_repeater'])
-      <div class="wp-slideshow-logo">
-        <div class="container">
-          <div class="slideshow-logo">
-            @foreach($section['logo_repeater'] as $item)
-              <div class="slide">
-                <figure class="mb-0">
-                  {!! wp_get_attachment_image( $item['logo']['id'], 'full','', array( "class" => "")) !!}
-                </figure>
-              </div>
-            @endforeach
+  @if($section['logo_repeater'])
+    <div class="wp-slideshow-logo">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-11">
+            <div class="slideshow-logo">
+              @foreach($section['logo_repeater'] as $item)
+                <div class="slide">
+                  <figure class="mb-0">
+                    {!! wp_get_attachment_image( $item['logo']['id'], 'full','', array( "class" => "")) !!}
+                  </figure>
+                </div>
+              @endforeach
+            </div>
           </div>
         </div>
       </div>
-    @endif
+    </div>
+  @endif
 </div>

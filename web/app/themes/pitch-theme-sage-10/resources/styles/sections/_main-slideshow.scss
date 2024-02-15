@@ -1,5 +1,12 @@
 .main-slideshow {
-  padding: 200px 0 0;
+  height: calc(100vh - 78px);
+  min-height: 700px;
+  padding: 150px 0 40px;
+
+  @include media-breakpoint-down(lg) {
+    height: auto;
+    min-height: inherit;
+  }
 
   .slick-list {
     height: 100%;
@@ -229,7 +236,8 @@
 }
 
 .wp-slideshow-logo {
-  margin-top: 200px;
+  width: 100%;
+  margin-top: 120px;
 
   .slide {
     figure {
