@@ -28,7 +28,8 @@
                   @endif
                   @if(is_front_page())
                     <div class="h1">
-                      <span class="typer" data-typer="créative| spécialiste Wordpress| Paris et Nice| SEO &amp; UX first|"></span>
+                      <span class="typer"
+                            data-typer="créative| spécialiste Wordpress| Paris et Nice| SEO &amp; UX first|"></span>
                       <span class="typed-cursor"></span>
                     </div>
                   @endif
@@ -51,17 +52,23 @@
               @endif
             </div>
           </div>
-          <div class="d-none d-lg-block scroll-btn">
-            <a href="#section-1" aria-label="Scroll" rel='m_PageScroll2id' class="page-scroll">
-              <div class="mouse">
-                <div class="weel">
-                  <span></span>
-                </div>
-              </div>
-            </a>
-          </div>
         </div>
       </div>
     @endforeach
   @endforeach
+    @if($section['logo_repeater'])
+      <div class="wp-slideshow-logo">
+        <div class="container">
+          <div class="slideshow-logo">
+            @foreach($section['logo_repeater'] as $item)
+              <div class="slide">
+                <figure class="mb-0">
+                  {!! wp_get_attachment_image( $item['logo']['id'], 'full','', array( "class" => "")) !!}
+                </figure>
+              </div>
+            @endforeach
+          </div>
+        </div>
+      </div>
+    @endif
 </div>

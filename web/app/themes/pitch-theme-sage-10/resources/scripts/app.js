@@ -36,8 +36,8 @@ const main = async (err) => {
   TextWriter();
   setSelect2();
   dropdownMenu();
+  getSlideshowLogos();
   getSlideshowClients();
-  getMainSlideshow();
   getTestimonialsSlideshow();
   getAchivementsSlideshow();
   gettechnologiesSlideshow();
@@ -66,6 +66,51 @@ const main = async (err) => {
     $('.ginput_container_select select').select2({
       minimumResultsForSearch: Infinity,
     });
+  }
+
+  function getSlideshowLogos() {
+    var slideshowClient = $('.wp-slideshow-logo .slideshow-logo');
+    slideshowClient.slick(
+      {
+        slidesToShow: 7,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: false,
+        autoplay: false,
+        speed: 800,
+        infinite: true,
+        responsive: [
+          {
+            breakpoint: 1250,
+            settings: {
+              slidesToShow: 5,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 800,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 680,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      }
+    );
   }
 
   function getSlideshowClients() {
@@ -108,18 +153,6 @@ const main = async (err) => {
         ],
       }
     );
-  }
-
-  function getMainSlideshow() {
-    $('.main-slideshow').slick({
-      dots: false,
-      fade: true,
-      cssEase: 'linear',
-      infinite: true,
-      speed: 300,
-      autoplay: true,
-      autoplaySpeed: 4000,
-    });
   }
 
   function getTestimonialsSlideshow() {

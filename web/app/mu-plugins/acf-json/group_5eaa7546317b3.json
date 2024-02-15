@@ -182,6 +182,55 @@
                                     "parent_repeater": "field_5eaacbb293545"
                                 }
                             ]
+                        },
+                        {
+                            "key": "field_65cde230632ae",
+                            "label": "Logo",
+                            "name": "logo_repeater",
+                            "aria-label": "",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layout": "table",
+                            "min": 0,
+                            "max": 0,
+                            "collapsed": "",
+                            "button_label": "Ajouter une slide",
+                            "rows_per_page": 20,
+                            "sub_fields": [
+                                {
+                                    "key": "field_65cde230632af",
+                                    "label": "Logo",
+                                    "name": "logo",
+                                    "aria-label": "",
+                                    "type": "image",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array",
+                                    "library": "all",
+                                    "min_width": "",
+                                    "min_height": "",
+                                    "min_size": "",
+                                    "max_width": "",
+                                    "max_height": "",
+                                    "max_size": "",
+                                    "mime_types": "",
+                                    "preview_size": "medium",
+                                    "parent_repeater": "field_65cde230632ae"
+                                }
+                            ]
                         }
                     ],
                     "min": "",
@@ -5593,5 +5642,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1701764569
+    "modified": 1707991640
 }
