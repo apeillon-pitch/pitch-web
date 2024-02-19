@@ -1,7 +1,6 @@
 .main-slideshow {
   height: calc(100vh - 78px);
   min-height: 700px;
-  padding: 150px 0 40px;
 
   @include media-breakpoint-down(lg) {
     height: auto;
@@ -255,5 +254,11 @@
         height: auto;
       }
     }
+  }
+}
+
+.home {
+  .main-slideshow {
+    padding: 150px 0 40px;
   }
 }
