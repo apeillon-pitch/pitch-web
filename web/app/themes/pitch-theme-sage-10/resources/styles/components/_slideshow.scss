@@ -6,6 +6,14 @@
   height: inherit !important;
 }
 
+.slideshow:not(.slick-initialized) {
+  visibility: hidden;
+}
+
+.slideshow.slick-initialized {
+  visibility: visible;
+}
+
 .arrows {
   .slick-arrow {
     cursor: pointer;
