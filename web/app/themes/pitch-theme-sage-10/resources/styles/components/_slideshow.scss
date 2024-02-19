@@ -6,11 +6,11 @@
   height: inherit !important;
 }
 
-.slideshow:not(.slick-initialized) {
+.slideshow-logo:not(.slick-initialized) {
   visibility: hidden;
 }
 
-.slideshow.slick-initialized {
+.slideshow-logo.slick-initialized {
   visibility: visible;
 }
 
