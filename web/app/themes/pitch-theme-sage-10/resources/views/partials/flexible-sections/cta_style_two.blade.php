@@ -3,8 +3,8 @@
   <div class="container">
     <div class="row justify-content-center justify-content-lg-start mb-5">
       <div class="col-11 col-lg-8">
-        <span class="section-title mb-0">Nos prestations</span>
-        <h2 class="subtitle">Découvrez les expertises de notre agence web WordPress</h2>
+        <span class="section-title mb-0">Ce qu'on aime ...</span>
+        <h2 class="subtitle">vous accompagnez à toutes les étapes de votre projet</h2>
       </div>
     </div>
     @if($section['item_repeater'])
