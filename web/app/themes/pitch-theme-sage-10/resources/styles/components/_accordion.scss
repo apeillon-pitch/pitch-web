@@ -37,7 +37,7 @@
           }
 
           &:not(.collapsed) {
-            color: black;
+            color: $blue_pitch;
             background-color: white;
 
             &:hover {
