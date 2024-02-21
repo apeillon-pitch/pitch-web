@@ -10,16 +10,12 @@
           <ul class="post-categories">
             <li><a href="#" rel="category tag mt-4">{!! $portfolio_data['category']->name !!}</a></li>
           </ul>
-          <div class="row">
-            <div class="col-12 col-lg-8">
-              @if ($portfolio_data['excerpt'])
-                <h1 class="section-title mb-4">{!! $portfolio_data['title'] !!}</h1>
-              @endif
-              @if ($portfolio_data['excerpt'])
-                <h2 class="title mb-4">{!! $portfolio_data['excerpt'] !!}</h2>
-              @endif
-            </div>
-          </div>
+          @if ($portfolio_data['excerpt'])
+            <h1 class="section-title mb-4">{!! $portfolio_data['title'] !!}</h1>
+          @endif
+          @if ($portfolio_data['excerpt'])
+            <h2 class="title mb-4">{!! $portfolio_data['excerpt'] !!}</h2>
+          @endif
         </div>
         <div class="col-12 col-lg-5 ps-5">
           @if($portfolio_data['thumbnail'])
