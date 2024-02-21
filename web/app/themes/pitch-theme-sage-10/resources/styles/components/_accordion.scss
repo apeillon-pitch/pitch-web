@@ -80,11 +80,11 @@
 
       .accordion-collapse {
         .accordion-body {
-          padding-top: 0;
           font-size: 14px;
           font-weight: 100;
           line-height: 1.6rem;
-          padding-bottom: 0;
+          background: #f7f0f0;
+          padding: 30px;
 
           a {
             color: black;
