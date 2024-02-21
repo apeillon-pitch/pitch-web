@@ -114,16 +114,24 @@ class App extends Composer
         $title = get_the_title();
         $excerpt = get_the_excerpt();
         $permalink = get_the_permalink();
+        $thumbnail = get_post_thumbnail_id();
         $image = get_field('image');
         $category = get_field('category');
         $logo = get_field('logo');
+        $challenge = get_field('challenge');
+        $result = get_field('result');
+        $solution = get_field('solution');
         $data = array(
             'title' => $title,
             'excerpt' => $excerpt,
             'permalink' => $permalink,
             'image' => $image,
+            'thumbnail' => $thumbnail,
             'category' => $category,
             'logo' => $logo,
+            'challenge' => $challenge,
+            'solution' => $solution,
+            'result' => $result
         );
         return $data;
     }
