@@ -18,6 +18,14 @@
               @if ($portfolio_data['excerpt'])
                 <h2 class="title mb-4">{!! $portfolio_data['excerpt'] !!}</h2>
               @endif
+              <div class="row">
+                <div class="col-4">
+                  <i class="fa-regular fa-paintbrush-fine"></i> Design <br> <strong>MRM</strong>
+                </div>
+                <div class="col-4">
+                  <i class="fa-solid fa-code"></i> Code <br> <strong>Le Pitch Web</strong>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -56,13 +64,8 @@
       </div>
       <div class="row justify-content-center">
         <div class="col-12 col-lg-8">
-          @if($portfolio_data['image'])
-            <figure>
-              {!! wp_get_attachment_image( $portfolio_data['image']['id'], 'full','', array( "class" => "img-fluid")) !!}
-            </figure>
-          @endif
           @php the_content() @endphp
-          @php the_tags('<ul class="tags"><li>', '</li><li>', '</li></ul>'); @endphp
+          @php the_tags('<ul class="tags mt-5"><li>', '</li><li>', '</li></ul>'); @endphp
           <time class="updated" datetime="{{ get_post_time('c', true) }}">Mis à jour
             le {{ get_the_modified_date() }}</time>
         </div>
