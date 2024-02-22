@@ -121,6 +121,10 @@ class App extends Composer
         $challenge = get_field('challenge');
         $result = get_field('result');
         $solution = get_field('solution');
+        $designer = get_field('designer');
+        $developer = get_field('developer');
+        $seo = get_field('seo');
+        $conseil = get_field('conseil');
         $data = array(
             'title' => $title,
             'excerpt' => $excerpt,
@@ -131,7 +135,11 @@ class App extends Composer
             'logo' => $logo,
             'challenge' => $challenge,
             'solution' => $solution,
-            'result' => $result
+            'result' => $result,
+            'designer' => $designer,
+            'developer' => $developer,
+            'seo' => $seo,
+            'conseil' => $conseil,
         );
         return $data;
     }

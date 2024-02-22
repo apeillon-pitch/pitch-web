@@ -19,12 +19,18 @@
                 <h2 class="title mb-4">{!! $portfolio_data['excerpt'] !!}</h2>
               @endif
               <div class="row">
-                <div class="col-4">
-                  <i class="fa-regular fa-paintbrush-fine"></i> Design <br> <strong>MRM</strong>
-                </div>
-                <div class="col-4">
-                  <i class="fa-solid fa-code"></i> Code <br> <strong>Le Pitch Web</strong>
-                </div>
+                @if($portfolio_data['designer'])
+                  <div class="col-4">
+                    <i class="fa-regular fa-paintbrush-fine"></i> Design <br>
+                    <strong>{!! $portfolio_data['designer'] !!}</strong>
+                  </div>
+                @endif
+                @if($portfolio_data['developer'])
+                  <div class="col-4">
+                    <i class="fa-solid fa-code"></i> Code <br>
+                    <strong>{!! $portfolio_data['developer'] !!}</strong>
+                  </div>
+                @endif
               </div>
             </div>
           </div>
