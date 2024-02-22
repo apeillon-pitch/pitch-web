@@ -31,6 +31,12 @@
                     <strong>{!! $portfolio_data['developer'] !!}</strong>
                   </div>
                 @endif
+                  @if($portfolio_data['conseil'])
+                    <div class="col-4">
+                      <i class="fa-regular fa-user"></i> Conseil <br>
+                      <strong>{!! $portfolio_data['conseil'] !!}</strong>
+                    </div>
+                  @endif
               </div>
             </div>
           </div>
