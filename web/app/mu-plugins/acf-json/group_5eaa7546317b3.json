@@ -93,6 +93,26 @@
                                                     "wpml_cf_preferences": 0
                                                 },
                                                 {
+                                                    "key": "field_65dc9d77fdb3f",
+                                                    "label": "Video",
+                                                    "name": "video",
+                                                    "aria-label": "",
+                                                    "type": "file",
+                                                    "instructions": "",
+                                                    "required": 0,
+                                                    "conditional_logic": 0,
+                                                    "wrapper": {
+                                                        "width": "",
+                                                        "class": "",
+                                                        "id": ""
+                                                    },
+                                                    "return_format": "array",
+                                                    "library": "all",
+                                                    "min_size": "",
+                                                    "max_size": "",
+                                                    "mime_types": ""
+                                                },
+                                                {
                                                     "key": "field_5eac192db440c",
                                                     "label": "Titre",
                                                     "name": "title",
@@ -5642,5 +5662,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1707991640
+    "modified": 1708957059
 }

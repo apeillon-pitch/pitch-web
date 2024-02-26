@@ -6,9 +6,16 @@
           <div class="wp-bg">
             <div class="row align-items-center justify-content-end h-100">
               <div class="col-12 col-lg-6 col-xl-5 h-100 ps-5 mb-5 mb-lg-0">
-                <figure class="flex mb-0">
-                  {!! wp_get_attachment_image( $slide['bg_image']['id'], 'full', '', array( "class" => "first img-fluid", "fetchpriority" => "high") ) !!}
-                </figure>
+                @if($slide['video'])
+                  <video autoplay muted loop>
+                    <source src="{{ $slide['video']['url'] }}" type="video/mp4">
+                    Votre navigateur ne supporte pas la balise vidéo.
+                  </video>
+                @else
+                  <figure class="flex mb-0">
+                    {!! wp_get_attachment_image( $slide['bg_image']['id'], 'full', '', array( "class" => "first img-fluid", "fetchpriority" => "high") ) !!}
+                  </figure>
+                @endif
               </div>
             </div>
           </div>
