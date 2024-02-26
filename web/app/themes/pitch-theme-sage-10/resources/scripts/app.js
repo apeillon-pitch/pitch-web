@@ -79,7 +79,7 @@ const main = async (err) => {
         speed: 800,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 1500,
+        autoplaySpeed: 2000,
         responsive: [
           {
             breakpoint: 1250,
