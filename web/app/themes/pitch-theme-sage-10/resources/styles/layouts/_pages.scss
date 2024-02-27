@@ -9,3 +9,15 @@
     margin: 40px 0 15px;
   }
 }
+
+body {
+  &.blog {
+    #o-wrapper {
+      background-color: white;
+    }
+
+    .section-news {
+      padding-top: 170px !important;
+    }
+  }
+}
