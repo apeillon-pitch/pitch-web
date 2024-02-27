@@ -1,8 +1,12 @@
 #o-wrapper {
-  position: relative;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+  left: 0;
   padding: 10px 30px;
   transition: all 0.4s;
-  background-color: white;
+  background-color: transparent;
 
   a.cta {
     padding: 8px 20px !important;
@@ -24,7 +28,8 @@
     top: 0;
     left: 0;
     right: 0;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 50%);
-    transition: all 0.4s;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 50%);
+    background-color: white;
+    transition: all 0.2s;
   }
 }

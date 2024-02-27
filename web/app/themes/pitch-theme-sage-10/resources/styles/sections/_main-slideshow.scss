@@ -1,6 +1,10 @@
 .main-slideshow {
-  height: calc(100vh - 78px);
+  height: 100vh;
   min-height: 700px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(342deg, rgba(255, 255, 255, 100%) 0%, rgba(255, 255, 255, 100%) 65%, rgba(0, 210, 255, 50%) 100%);
+  background-size: 100%;
+  background-repeat: no-repeat;
 
   @include media-breakpoint-down(lg) {
     height: auto;
@@ -23,7 +27,7 @@
       position: absolute;
       width: 100%;
       height: 100%;
-      z-index: -1;
+      z-index: 1;
 
       @include media-breakpoint-down(lg) {
         position: relative;
