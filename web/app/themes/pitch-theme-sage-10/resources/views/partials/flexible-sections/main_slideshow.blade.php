@@ -7,10 +7,12 @@
             <div class="row align-items-center justify-content-end h-100">
               <div class="col-12 col-lg-6 col-xl-5 h-100 ps-5 mb-5 mb-lg-0">
                 @if($slide['video'])
-                  <video autoplay muted loop>
-                    <source src="{{ $slide['video']['url'] }}" type="video/mp4">
-                    Votre navigateur ne supporte pas la balise vidéo.
-                  </video>
+                  <div class="d-flex flex-column justify-content-center h-100">
+                    <video autoplay muted loop>
+                      <source src="{{ $slide['video']['url'] }}" type="video/mp4">
+                      Votre navigateur ne supporte pas la balise vidéo.
+                    </video>
+                  </div>
                 @else
                   <figure class="flex mb-0">
                     {!! wp_get_attachment_image( $slide['bg_image']['id'], 'full', '', array( "class" => "first img-fluid", "fetchpriority" => "high") ) !!}
@@ -24,7 +26,7 @@
               @if ($slide['acf_fc_layout'] == 'reference_type')
                 <div class="wrapper-text fadeInLeft">
                   @if ($slide['title'])
-                    <h1 class="overtitle mb-3">
+                    <h1 class="overtitle mb-2">
                       {!! $slide['title'] !!}
                     </h1>
                   @endif
@@ -36,7 +38,7 @@
                   @if(is_front_page())
                     <div class="h1">
                       <span class="typer"
-                            data-typer="créative| spécialiste Wordpress| Paris et Nice| SEO &amp; UX first|"></span>
+                            data-typer="créative| Wordpress| Paris et Nice| SEO &amp; UX first"></span>
                       <span class="typed-cursor"></span>
                     </div>
                   @endif

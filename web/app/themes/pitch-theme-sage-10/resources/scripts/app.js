@@ -52,9 +52,9 @@ const main = async (err) => {
         strings: arr,
         loop: true,
         showCursor: true,
-        startDelay: 2000,
-        backDelay: 700,
-        typeSpeed: 1,
+        startDelay: 1000,
+        backDelay: 1000,
+        typeSpeed: 10,
         callback: function () {
           $('.typed-cursor').text('');
         },
