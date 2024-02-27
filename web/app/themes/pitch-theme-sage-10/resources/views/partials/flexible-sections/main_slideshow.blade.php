@@ -53,7 +53,9 @@
                     <div class="row">
                       <div class="col-12 col-lg-8 mt-3">
                         <a href="{{ $slide['link']['url'] }}" aria-label="{!! $slide['link']['title'] !!}"
-                           class="cta">{!! $slide['link']['title'] !!}</a>
+                           class="cta">
+                          <span>{!! $slide['link']['title'] !!}</span>
+                        </a>
                       </div>
                     </div>
                   @endif
