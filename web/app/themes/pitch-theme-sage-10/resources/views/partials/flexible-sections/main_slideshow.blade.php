@@ -69,7 +69,7 @@
     <div class="wp-slideshow-logo">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-12 col-lg-11">
+          <div class="col-12">
             <div class="slideshow-logo">
               @foreach($section['logo_repeater'] as $item)
                 <div class="slide">

@@ -72,7 +72,7 @@ const main = async (err) => {
     var slideshowClient = $('.wp-slideshow-logo .slideshow-logo');
     slideshowClient.slick(
       {
-        slidesToShow: 7,
+        slidesToShow: 6,
         slidesToScroll: 1,
         arrows: true,
         dots: false,
