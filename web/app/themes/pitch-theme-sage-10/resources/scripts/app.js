@@ -76,10 +76,10 @@ const main = async (err) => {
         slidesToScroll: 1,
         arrows: true,
         dots: false,
-        speed: 800,
+        speed: 1000,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 4000,
         responsive: [
           {
             breakpoint: 1250,
