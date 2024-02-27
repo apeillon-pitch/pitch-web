@@ -12,7 +12,9 @@
 
 body {
   &.blog,
-  &.single-post {
+  &.single-post,
+  &.page-id-630,
+  &.page-id-907 {
     #o-wrapper {
       position: relative;
     }
@@ -22,7 +24,9 @@ body {
 .nav-is-stuck {
   body {
     &.blog,
-    &.single-post {
+    &.single-post,
+    &.page-id-630,
+    &.page-id-907 {
       #o-wrapper {
         z-index: 999;
         position: fixed;
