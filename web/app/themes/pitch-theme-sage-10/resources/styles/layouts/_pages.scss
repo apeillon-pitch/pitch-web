@@ -11,9 +11,10 @@
 }
 
 body {
-  &.blog {
+  &.blog,
+  &.single-post {
     #o-wrapper {
-      background-color: white;
+      position: relative;
     }
 
     .section-news {
