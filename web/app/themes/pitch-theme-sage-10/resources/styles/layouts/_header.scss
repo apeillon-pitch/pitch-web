@@ -4,8 +4,8 @@
   width: 100%;
   top: 0;
   left: 0;
-  padding: 10px 30px;
-  transition: all 0.4s;
+  padding: 20px 30px;
+  transition: all ease 0.6s;
   background-color: transparent;
 
   a.cta {
@@ -21,15 +21,29 @@
   }
 }
 
-.nav-is-stuck {
+.nav-hidden {
+  #o-wrapper {
+    transform: translateY(-100%);
+  }
+}
+
+.nav-visible {
   #o-wrapper {
     z-index: 999;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 50%);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 30%);
     background-color: white;
-    transition: all 0.2s;
+    transition: all ease 0.6s;
+    transform: translateY(0);
+  }
+
+  &.nav-transparent {
+    #o-wrapper {
+      box-shadow: none;
+      background-color: transparent;
+    }
   }
 }

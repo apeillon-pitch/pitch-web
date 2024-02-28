@@ -247,24 +247,31 @@ const main = async (err) => {
   function getStickyMenu() {
     var el_html = document.documentElement;
     var el_body = document.body;
-    var scrollValue = 0;
-
-    function menuIsStuck() {
-      var wScrollTop = window.pageYOffset || el_body.scrollTop;
-      var regexp = /(nav-is-stuck)/i;
-      var classFound = el_html.className.match(regexp);
-
-      if (wScrollTop > scrollValue && !classFound) {
-        el_html.classList.add('nav-is-stuck');
-        el_body.style.paddingTop = '0';
-      } else if (wScrollTop <= 2 && classFound) {
-        el_html.classList.remove('nav-is-stuck');
-        el_body.style.paddingTop = '0';
-      }
-    }
+    var lastScrollTop = 0; // Stocke la dernière position de défilement
 
     function onScrolling() {
-      menuIsStuck();
+      var wScrollTop = window.pageYOffset || el_body.scrollTop;
+
+      // Si tout en haut de la page, ajouter 'nav-transparent'
+      if (wScrollTop <= 0) {
+        el_html.classList.add('nav-transparent');
+      } else {
+        el_html.classList.remove('nav-transparent');
+      }
+
+      // Défilement vers le bas
+      if (wScrollTop > lastScrollTop) {
+        el_html.classList.remove('nav-visible');
+        el_html.classList.add('nav-hidden');
+      }
+      // Défilement vers le haut
+      else if (wScrollTop < lastScrollTop) {
+        el_html.classList.remove('nav-hidden');
+        el_html.classList.add('nav-visible');
+      }
+
+      // Mettre à jour lastScrollTop pour la prochaine invocation
+      lastScrollTop = wScrollTop <= 0 ? 0 : wScrollTop; // Pour éviter les valeurs négatives
     }
 
     window.addEventListener('scroll', function () {
