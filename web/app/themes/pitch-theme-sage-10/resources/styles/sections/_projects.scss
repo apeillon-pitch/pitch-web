@@ -1,0 +1,20 @@
+.section-projects {
+  a {
+    .card {
+      border: 0;
+
+      .thumbnail {
+        height: 425px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+
+      .title {
+        font-size: 1.5rem;
+        color: $black;
+      }
+    }
+  }
+}

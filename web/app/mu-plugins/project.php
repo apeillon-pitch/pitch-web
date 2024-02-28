@@ -100,3 +100,40 @@ function custom_taxonomy_project_category() {
 
 }
 add_action( 'init', 'custom_taxonomy_project_category', 0 );
+
+function get_project()
+{
+    $args = array(
+        'post_type' => 'project',
+        'posts_per_page' => -1,
+        'orderby' => 'date',
+        'order' => 'ASC',
+    );
+
+    $data = get_project_data($args);
+
+    wp_reset_query();
+
+    return $data;
+}
+
+function get_project_data($args)
+{
+    $testimony_data = [];
+    $query = new WP_Query($args);
+    if ($query->have_posts()) {
+        while ($query->have_posts()) {
+            $query->the_post();
+            $testimony_data[] = array(
+                'title' => get_the_title(),
+                'logo' => get_field('logo'),
+                'thumbnail' => get_the_post_thumbnail_url(),
+                'permalink' => get_the_permalink(),
+            );
+
+        }
+    }
+
+    return $testimony_data;
+
+}
