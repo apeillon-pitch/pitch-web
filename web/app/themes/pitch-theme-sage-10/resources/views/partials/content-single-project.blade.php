@@ -1,7 +1,7 @@
 <article @php post_class() @endphp>
   <header class="mb-5">
     <div class="container">
-      <div class="row justify-content-center align-items-center">
+      <div class="row justify-content-between align-items-center">
         <div class="col-12 col-lg-6 p-4">
           <figure class="logo mb-4">
             {!! wp_get_attachment_image( $portfolio_data['logo']['id'], 'full','', array( "class" => "img-fluid h-auto")) !!}
@@ -41,7 +41,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 ps-5">
+        <div class="col-12 col-lg-5 ps-5">
           @if($portfolio_data['thumbnail'])
             <figure class="thumbnail">
               {!! wp_get_attachment_image( $portfolio_data['thumbnail'], 'full','', array( "class" => "img-fluid")) !!}
