@@ -11,33 +11,42 @@
 }
 
 body {
-  &.blog,
-  &.single-post,
-  &.page-id-630,
-  &.page-id-907,
   &.single-project {
-    #o-wrapper {
-      position: relative;
+    #main {
+      .section:first-child {
+        padding-top: 200px;
+      }
     }
   }
-}
 
-.nav-is-stuck {
-  body {
-    &.blog,
-    &.single-post,
-    &.page-id-630,
-    &.page-id-907,
-    &.single-project {
-      #o-wrapper {
-        z-index: 999;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 50%);
-        background-color: white;
-        transition: all 0.2s;
+  &.page-id-630 {
+    .section.client {
+      padding-top: 170px;
+    }
+  }
+
+  &.page-id-907 {
+    .section-projects {
+      padding-top: 170px;
+    }
+  }
+
+  &.single-project {
+    article {
+      padding-top: 100px;
+    }
+  }
+
+  &.single-post {
+    article {
+      padding-top: 100px;
+    }
+  }
+
+  &.blog {
+    #main {
+      .section-news.pt {
+        padding-top: 170px;
       }
     }
   }
