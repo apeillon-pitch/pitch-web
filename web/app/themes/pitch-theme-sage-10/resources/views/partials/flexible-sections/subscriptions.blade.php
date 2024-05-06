@@ -97,7 +97,7 @@
       </div>
 
       <div class="d-flex flex-row justify-content-center mt-5">
-        <a href="#" aria-label=""
+        <a href="https://lepitch-web.fr/contact/" aria-label="Souscrire une offre"
            class="cta">Souscrire une offre</a>
       </div>
     </div>
