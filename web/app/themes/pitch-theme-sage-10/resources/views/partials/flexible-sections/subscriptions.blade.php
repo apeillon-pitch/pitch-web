@@ -27,13 +27,9 @@
                   @include('partials.template-parts.offers.backup', ['offer' => 'one'])
                   @include('partials.template-parts.offers.restauration', ['offer' => 'one'])
                   @include('partials.template-parts.offers.update', ['offer' => 'one'])
-                  @include('partials.template-parts.offers.default', ['offer' => 'one'])
-                  <div class="d-flex flex-row align-items-center justify-content-between">
-                    <div class="d-flex flex-row align-items-center">
-                      <img src="@asset('images/checkmark-circle-grey.svg')" class="me-2" alt="non inclus">
-                      <strong>Cloudflare</strong>
-                    </div>
-                  </div>
+                  @include('partials.template-parts.offers.secure', ['offer' => 'one'])
+                  @include('partials.template-parts.offers.monitoring', ['offer' => 'one'])
+                  @include('partials.template-parts.offers.cloudflare', ['offer' => 'one'])
                 </div>
               </div>
             </div>
@@ -59,13 +55,9 @@
                   @include('partials.template-parts.offers.backup', ['offer' => 'two'])
                   @include('partials.template-parts.offers.restauration', ['offer' => 'two'])
                   @include('partials.template-parts.offers.update', ['offer' => 'two'])
-                  @include('partials.template-parts.offers.default', ['offer' => 'two'])
-                  <div class="d-flex flex-row align-items-center justify-content-between">
-                    <div class="d-flex flex-row align-items-center">
-                      <img src="@asset('images/checkmark-circle-grey.svg')" class="me-2" alt="non inclus">
-                      <strong>Cloudflare</strong>
-                    </div>
-                  </div>
+                  @include('partials.template-parts.offers.secure', ['offer' => 'two'])
+                  @include('partials.template-parts.offers.monitoring', ['offer' => 'two'])
+                  @include('partials.template-parts.offers.cloudflare', ['offer' => 'two'])
                 </div>
               </div>
             </div>
@@ -88,13 +80,9 @@
                   @include('partials.template-parts.offers.backup', ['offer' => 'three'])
                   @include('partials.template-parts.offers.restauration', ['offer' => 'three'])
                   @include('partials.template-parts.offers.update', ['offer' => 'three'])
-                  @include('partials.template-parts.offers.default', ['offer' => 'three'])
-                  <div class="d-flex flex-row align-items-center justify-content-between">
-                    <div class="d-flex flex-row align-items-center">
-                      <img src="@asset('images/checkmark-circle-green.svg')" class="me-2" alt="non inclus">
-                      <strong>Cloudflare</strong>
-                    </div>
-                  </div>
+                  @include('partials.template-parts.offers.secure', ['offer' => 'three'])
+                  @include('partials.template-parts.offers.monitoring', ['offer' => 'three'])
+                  @include('partials.template-parts.offers.cloudflare', ['offer' => 'three'])
                 </div>
               </div>
             </div>
