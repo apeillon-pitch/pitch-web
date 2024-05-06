@@ -20,7 +20,7 @@
   <div class="collapse" id="collapseMonitoring-{{ $offer }}">
     <div class="card card-body border-0 p-0">
       <ul>
-        <li>Une alerte en cas d'interruption de service 7jrs/7 - 24h/24</li>
+        <li>Alerte en cas d'interruption de service 7jrs/7 - 24h/24</li>
       </ul>
     </div>
   </div>
