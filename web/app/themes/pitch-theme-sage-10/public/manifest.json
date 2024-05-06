@@ -1,5 +1,5 @@
 {
-  "app.css": "css/app.f4aebd.css",
+  "app.css": "css/app.2cf8f5.css",
   "app.js": "js/app.793d98.js",
   "menu.js": "js/menu.855400.js",
   "typed.js": "js/typed.3ef22d.js",
@@ -47,6 +47,8 @@
   "images/favicon.ico": "images/favicon.d863cb.ico",
   "images/cursor.png": "images/cursor.74cd1f.png",
   "images/manifest.json": "images/manifest.fb5be1.json",
+  "images/checkmark-circle-green.svg": "images/checkmark-circle-green.47d343.svg",
+  "images/checkmark-circle-grey.svg": "images/checkmark-circle-grey.7ad30c.svg",
   "images/fleche.svg": "images/fleche.d0bcb1.svg",
   "images/browserconfig.xml": "images/browserconfig.fbdd07.xml",
   "images/arrow-right-yellow.svg": "images/arrow-right-yellow.63e37e.svg",

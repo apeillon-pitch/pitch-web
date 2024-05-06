@@ -5625,6 +5625,15 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_65fb03037c3e1": {
+                    "key": "layout_65fb03037c3e1",
+                    "name": "subscriptions",
+                    "label": "Abonnements",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
                 }
             },
             "min": "",
@@ -5662,5 +5671,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1708957059
+    "modified": 1710949147
 }
