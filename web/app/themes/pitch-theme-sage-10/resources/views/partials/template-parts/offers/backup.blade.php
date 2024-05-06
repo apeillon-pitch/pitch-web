@@ -12,8 +12,8 @@
   <div class="collapse" id="collapseBackup-{{ $offer }}">
     <div class="card card-body border-0 p-0">
       <ul>
-        <li>Sauvegardes hebdomadaire avec possibilité de sauvegarde journalière</li>
-        <li>Conservation des sauvegardes sur un espace sécurisé</li>
+        <li>Sauvegarde hebdomadaire avec possibilité de sauvegarde journalière</li>
+        <li>Conservation des sauvegardes sur le Cloud</li>
         <li>Conservation de 12 jeux de sauvegardes</li>
       </ul>
     </div>

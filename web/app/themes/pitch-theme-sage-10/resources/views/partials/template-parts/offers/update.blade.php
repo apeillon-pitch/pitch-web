@@ -12,11 +12,12 @@
   <div class="collapse" id="collapseMAJ-{{ $offer }}">
     <div class="card card-body border-0 p-0">
       <ul>
-        <li>Gestion de la sauvegarde avant mise à jour</li>
-        <li>Gestion des mises à jour</li>
-        <li>Recette post mises à jour</li>
-        <li>Restauration du site en cas de bugs</li>
+        <li>Création d'une sauvegarde avant la mise à jour</li>
+        <li>Gestion des mises à jour du CMS et des plugins*</li>
+        <li>Recette post-mise à jour</li>
+        <li>Restauration du site web en cas de bugs</li>
       </ul>
+      <em>*Plugins gratuits ou plugins dont vous bénéficiez toujours de la licence.</em>
     </div>
   </div>
 </div>
