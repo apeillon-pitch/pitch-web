@@ -19,7 +19,7 @@
               </div>
               <div class="card-body d-flex flex-column justify-content-between">
                 <div class="d-flex flex-column wp-heading">
-                  <span class="price">55€</span>
+                  <span class="price">60€</span>
                   <span class="mention mb-1">ht par mois</span>
                   <span class="baseline">Offre sans engagement</span>
                 </div>
@@ -49,7 +49,7 @@
               </div>
               <div class="card-body d-flex flex-column justify-content-between">
                 <div class="d-flex flex-column wp-heading">
-                  <span class="price">70€</span>
+                  <span class="price">110€</span>
                   <span class="mention mb-1">ht par mois</span>
                   <span class="baseline">Offre sans engagement</span>
                 </div>
@@ -76,7 +76,7 @@
               </div>
               <div class="card-body d-flex flex-column justify-content-between">
                 <div class="d-flex flex-column wp-heading">
-                  <span class="price">90€</span>
+                  <span class="price">150€</span>
                   <span class="mention mb-1">ht par mois</span>
                   <span class="baseline">Engagement 12 mois</span>
                 </div>
