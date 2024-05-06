@@ -24,7 +24,9 @@
                   <span class="baseline">Offre sans engagement</span>
                 </div>
                 <div class="wp-excerpt">
-                  @include('partials.template-parts.offers.essential', ['offer' => 'one'])
+                  @include('partials.template-parts.offers.backup', ['offer' => 'one'])
+                  @include('partials.template-parts.offers.restauration', ['offer' => 'one'])
+                  @include('partials.template-parts.offers.update', ['offer' => 'one'])
                   @include('partials.template-parts.offers.default', ['offer' => 'one'])
                   <div class="d-flex flex-row align-items-center justify-content-between">
                     <div class="d-flex flex-row align-items-center">
@@ -54,7 +56,9 @@
                   <span class="baseline">Offre sans engagement</span>
                 </div>
                 <div class="wp-excerpt">
-                  @include('partials.template-parts.offers.essential', ['offer' => 'two'])
+                  @include('partials.template-parts.offers.backup', ['offer' => 'two'])
+                  @include('partials.template-parts.offers.restauration', ['offer' => 'two'])
+                  @include('partials.template-parts.offers.update', ['offer' => 'two'])
                   @include('partials.template-parts.offers.default', ['offer' => 'two'])
                   <div class="d-flex flex-row align-items-center justify-content-between">
                     <div class="d-flex flex-row align-items-center">
@@ -81,7 +85,9 @@
                   <span class="baseline">Engagement 12 mois</span>
                 </div>
                 <div class="wp-excerpt">
-                  @include('partials.template-parts.offers.essential', ['offer' => 'three'])
+                  @include('partials.template-parts.offers.backup', ['offer' => 'three'])
+                  @include('partials.template-parts.offers.restauration', ['offer' => 'three'])
+                  @include('partials.template-parts.offers.update', ['offer' => 'three'])
                   @include('partials.template-parts.offers.default', ['offer' => 'three'])
                   <div class="d-flex flex-row align-items-center justify-content-between">
                     <div class="d-flex flex-row align-items-center">
