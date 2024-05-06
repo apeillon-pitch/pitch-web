@@ -12,9 +12,10 @@
   <div class="collapse" id="collapseRestauration-{{ $offer }}">
     <div class="card card-body border-0 p-0">
       <ul>
-        <li>Restauration du site dans un délais de 24h</li>
+        <li>Restauration du site web dans un délais de 24h</li>
         <li>Recette et scan anti-virus</li>
-        <li>Mise à jour de la sécurité</li>
+        <li>Mise à jour du CMS et plugins</li>
+        <li>Audit de sécurité</li>
       </ul>
     </div>
   </div>
