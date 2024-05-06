@@ -2,7 +2,7 @@
   <div class="d-flex flex-row align-items-center justify-content-between">
     <div class="d-flex flex-row align-items-center">
       <img src="@asset('images/checkmark-circle-green.svg')" class="me-2" alt="inclus">
-      <strong>Mises à jour plugins & CMS</strong>
+      <strong>Mise à jour plugins & CMS</strong>
     </div>
     <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMAJ-{{ $offer }}"
             aria-expanded="false" aria-controls="collapseMAJ-{{ $offer }}">

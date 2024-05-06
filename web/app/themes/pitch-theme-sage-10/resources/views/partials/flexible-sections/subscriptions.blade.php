@@ -11,7 +11,7 @@
 
 
       <div class="row justify-content-center align-items-center">
-        <div class="col-12 col-lg-4 col-xxl-3 ps-4 pe-4">
+        <div class="col-12 col-lg-4 col-xxl-3 ps-4 pe-4  mb-5 mb-lg-0">
           <div class="card-offer h-100 mb-4">
             <div class="wp-card">
               <div class="card-header text-center">
@@ -36,7 +36,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-lg-4 col-xxl-3 ps-4 pe-4">
+        <div class="col-12 col-lg-4 col-xxl-3 ps-4 pe-4 mb-5 mb-lg-0">
           <div class="card-offer h-100 mb-4 best-seller">
             <div class="wp-best">
               <span>Best seller</span>

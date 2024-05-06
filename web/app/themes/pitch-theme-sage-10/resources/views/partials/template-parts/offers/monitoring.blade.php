@@ -1,10 +1,10 @@
 <div class="d-flex flex-column">
   <div class="d-flex flex-row align-items-center justify-content-between">
     <div class="d-flex flex-row align-items-center">
-      @if($offer != "one" AND $offer != "two")
+      @if($offer != "one")
         <img src="@asset('images/checkmark-circle-green.svg')" class="me-2" alt="non inclus">
       @endif
-      @if($offer === "one" OR $offer === "two")
+      @if($offer === "one")
         <img src="@asset('images/checkmark-circle-grey.svg')" class="me-2" alt="inclus">
       @endif
       <strong>Monitoring</strong>
