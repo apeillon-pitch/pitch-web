@@ -94,6 +94,10 @@
         <a href="https://lepitch-web.fr/contact/" aria-label="Souscrire une offre"
            class="cta">Souscrire une offre</a>
       </div>
+      <div class="d-flex flex-row justify-content-center mt-3">
+        ou applez-nous au <strong>09 72 14 94 25</strong>
+      </div>
+    </div>
     </div>
   </div>
 </div>
