@@ -1,4 +1,4 @@
-<div id="section-{{ $row }}" class="section subscriptions style-one">
+<div id="section-{{ $row }}" class="section subscriptions style-one pt">
   <div class="container">
     <div class="d-flex flex-column wp-section">
       <div class="row justify-content-center mb-5">
