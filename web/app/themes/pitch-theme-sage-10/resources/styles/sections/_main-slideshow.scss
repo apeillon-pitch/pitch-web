@@ -1,6 +1,7 @@
 .main-slideshow {
   height: 100vh;
   min-height: 700px;
+  padding: 150px 0 40px;
   background: rgb(255, 255, 255);
   background: linear-gradient(342deg, rgba(255, 255, 255, 100%) 0%, rgba(255, 255, 255, 100%) 65%, rgba(0, 210, 255, 50%) 100%);
   background-size: 100%;
@@ -278,12 +279,6 @@
         height: auto;
       }
     }
-  }
-}
-
-.home {
-  .main-slideshow {
-    padding: 150px 0 40px;
   }
 }
 
