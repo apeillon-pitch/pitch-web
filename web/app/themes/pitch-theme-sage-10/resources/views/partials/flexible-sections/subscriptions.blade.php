@@ -49,7 +49,7 @@
                 <div class="d-flex flex-column wp-heading">
                   <span class="price">110€</span>
                   <span class="mention mb-1">ht par mois</span>
-                  <span class="baseline">Offre sans engagement</span>
+                  <span class="baseline">Engagement 12 mois</span>
                 </div>
                 <div class="wp-excerpt">
                   @include('partials.template-parts.offers.backup', ['offer' => 'two'])
