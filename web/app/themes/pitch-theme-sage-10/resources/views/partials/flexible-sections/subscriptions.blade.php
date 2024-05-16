@@ -95,7 +95,7 @@
            class="cta">Souscrire une offre</a>
       </div>
       <div class="d-flex flex-row justify-content-center mt-3">
-        ou applez-nous au <strong class="ms-1">09 72 14 94 25</strong>
+        ou appelez-nous au <strong class="ms-1">09 72 14 94 25</strong>
       </div>
     </div>
     </div>
