@@ -113,7 +113,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header border-0">
-        <h1 class="modal-title fs-5" id="essantielModalLabel">Souscrire l'offre essentiel</h1>
+        <h1 class="modal-title fs-5" id="essantielModalLabel">Souscrire au plan "Essentiel"</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -127,7 +127,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header border-0">
-        <h1 class="modal-title fs-5" id="sereniteModalLabel">Souscrire l'offre sérénité</h1>
+        <h1 class="modal-title fs-5" id="sereniteModalLabel">Souscrire au plan "Sérénité"</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -141,7 +141,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header border-0">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Souscrire l'offre premium</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Souscrire au plan "Premium"</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
