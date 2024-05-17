@@ -110,7 +110,7 @@
 
 <!-- Modal -->
 <div class="modal fade" id="essentielModal" tabindex="-1" aria-labelledby="essentielModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header border-0">
         <h1 class="modal-title fs-5" id="essantielModalLabel">Souscrire au plan "Essentiel"</h1>
@@ -124,7 +124,7 @@
 </div>
 
 <div class="modal fade" id="sereniteModal" tabindex="-1" aria-labelledby="seriniteModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header border-0">
         <h1 class="modal-title fs-5" id="sereniteModalLabel">Souscrire au plan "Sérénité"</h1>
@@ -138,7 +138,7 @@
 </div>
 
 <div class="modal fade" id="premiumModal" tabindex="-1" aria-labelledby="premiemModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header border-0">
         <h1 class="modal-title fs-5" id="exampleModalLabel">Souscrire au plan "Premium"</h1>
