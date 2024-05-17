@@ -109,7 +109,7 @@
 </div>
 
 <!-- Modal -->
-<div class="modal fade" id="essantielModal" tabindex="-1" aria-labelledby="essentielModalLabel" aria-hidden="true">
+<div class="modal fade" id="essentielModal" tabindex="-1" aria-labelledby="essentielModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header border-0">
