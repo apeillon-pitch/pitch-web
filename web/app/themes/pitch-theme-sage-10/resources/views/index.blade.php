@@ -42,11 +42,11 @@
                   @endphp
                   <div class="bg" style="background-image: url({{ $bg }})"></div>
                   <div class="overlay">
-                    <a class="info" href="{{ $article['permalink'] }}">Lire l'article</a>
+                    <a class="info" aria-label="{!! $article['title'] !!}" href="{{ $article['permalink'] }}">Lire l'article</a>
                   </div>
                 </div>
                 <div class="wrapper">
-                  <a class="title" href="{{ $article['permalink'] }}"><h4> {!! $article['title'] !!} </h4></a>
+                  <a class="title" aria-label="{!! $article['title'] !!}" href="{{ $article['permalink'] }}"><h4> {!! $article['title'] !!} </h4></a>
                   <time class="d-block updated mt-2 mb-2"
                         datetime="{{ get_post_time('c', true) }}">{{ $article['date'] }}</time>
                   <p> {{ $article['excerpt'] }}</p>
