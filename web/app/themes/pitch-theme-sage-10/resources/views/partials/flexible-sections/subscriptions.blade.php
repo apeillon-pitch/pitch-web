@@ -30,6 +30,8 @@
                   @include('partials.template-parts.offers.secure', ['offer' => 'one'])
                   @include('partials.template-parts.offers.monitoring', ['offer' => 'one'])
                   @include('partials.template-parts.offers.cloudflare', ['offer' => 'one'])
+                  <a href="#"  data-bs-toggle="modal" data-bs-target="#essentielModal" aria-label="Souscrire une offre"
+                     class="cta text-center">Souscrire à l'offre</a>
                 </div>
               </div>
             </div>
@@ -58,6 +60,8 @@
                   @include('partials.template-parts.offers.secure', ['offer' => 'two'])
                   @include('partials.template-parts.offers.monitoring', ['offer' => 'two'])
                   @include('partials.template-parts.offers.cloudflare', ['offer' => 'two'])
+                  <a href="#"  data-bs-toggle="modal" data-bs-target="#sereniteModal" aria-label="Souscrire une offre"
+                     class="cta text-center">Souscrire à l'offre</a>
                 </div>
               </div>
             </div>
@@ -83,6 +87,8 @@
                   @include('partials.template-parts.offers.secure', ['offer' => 'three'])
                   @include('partials.template-parts.offers.monitoring', ['offer' => 'three'])
                   @include('partials.template-parts.offers.cloudflare', ['offer' => 'three'])
+                  <a href="#"  data-bs-toggle="modal" data-bs-target="#premiumModal" aria-label="Souscrire une offre"
+                     class="cta text-center">Souscrire à l'offre</a>
                 </div>
               </div>
             </div>
@@ -92,12 +98,55 @@
 
       <div class="d-flex flex-row justify-content-center mt-5">
         <a href="https://lepitch-web.fr/contact/" aria-label="Souscrire une offre"
-           class="cta">Souscrire une offre</a>
+           class="cta">Demande de renseignement</a>
       </div>
       <div class="d-flex flex-row justify-content-center mt-3">
         ou appelez-nous au <strong class="ms-1">09 72 14 94 25</strong>
       </div>
     </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="essantielModal" tabindex="-1" aria-labelledby="essentielModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+        <h1 class="modal-title fs-5" id="essantielModalLabel">Souscrire l'offre essentiel</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        {{ gravity_form(5, false, false, false, false, true, -1 ) }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="sereniteModal" tabindex="-1" aria-labelledby="seriniteModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+        <h1 class="modal-title fs-5" id="sereniteModalLabel">Souscrire l'offre sérénité</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        {{ gravity_form(4, false, false, false, false, true, -1 ) }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="premiumModal" tabindex="-1" aria-labelledby="premiemModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Souscrire l'offre premium</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        {{ gravity_form(3, false, false, false, false, true, -1 ) }}
+      </div>
     </div>
   </div>
 </div>
