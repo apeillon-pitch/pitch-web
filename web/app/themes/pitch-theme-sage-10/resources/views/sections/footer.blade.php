@@ -11,8 +11,8 @@
             Agence web Paris <br>
             15 rue de Vandrezanne <br> 75013 Paris </p>
           <p>Agence web Nice <br> 7 rue d'Autun <br> 06000 Nice </p>
-          <a href="https://www.linkedin.com/company/pitch-web/" title="Linkedin" target="_blank"><i
-              class="fa-brands fa-linkedin-in"></i></a>
+{{--          <a href="https://www.linkedin.com/company/pitch-web/" title="Linkedin" target="_blank"><i--}}
+{{--              class="fa-brands fa-linkedin-in"></i></a>--}}
         </div>
       </div>
       <div class="col-11 col-md-3 mb-4 mb-md-0">
