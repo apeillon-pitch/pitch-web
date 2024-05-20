@@ -15,7 +15,7 @@
                   </div>
                 @else
                   <figure class="flex mb-0">
-                    {!! wp_get_attachment_image( $slide['bg_image']['id'], 'full', '', array( "class" => "first img-fluid", "fetchpriority" => "high") ) !!}
+                    {!! wp_get_attachment_image( $slide['bg_image']['id'], 'medium_large', '', array( "class" => "first img-fluid", "fetchpriority" => "high") ) !!}
                   </figure>
                 @endif
               </div>
