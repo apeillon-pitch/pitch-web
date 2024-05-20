@@ -50,8 +50,8 @@ const main = async (err) => {
         arr = t.data("typer").split("|");
       t.typed({
         strings: arr,
-        loop: true,
-        showCursor: true,
+        loop: false,
+        showCursor: false,
         startDelay: 1000,
         backDelay: 1000,
         typeSpeed: 10,
