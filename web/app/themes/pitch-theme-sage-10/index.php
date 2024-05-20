@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.onload=null;this.media='all'">
     <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-857100355">
+  <!--  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-857100355">
     </script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -19,7 +19,7 @@
       gtag('js', new Date());
 
       gtag('config', 'AW-857100355');
-    </script>
+    </script>-->
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
