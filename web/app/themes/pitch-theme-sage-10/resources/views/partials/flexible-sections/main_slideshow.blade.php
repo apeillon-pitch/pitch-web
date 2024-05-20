@@ -5,7 +5,7 @@
         <div class="container position-relative h-100">
           <div class="wp-bg">
             <div class="row align-items-center justify-content-end h-100">
-              <div class="col-12 col-lg-6 col-xl-5 h-100 ps-5 mb-5 mb-lg-0">
+              <div class="d-none d-lg-block col-12 col-lg-6 col-xl-5 h-100 ps-5 mb-5 mb-lg-0">
                 @if($slide['video'])
                   <div class="d-flex flex-column justify-content-center h-100">
                     <video autoplay muted loop>
