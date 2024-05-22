@@ -4,7 +4,7 @@
       <div class="row justify-content-center mb-5">
         <div class="col-11 col-lg-9 col-xl-8 col-xxl-7">
           <div class="d-flex flex-column wp-heading text-center">
-            <h2 class="section-title">Offres de maintenance  🚀 <br> <span>dédiées aux sites <strong>Wordpress</strong><span></h2>
+            <h2 class="section-title">Offres de maintenance  🚀 <br> <span>dédiées aux sites <strong>WordPress</strong><span></h2>
           </div>
         </div>
       </div>
