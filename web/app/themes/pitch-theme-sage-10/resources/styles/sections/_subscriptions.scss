@@ -1,0 +1,32 @@
+.section {
+  &.subscriptions {
+    .nav-tabs {
+      border: 0;
+
+      .nav-item {
+        .nav-link {
+          color: black;
+          padding: 12px 20px;
+          margin: 0 10px;
+          border: 1px solid lightgrey;
+          border-radius: 25px;
+          transition: all 0.4s;
+
+          &:hover,
+          &:focus {
+            border-color: $black_pitch;
+          }
+
+          &.active {
+            font-weight: inherit;
+            color: white;
+            border-color: $black_pitch;
+            text-decoration: none;
+            background-color: $black_pitch;
+            transition: all 0.4s;
+          }
+        }
+      }
+    }
+  }
+}
