@@ -1,5 +1,5 @@
 <div id="section-{{ $row }}"
-     class="section-clients section-bg-color {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
+     class="section-clients section-bg-color overflow-hidden {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-11 col-lg-12">
