@@ -9,7 +9,7 @@
       </div>
     </div>
   </div>
-  <div class="ps-5 pe-5">
+  <div class="ps-md-5 pe-md-5">
     <div class="row justify-content-center">
       @if($section['logos_repeater'])
         @php $i =0; $t = count($section['logos_repeater']); @endphp
