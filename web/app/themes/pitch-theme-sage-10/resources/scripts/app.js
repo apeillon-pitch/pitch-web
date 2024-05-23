@@ -74,7 +74,7 @@ const main = async (err) => {
       {
         slidesToShow: 6,
         slidesToScroll: 1,
-        arrows: true,
+        arrows: false,
         dots: false,
         speed: 1000,
         infinite: true,
