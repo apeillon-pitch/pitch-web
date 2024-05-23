@@ -10,18 +10,7 @@
       <link rel="preload" fetchpriority="high" as="image" href="<?php echo home_url(); ?>/app/uploads/2023/06/Teaser-1.png.webp" type="image/webp">
     <?php } ?>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.onload=null;this.media='all'">
-    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js" defer></script>
-    <!-- Google tag (gtag.js) -->
-  <!--  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-857100355">
-    </script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'AW-857100355');
-    </script>-->
-    <!-- Google Tag Manager -->
+    <!--<script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js" defer></script>-->
     <script>
       (function(w,d,s,l,i){
         w[l]=w[l]||[];

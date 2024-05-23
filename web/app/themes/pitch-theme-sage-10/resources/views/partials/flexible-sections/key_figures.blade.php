@@ -34,8 +34,8 @@
       </div>
     </div>
   </div>
-  <script>
+  {{--<script>
     new PureCounter();
-  </script>
+  </script>--}}
 </div>
 
