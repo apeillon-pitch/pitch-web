@@ -53,8 +53,8 @@ const main = async (err) => {
         loop: false,
         showCursor: false,
         startDelay: 1000,
-        backDelay: 1000,
-        typeSpeed: 10,
+        backDelay: 2000,
+        typeSpeed: 9,
         callback: function () {
           $('.typed-cursor').text('');
         },
