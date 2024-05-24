@@ -38,7 +38,7 @@
                   @if(is_front_page())
                     <div class="h1">
                       <span class="typer"
-                            data-typer="créative| Wordpress| Paris et Nice| SEO &amp; UX first"></span>
+                            data-typer="Paris et Nice| Création &amp; refonte de site Wordpress"></span>
                       <span class="typed-cursor"></span>
                     </div>
                   @endif
