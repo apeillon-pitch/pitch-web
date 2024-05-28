@@ -29,17 +29,17 @@
         <div class="d-flex flex-column wp-col">
           <strong>Agence</strong>
           <a href="{{ home_url() }}/agence/" class="mb-2 mb-sm-0" aria-label="Découvrir l'agence">Découvrir l'agence WordPress</a>
-          <a href="{{ home_url() }}/realisations/" class="mb-2 mb-sm-0" aria-label="Nos réalisations Wordpress">Nos réalisations Wordpress</a>
+          <a href="{{ home_url() }}/realisations/" class="mb-2 mb-sm-0" aria-label="Nos réalisations Wordpress">Nos réalisations WordPress</a>
           <a href="{{ home_url() }}/clients/" class="mb-2 mb-sm-0" aria-label="Nos références clients">Nos références clients</a>
-          <a href="{{ home_url() }}/nos-actualites/" class="mb-2 mb-sm-0" aria-label="Toute l'actualité Wordpress">Toute l'actualité Wordpress</a>
+          <a href="{{ home_url() }}/nos-actualites/" class="mb-2 mb-sm-0" aria-label="Toute l'actualité Wordpress">Toute l'actualité WordPress</a>
         </div>
       </div>
       <div class="col-11 col-md-3 mb-4 mb-md-0">
         <div class="d-flex flex-column wp-col last">
           <strong>Expertises</strong>
-          <a href="{{ home_url() }}/creation-site-wordpress/" class="mb-2 mb-sm-0" aria-label="Création de site web">Création de site web</a>
-          <a href="{{ home_url() }}/maintenance-site-wordpress/" class="mb-2 mb-sm-0" aria-label="Maintenance site Wordpress">Maintenance site Wordpress</a>
-          <a href="{{ home_url() }}/hebergement-site-wordpress/" class="mb-2 mb-sm-0" aria-label="Hébergement">Hébergement</a>
+          <a href="{{ home_url() }}/creation-site-wordpress/" class="mb-2 mb-sm-0" aria-label="Création de site web WordPress">Création de site web WordPress</a>
+          <a href="{{ home_url() }}/maintenance-site-wordpress/" class="mb-2 mb-sm-0" aria-label="Maintenance de site WordPress">Maintenance de site WordPress</a>
+          <a href="{{ home_url() }}/hebergement-site-wordpress/" class="mb-2 mb-sm-0" aria-label="Hébergement we">Hébergement web</a>
         </div>
       </div>
     </div>
