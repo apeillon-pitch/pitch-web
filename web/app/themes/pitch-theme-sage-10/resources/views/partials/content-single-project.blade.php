@@ -21,19 +21,19 @@
               <div class="row">
                 @if($portfolio_data['designer'])
                   <div class="col-4">
-                    <i class="fa-regular fa-paintbrush-fine"></i> Design <br>
+                     Design <br>
                     <strong>{!! $portfolio_data['designer'] !!}</strong>
                   </div>
                 @endif
                 @if($portfolio_data['developer'])
                   <div class="col-4">
-                    <i class="fa-solid fa-code"></i> Code <br>
+                     Code <br>
                     <strong>{!! $portfolio_data['developer'] !!}</strong>
                   </div>
                 @endif
                   @if($portfolio_data['conseil'])
                     <div class="col-4">
-                      <i class="fa-regular fa-user"></i> Conseil <br>
+                       Conseil <br>
                       <strong>{!! $portfolio_data['conseil'] !!}</strong>
                     </div>
                   @endif
