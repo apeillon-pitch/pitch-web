@@ -13,7 +13,9 @@
               <div class="col-4">
                 <a href="{{ $project['permalink'] }}" aria-label="{!! $project['title'] !!}">
                   <div class="card">
-                    <div class="thumbnail" style="background-image: url({{ $project['thumbnail'] }})"></div>
+                    <div class="thumbnail">
+                      <img src="{{ $project['thumbnail'] }}" alt="{!! $project['title'] !!}" class="">
+                    </div>
                     <h2 class="title mt-2">{!! $project['title'] !!}</h2>
                   </div>
                 </a>
