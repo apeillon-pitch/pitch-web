@@ -30,15 +30,17 @@
                     </div>
                   </div>
                 @endif
-                <div class="row">
-                  <div class="col-12 col-lg-7 mt-3">
-                    {{gravity_form(2, false, false, false, false, true, -1 )}}
-                    {{--<a href="{{ $slide['link']['url'] }}" aria-label="{!! $slide['link']['title'] !!}"
-                       class="cta">
-                      <span>{!! $slide['link']['title'] !!}</span>
-                    </a>--}}
+                @if(!is_page(1986))
+                  <div class="row">
+                    <div class="col-12 col-lg-7 mt-3">
+                      {{gravity_form(2, false, false, false, false, true, -1 )}}
+                      {{--<a href="{{ $slide['link']['url'] }}" aria-label="{!! $slide['link']['title'] !!}"
+                         class="cta">
+                        <span>{!! $slide['link']['title'] !!}</span>
+                      </a>--}}
+                    </div>
                   </div>
-                </div>
+                @endif
               </div>
             @endif
           </div>
