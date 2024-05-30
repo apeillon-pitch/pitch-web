@@ -18,7 +18,7 @@
             @foreach($section['logos_repeater'] as $index => $logo)
               <div class="mb-4">
                 <div class="logo-container">
-                  {!! wp_get_attachment_image(  $logo['logo']['id'], 'full', '', array( "class" => "img-fluid") ) !!}
+                  {!! wp_get_attachment_image(  $logo['logo']['id'], 'medium', '', array( "class" => "img-fluid") ) !!}
                 </div>
               </div>
             @endforeach

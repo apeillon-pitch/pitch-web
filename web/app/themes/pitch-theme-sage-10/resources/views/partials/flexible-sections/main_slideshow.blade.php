@@ -68,7 +68,7 @@
     @endforeach
   @endforeach
   @if($section['logo_repeater'])
-    <div class="d-none d-md-block wp-slideshow-logo">
+    <div class="wp-slideshow-logo">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12">
