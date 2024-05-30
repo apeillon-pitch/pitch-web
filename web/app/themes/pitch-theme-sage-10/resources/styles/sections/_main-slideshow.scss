@@ -29,15 +29,6 @@
 
           input[type="submit"] {
             left: inherit;
-            background-image: linear-gradient(140deg, #00d2ff, #2ba1d0, #00d2ff, #05f);
-            background-size: 400% 400%;
-            color: #fff;
-            animation: gradient 10s linear infinite;
-            transition: all 0.3s ease-in-out;
-
-            &:hover {
-              animation: gradient 8s linear infinite;
-            }
           }
         }
       }
