@@ -21,7 +21,8 @@
               </div>
             </div>
           </div>
-          <div class="row justify-content-center justify-content-lg-start align-items-center h-100" style="position: relative; z-index: 88;">
+          <div class="row justify-content-center justify-content-lg-start align-items-center h-100"
+               style="position: relative; z-index: 88;">
             <div class="col-11 col-lg-8">
               @if ($slide['acf_fc_layout'] == 'reference_type')
                 <div class="wrapper-text fadeInLeft">
@@ -49,16 +50,15 @@
                       </div>
                     </div>
                   @endif
-                  @if ($slide['link'])
                     <div class="row">
                       <div class="col-12 col-lg-8 mt-3">
-                        <a href="{{ $slide['link']['url'] }}" aria-label="{!! $slide['link']['title'] !!}"
+                        {{gravity_form(2, false, false, false, false, true, -1 )}}
+                        {{--<a href="{{ $slide['link']['url'] }}" aria-label="{!! $slide['link']['title'] !!}"
                            class="cta">
                           <span>{!! $slide['link']['title'] !!}</span>
-                        </a>
+                        </a>--}}
                       </div>
                     </div>
-                  @endif
                 </div>
               @endif
             </div>

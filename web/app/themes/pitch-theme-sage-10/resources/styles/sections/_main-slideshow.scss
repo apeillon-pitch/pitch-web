@@ -7,6 +7,48 @@
   background-size: 100%;
   background-repeat: no-repeat;
 
+  #gform_wrapper_2 {
+    form {
+      .gform_body {
+        position: relative;
+        width: 420px;
+
+        .gfield--type-text {
+          grid-column: span 12;
+        }
+
+        input[type="text"] {
+          padding: 20px 155px 20px 20px;
+          background-color: #f7f0f0;
+        }
+
+        #field_submit {
+          position: absolute;
+          right: 0;
+          width: 135px;
+
+          input[type="submit"] {
+            left: inherit;
+            background-image: linear-gradient(140deg, #00d2ff, #2ba1d0, #00d2ff, #05f);
+            background-size: 400% 400%;
+            color: #fff;
+            animation: gradient 10s linear infinite;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+              animation: gradient 8s linear infinite;
+            }
+          }
+        }
+      }
+
+      .gform_footer {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+
   @include media-breakpoint-down(lg) {
     height: auto;
     min-height: inherit;
