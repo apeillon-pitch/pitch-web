@@ -48,8 +48,9 @@
 
 
       <div class="d-flex flex-row justify-content-center mt-5">
-        <a href="https://lepitch-web.fr/contact/" aria-label="Souscrire une offre"
-           class="cta">Demande de renseignement</a>
+        {{gravity_form(2, false, false, false, false, true, -1 )}}
+    {{--    <a href="https://lepitch-web.fr/contact/" aria-label="Souscrire une offre"
+           class="cta">Demande de renseignement</a>--}}
       </div>
       <div class="d-flex flex-row justify-content-center mt-3">
         ou appelez-nous au <strong class="ms-1">09 72 14 94 25</strong>

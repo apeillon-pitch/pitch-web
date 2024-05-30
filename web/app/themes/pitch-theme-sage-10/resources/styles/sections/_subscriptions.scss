@@ -1,5 +1,38 @@
 .section {
   &.subscriptions {
+    #gform_wrapper_2 {
+      form {
+        .gform_body {
+          position: relative;
+          min-width: 380px;
+
+          .gfield--type-text {
+            grid-column: span 12;
+          }
+
+          input[type="text"] {
+            padding: 20px 155px 20px 20px;
+            background-color: #f7f0f0;
+          }
+
+          #field_submit {
+            position: absolute;
+            right: 0;
+            width: 135px;
+
+            input[type="submit"] {
+              left: inherit;
+            }
+          }
+        }
+
+        .gform_footer {
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+
     .nav-tabs {
       border: 0;
 

@@ -10,33 +10,6 @@
     p {
       margin-bottom: 30px;
     }
-
-    .gform_wrapper {
-      form {
-        .gform_body {
-          input[type="text"] {
-            padding: 20px;
-            border-radius: 40px;
-            border: 0;
-            background-color: white;
-          }
-
-          #field_submit {
-            position: relative;
-
-            input[type="submit"] {
-              position: absolute;
-              left: -75px;
-              top: 10px;
-
-              @include media-breakpoint-down(lg) {
-                left: 0;
-              }
-            }
-          }
-        }
-      }
-    }
   }
 
   &.section-cta-style-two {
