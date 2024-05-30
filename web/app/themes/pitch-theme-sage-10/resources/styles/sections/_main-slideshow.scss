@@ -14,7 +14,7 @@
         width: 420px;
 
         @include media-breakpoint-down(sm) {
-          width: 300px;
+          width: 100%;
         }
 
         .gfield--type-text {
