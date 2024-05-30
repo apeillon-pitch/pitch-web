@@ -1,7 +1,7 @@
 <footer class="content-info @php echo is_page(313) ? 'd-none' : '' @endphp">
   <div class="container-lg">
     <a href="{{ home_url() }}" aria-label="Accueil">
-      <img src="@asset('images/pitch-white.svg')"
+      <img src="@asset('images/logo-white.png')"
            class="logo mb-3" alt="Agence Wordpress Paris et Nice" width="200px" height="48px" style="max-width: 200px">
     </a>
     <div class="row justify-content-center text-start">
