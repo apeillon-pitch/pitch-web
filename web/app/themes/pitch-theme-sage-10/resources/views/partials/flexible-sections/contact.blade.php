@@ -15,7 +15,10 @@
             <!-- End of Meetings Embed Script -->
           </div>
           <div class="col-12 col-lg-7 text-center">
-            <img src="@asset('images/lepitch.svg')" width="200px" height="48px" alt="Logo Le Pitch" class="logo mb-4 mt-4" style="max-width: 200px">
+            <a href="{{ home_url() }}" aria-label="Accueil">
+              <img src="@asset('images/logo-lepitch.png')"
+                   class="logo" alt="Agence Wordpress Paris et Nice" class="logo mb-4 mt-4" width="200px" height="48px" style="max-width: 200px">
+            </a>
             <span class="d-block">09 72 14 94 25</span>
             <span class="d-block">contact[@]lepitch.fr</span>
             <div class="row align-items-center mt-4">
