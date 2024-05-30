@@ -7,8 +7,9 @@
         </button>
       </div>
       <div class="col-8">
-        <a href="<?php echo home_url(); ?>" aria-label="Site Le Pitch">
-          <img src="@asset('images/lepitch.svg')" width="200px" height="48px" alt="Logo Le Pitch" class="d-block logo mx-auto" style="max-width: 200px">
+        <a href="{{ home_url() }}" aria-label="Site Le Pitch Web">
+          <img src="@asset('images/logo-lepitch.png')"
+               class="d-block logo mx-auto" alt="Agence Wordpress Paris et Nice" width="200px" height="48px" style="max-width: 200px">
         </a>
       </div>
       <div class="col-2">
