@@ -40,6 +40,16 @@
                       </a>--}}
                     </div>
                   </div>
+
+                @else
+                  <div class="row">
+                    <div class="col-12 col-lg-7 mt-3">
+                      <a href="{{ home_url() }}" aria-label="Voir le site"
+                         class="cta">
+                        <span>Voir le site</span>
+                      </a>
+                    </div>
+                  </div>
                 @endif
               </div>
             @endif
