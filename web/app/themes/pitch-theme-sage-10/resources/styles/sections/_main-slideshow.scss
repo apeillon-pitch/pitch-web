@@ -13,6 +13,10 @@
         position: relative;
         width: 420px;
 
+        @include media-breakpoint-down(sm) {
+          width: 300px;
+        }
+
         .gfield--type-text {
           grid-column: span 12;
         }
