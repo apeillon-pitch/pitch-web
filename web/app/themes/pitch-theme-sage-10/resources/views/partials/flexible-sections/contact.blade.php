@@ -7,14 +7,14 @@
           @include('partials.flexible-sections.section_title')
         @endif
         <div class="row justify-content-between">
-          <div class="col-12 col-lg-5">
+          <div class="col-12 col-lg-6">
             {{gravity_form(1, false, false, false, false, true, -1 )}}
             <!-- Start of Meetings Embed Script -->
             {{--<div class="meetings-iframe-container" data-src="https://meetings-eu1.hubspot.com/amaury-peillon?embed=true"></div>
             <script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>--}}
             <!-- End of Meetings Embed Script -->
           </div>
-          <div class="col-12 col-lg-7 text-center">
+          <div class="col-12 col-lg-5 text-center">
             <a href="{{ home_url() }}" aria-label="Accueil">
               <img src="@asset('images/logo-lepitch.png')"
                    class="logo" alt="Agence Wordpress Paris et Nice" class="logo mb-4 mt-4" width="200px" height="48px" style="max-width: 200px">
