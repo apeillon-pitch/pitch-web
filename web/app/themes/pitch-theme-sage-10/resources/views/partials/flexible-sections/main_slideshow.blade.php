@@ -3,7 +3,7 @@
     @foreach($block['slide_style'] as $slide)
       <div class="container position-relative h-100">
         <div class="row justify-content-center justify-content-lg-start align-items-center h-100">
-          <div class="col-11 col-lg-8">
+          <div class="col-11 col-lg-7">
             @if ($slide['acf_fc_layout'] == 'reference_type')
               <div class="wrapper-text fadeInLeft">
                 @if ($slide['title'])
@@ -25,13 +25,13 @@
                 @endif
                 @if ($slide['introduction'])
                   <div class="row mt-4">
-                    <div class="col-12 col-lg-8">
+                    <div class="col-12 col-lg-9">
                       <p>{!! $slide['introduction'] !!}</p>
                     </div>
                   </div>
                 @endif
                 <div class="row">
-                  <div class="col-12 col-lg-8 mt-3">
+                  <div class="col-12 col-lg-7 mt-3">
                     {{gravity_form(2, false, false, false, false, true, -1 )}}
                     {{--<a href="{{ $slide['link']['url'] }}" aria-label="{!! $slide['link']['title'] !!}"
                        class="cta">
@@ -42,7 +42,7 @@
               </div>
             @endif
           </div>
-          <div class="d-none d-lg-block col-lg-4">
+          <div class="d-none d-lg-block col-lg-5">
             @if($slide['video'])
               <div class="d-flex flex-column justify-content-center h-100">
                 <video autoplay muted loop>
