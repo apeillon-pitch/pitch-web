@@ -46,7 +46,7 @@
                 </div>--}}
               </div>
             </div>
-            <img width="2048" height="1365" class="mt-4" style="border-radius: 1.25rem;" src="https://lepitch-web.fr/app/uploads/2023/12/RW7A1165-1.jpg" alt="Agence WordPress" fetchpriority="high" decoding="async" srcset="https://lepitch-web.fr/app/uploads/2023/12/RW7A1165-1.jpg 2048w, https://lepitch-web.fr/app/uploads/2023/12/RW7A1165-1-300x200.jpg 300w, https://lepitch-web.fr/app/uploads/2023/12/RW7A1165-1-1024x683.jpg 1024w, https://lepitch-web.fr/app/uploads/2023/12/RW7A1165-1-768x512.jpg 768w, https://lepitch-web.fr/app/uploads/2023/12/RW7A1165-1-1536x1024.jpg 1536w" sizes="(max-width: 2048px) 100vw, 2048px">
+            <img width="2048" height="1365" class="mt-4" style="border-radius: 20px;" src="https://lepitch-web.fr/app/uploads/2023/12/RW7A1165-1.jpg" alt="Agence WordPress" fetchpriority="high" decoding="async" srcset="https://lepitch-web.fr/app/uploads/2023/12/RW7A1165-1.jpg 2048w, https://lepitch-web.fr/app/uploads/2023/12/RW7A1165-1-300x200.jpg 300w, https://lepitch-web.fr/app/uploads/2023/12/RW7A1165-1-1024x683.jpg 1024w, https://lepitch-web.fr/app/uploads/2023/12/RW7A1165-1-768x512.jpg 768w, https://lepitch-web.fr/app/uploads/2023/12/RW7A1165-1-1536x1024.jpg 1536w" sizes="(max-width: 2048px) 100vw, 2048px">
           </div>
         </div>
       </div>
