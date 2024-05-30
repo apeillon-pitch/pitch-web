@@ -17,7 +17,7 @@
                   </h2>
                 @endif
                 @if(is_front_page())
-                  <div class="h1">
+                  <div class="d-none d-md-block h1">
                       <span class="typer"
                             data-typer="Paris et Nice| Refonte de site web WordPress| Hébergement de site WordPress | Optimiation SEO de site WordPress | Création de site web WordPress"></span>
                     <span class="typed-cursor"></span>
