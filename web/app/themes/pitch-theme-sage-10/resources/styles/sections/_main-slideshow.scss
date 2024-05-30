@@ -53,181 +53,176 @@
     }
   }
 
-  .slide {
-    position: relative;
-    height: 100% !important;
+  .wp-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 
-    .wp-bg {
-      position: absolute;
-      width: 100%;
+    @include media-breakpoint-down(lg) {
+      position: relative;
+    }
+
+    figure {
+      position: relative;
       height: 100%;
-      z-index: 1;
 
-      @include media-breakpoint-down(lg) {
-        position: relative;
-      }
+      img {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        max-height: inherit;
+        object-fit: cover;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: inherit;
 
-      figure {
-        position: relative;
-        height: 100%;
-
-        img {
-          position: absolute;
-          width: 100%;
+        @include media-breakpoint-down(lg) {
+          position: relative;
+          display: block;
+          max-height: 400px;
           height: auto;
-          max-height: inherit;
-          object-fit: cover;
-          top: 50%;
-          transform: translateY(-50%);
-          margin: inherit;
-
-          @include media-breakpoint-down(lg) {
-            position: relative;
-            display: block;
-            max-height: 400px;
-            height: auto;
-            width: auto;
-            margin: 0 auto;
-            object-fit: inherit;
-            top: inherit;
-            transform: inherit;
-          }
+          width: auto;
+          margin: 0 auto;
+          object-fit: inherit;
+          top: inherit;
+          transform: inherit;
         }
       }
     }
+  }
 
-    a.cta {
+  a.cta {
+    position: relative;
+    display: inline-block;
+    background-image: linear-gradient(140deg, #00d2ff, #2ba1d0, #00d2ff, #05f);
+    background-size: 400% 400%;
+    color: #fff;
+    animation: gradient 10s linear infinite;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      animation: gradient 8s linear infinite;
+    }
+  }
+
+  .scroll-btn {
+    position: absolute;
+    width: 100%;
+    display: block;
+    text-align: center;
+    bottom: 60px;
+
+    a:focus {
+      outline: none;
+    }
+
+    .mouse {
       position: relative;
       display: inline-block;
-      background-image: linear-gradient(140deg, #00d2ff, #2ba1d0, #00d2ff, #05f);
-      background-size: 400% 400%;
-      color: #fff;
-      animation: gradient 10s linear infinite;
-      transition: all 0.3s ease-in-out;
-
-      &:hover {
-        animation: gradient 8s linear infinite;
-      }
+      width: 30px;
+      height: 50px;
+      border: 2px solid $blue_pitch;
+      border-radius: 24px;
+      opacity: 0.75;
+      margin-left: 33px;
     }
 
-    .scroll-btn {
-      position: absolute;
-      width: 100%;
-      display: block;
+    .weel {
+      position: relative;
+      display: inline-block;
+      height: 22px;
+      margin: 10px auto 5px;
+
+      span {
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 50%;
+        width: 8px;
+        height: 8px;
+        margin: -14px 0 0 -4px;
+        background: $blue_pitch;
+        border-radius: 20px;
+        animation: scroll 3s linear infinite;
+        -webkit-animation: scroll 3s linear infinite;
+        -moz-animation: scroll 3s linear infinite;
+      }
+    }
+  }
+
+  .wrapper-text {
+    font-weight: 300;
+    z-index: 888;
+
+    @include media-breakpoint-down(lg) {
       text-align: center;
-      bottom: 60px;
-
-      a:focus {
-        outline: none;
-      }
-
-      .mouse {
-        position: relative;
-        display: inline-block;
-        width: 30px;
-        height: 50px;
-        border: 2px solid $blue_pitch;
-        border-radius: 24px;
-        opacity: 0.75;
-        margin-left: 33px;
-      }
-
-      .weel {
-        position: relative;
-        display: inline-block;
-        height: 22px;
-        margin: 10px auto 5px;
-
-        span {
-          position: absolute;
-          display: block;
-          top: 0;
-          left: 50%;
-          width: 8px;
-          height: 8px;
-          margin: -14px 0 0 -4px;
-          background: $blue_pitch;
-          border-radius: 20px;
-          animation: scroll 3s linear infinite;
-          -webkit-animation: scroll 3s linear infinite;
-          -moz-animation: scroll 3s linear infinite;
-        }
-      }
     }
 
-    .wrapper-text {
-      font-weight: 300;
-      z-index: 888;
+    .overtitle {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 3px;
+      line-height: 36px;
+    }
 
-      @include media-breakpoint-down(lg) {
-        text-align: center;
+    .title {
+      font-size: 80px;
+      font-weight: 700;
+      line-height: 1;
+
+      em {
+        font-style: normal;
+        animation: gradient 6s linear infinite;
+        background-image: linear-gradient(140deg, #00d2ff, #2ba1d0, #00d2ff, #05f);
+        background-size: 400% 400%;
+        -webkit-text-fill-color: #0000;
+        -webkit-background-clip: text;
       }
 
-      .overtitle {
-        display: inline-block;
-        font-size: 0.75rem;
-        font-weight: 500;
-        letter-spacing: 3px;
-        line-height: 36px;
+      span {
+        font-size: 5px;
+        display: block;
+        margin-top: -10px;
+        color: white;
       }
 
-      .title {
-        font-size: 80px;
-        font-weight: 700;
-        line-height: 1;
-
-        em {
-          font-style: normal;
-          animation: gradient 6s linear infinite;
-          background-image: linear-gradient(140deg, #00d2ff, #2ba1d0, #00d2ff, #05f);
-          background-size: 400% 400%;
-          -webkit-text-fill-color: #0000;
-          -webkit-background-clip: text;
-        }
+      @include media-breakpoint-down(xl) {
+        font-size: 70px;
 
         span {
           font-size: 5px;
-          display: block;
-          margin-top: -10px;
-          color: white;
-        }
-
-        @include media-breakpoint-down(xl) {
-          font-size: 70px;
-
-          span {
-            font-size: 5px;
-          }
-        }
-
-        @include media-breakpoint-down(md) {
-          font-size: 60px;
-
-          span {
-            font-size: 5px;
-          }
-        }
-
-        @include media-breakpoint-down(sm) {
-          font-size: 45px;
-
-          span {
-            font-size: 5px;
-          }
         }
       }
 
-      .h1 {
-        height: 29px;
-        width: 450px;
-        font-size: 1.5rem;
-        font-weight: 300;
-        margin-top: 1rem;
+      @include media-breakpoint-down(md) {
+        font-size: 60px;
 
-        @include media-breakpoint-down(lg) {
-          margin: 1rem auto 0;
-          text-align: center;
+        span {
+          font-size: 5px;
         }
+      }
+
+      @include media-breakpoint-down(sm) {
+        font-size: 45px;
+
+        span {
+          font-size: 5px;
+        }
+      }
+    }
+
+    .h1 {
+      height: 29px;
+      width: 450px;
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin-top: 1rem;
+
+      @include media-breakpoint-down(lg) {
+        margin: 1rem auto 0;
+        text-align: center;
       }
     }
   }
