@@ -8,12 +8,6 @@
             <h2 class="subtitle">vous accompagnez à toutes les étapes de votre projet</h2>
         </div>
       </div>
-    @else
-      <div class="row justify-content-center justify-content-lg-start mb-5">
-        <div class="col-11 col-lg-8 text-start">
-            <span class="section-title mb-0">Autrement dit ...</span>
-        </div>
-      </div>
     @endif
     @if($section['item_repeater'])
       <div class="row">
