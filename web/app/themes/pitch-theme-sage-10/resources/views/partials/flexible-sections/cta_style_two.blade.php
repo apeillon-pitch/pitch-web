@@ -9,10 +9,9 @@
         </div>
       </div>
     @else
-      <div class="row justify-content-center mb-5">
-        <div class="col-11 col-lg-8 text-center">
-            <span class="section-title mb-0">Mes expertises</span>
-            <h2 class="subtitle">... pour vous accompagner à toutes les étapes de votre projet</h2>
+      <div class="row justify-content-center justify-content-lg-start mb-5">
+        <div class="col-11 col-lg-8 text-start">
+            <span class="section-title mb-0">Autrement dit ...</span>
         </div>
       </div>
     @endif
