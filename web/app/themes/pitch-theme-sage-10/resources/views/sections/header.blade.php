@@ -3,10 +3,17 @@
     <div class="wp-nav">
       <div class="d-flex flex-row justify-content-between align-items-center gx-0">
         <div class="d-block">
+          @if(!is_page(2000))
           <a href="{{ home_url() }}" aria-label="Accueil">
             <img src="@asset('images/logo-lepitch.png')"
                  class="logo" alt="Agence Wordpress Paris et Nice" width="200px" height="48px" style="max-width: 200px">
           </a>
+          @else
+            <a href="{{ get_the_permalink() }}" aria-label="Accueil">
+              <img src="@asset('images/logo-lepitch.png')"
+                   class="logo" alt="Agence Wordpress Paris et Nice" width="200px" height="48px" style="max-width: 200px">
+            </a>
+          @endif
         </div>
         <div class="d-flex flex-row justify-content-end align-items-center gx-0">
           @if(!is_page(2000))
