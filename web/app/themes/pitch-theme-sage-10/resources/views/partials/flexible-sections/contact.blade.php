@@ -21,8 +21,8 @@
                    style="max-width: 200px">
             </a>
             <span class="d-block">09 72 14 94 25</span>
-            <span class="d-block">contact[@]lepitch.fr</span>
             @if(!is_page(2000))
+            <span class="d-block">contact[@]lepitch.fr</span>
               <div class="row align-items-center mt-4">
                 <div class="col-12 col-lg-6 mb-4 mb-lg-0">
                   <h3 class="d-block mb-2">Agence web Paris</h3>
@@ -48,6 +48,8 @@
                   </div>--}}
                 </div>
               </div>
+            @else
+              <span class="d-block mb-4">apeillon[@]lepitch.fr</span>
             @endif
             <img width="2048" height="1365" class="mt-4" style="border-radius: 20px;"
                  src="https://lepitch-web.fr/app/uploads/2023/12/RW7A1165-1.jpg" alt="Agence WordPress"
