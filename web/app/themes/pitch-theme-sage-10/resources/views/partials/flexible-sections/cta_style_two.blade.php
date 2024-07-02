@@ -22,9 +22,11 @@
               @if($item['texte'])
                 <p>{!! $item['texte'] !!}</p>
               @endif
+              @if($item['link'])
                 <a href="{!! $item['link']['url'] !!}" class="btn btn-primary mx-auto d-block" aria-label="+">
                   <span>+</span>
                 </a>
+              @endif
             </div>
           </div>
         @endforeach
