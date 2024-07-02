@@ -7,8 +7,8 @@
           <span class="section-title mb-0">Ce qu'on aime ...</span>
           <h2 class="subtitle">vous accompagnez à toutes les étapes de votre projet</h2>
         @else
-          <span class="section-title mb-0">Ma mission ...</span>
-          <h2 class="subtitle">vous accompagnez à toutes les étapes de votre projet</h2>
+          <span class="section-title text-center mb-0">Ma mission ...</span>
+          <h3 class="subtitle text-center">vous accompagnez à toutes les étapes de votre projet</h3>
         @endif
       </div>
     </div>
