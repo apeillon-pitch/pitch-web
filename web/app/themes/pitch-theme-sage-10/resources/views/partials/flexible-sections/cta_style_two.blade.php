@@ -11,8 +11,8 @@
     @else
       <div class="row justify-content-center mb-5">
         <div class="col-11 col-lg-8 text-center">
-            <span class="section-title mb-0">Ma mission ...</span>
-            <h2 class="subtitle">vous accompagnez à toutes les étapes de votre projet</h2>
+            <span class="section-title mb-0">Mes expertises</span>
+            <h2 class="subtitle">... pour vous accompagner à toutes les étapes de votre projet</h2>
         </div>
       </div>
     @endif
