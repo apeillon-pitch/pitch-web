@@ -33,7 +33,7 @@ const main = async (err) => {
     console.error(err);
   }
 
-  TextWriter();
+  // TextWriter();
   setSelect2();
   dropdownMenu();
   getSlideshowLogos();
@@ -44,7 +44,7 @@ const main = async (err) => {
   gettechnologiesSlideshow();
   getStickyMenu();
 
-  function TextWriter() {
+  /* function TextWriter() {
 
     $(".typer").each(function () {
       var t = $(this),
@@ -61,7 +61,7 @@ const main = async (err) => {
         },
       });
     });
-  }
+  } */
 
   function setSelect2() {
     $('.ginput_container_select select').select2({
@@ -178,7 +178,7 @@ const main = async (err) => {
       infinite: true,
       speed: 800,
       autoplay: true,
-      autoplaySpeed: 4000,
+      autoplaySpeed: 3500,
       pauseOnHover: false,
     });
   }
