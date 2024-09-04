@@ -168,7 +168,7 @@
       font-size: 0.75rem;
       font-weight: 500;
       letter-spacing: 3px;
-      line-height: 36px;
+      line-height: 1;
     }
 
     .title {
@@ -217,11 +217,8 @@
       }
     }
 
-    .h1 {
-      height: 29px;
-      width: 450px;
-      font-size: 1.5rem;
-      font-weight: 300;
+    .subtitle {
+      font-weight: 700;
       margin-top: 1rem;
 
       @include media-breakpoint-down(lg) {

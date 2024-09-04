@@ -17,11 +17,11 @@
                   </h2>
                 @endif
                 @if(is_front_page())
-                  <div class="d-none d-md-block h1">
+                  <div class="d-none d-md-block mt-4">
                       {{--<span class="typer"
                             data-typer="Paris & Nice | Création de site web | Hébergement de site web |"></span>
                     <span class="typed-cursor"></span>--}}
-                    <span class="typer">Paris & Nice</span>
+                    <strong class="text-uppercase">Paris & Nice</strong>
                   </div>
                 @endif
                 @if ($slide['introduction'])
