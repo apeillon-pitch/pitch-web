@@ -33,7 +33,6 @@ const main = async (err) => {
     console.error(err);
   }
 
-  // TextWriter();
   setSelect2();
   dropdownMenu();
   getSlideshowLogos();
@@ -43,25 +42,6 @@ const main = async (err) => {
   getAchivementsSlideshow();
   gettechnologiesSlideshow();
   getStickyMenu();
-
-  /* function TextWriter() {
-
-    $(".typer").each(function () {
-      var t = $(this),
-        arr = t.data("typer").split("|");
-      t.typed({
-        strings: arr,
-        loop: true,
-        showCursor: false,
-        startDelay: 1000,
-        backDelay: 2000,
-        typeSpeed: 30,
-        callback: function () {
-          $('.typed-cursor').text('');
-        },
-      });
-    });
-  } */
 
   function setSelect2() {
     $('.ginput_container_select select').select2({
