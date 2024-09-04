@@ -177,10 +177,8 @@ const main = async (err) => {
       dots: false,
       infinite: true,
       speed: 400,
-      fade: true,
-      cssEase: 'linear',
       autoplay: true,
-      autoplaySpeed: 3000,
+      autoplaySpeed: 4000,
       pauseOnHover: false,
     });
   }
