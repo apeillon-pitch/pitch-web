@@ -6,12 +6,18 @@
   height: inherit !important;
 }
 
-.slideshow-logo:not(.slick-initialized) {
-  visibility: hidden;
+slideshow-logo,
+.main-project-slideshow {
+  &:not(.slick-initialized) {
+    visibility: hidden;
+  }
 }
 
-.slideshow-logo.slick-initialized {
-  visibility: visible;
+.slideshow-logo,
+.main-project-slideshow {
+  &.slick-initialized {
+    visibility: visible;
+  }
 }
 
 .arrows {
