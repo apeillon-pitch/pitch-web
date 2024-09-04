@@ -176,7 +176,7 @@ const main = async (err) => {
       arrows: false,
       dots: false,
       infinite: true,
-      speed: 400,
+      speed: 800,
       autoplay: true,
       autoplaySpeed: 4000,
       pauseOnHover: false,
