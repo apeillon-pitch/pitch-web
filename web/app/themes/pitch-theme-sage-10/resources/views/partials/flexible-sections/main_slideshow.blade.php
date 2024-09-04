@@ -76,8 +76,9 @@
     <div class="wp-slideshow-logo">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-12">
-            <div class="slideshow-logo">
+          <div class="col-12 text-center">
+            <strong class="title text-uppercase pb-5">Ils nous font confiance ...</strong>
+            <div class="slideshow-logo mt-5">
               @foreach($section['logo_repeater'] as $item)
                 <div class="slide">
                   <figure class="mb-0">
