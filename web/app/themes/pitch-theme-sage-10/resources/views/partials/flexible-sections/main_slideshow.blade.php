@@ -19,7 +19,7 @@
                 @if(is_front_page())
                   <div class="d-none d-md-block h1">
                       <span class="typer"
-                            data-typer="Paris et Nice | Création de site web | Refonte de site web | Hébergement de site wen | Optimiation SEO | Un studio de développement web dédié au CMS WordPress"></span>
+                            data-typer="Paris & Nice | Création de site web | Hébergement de site web | Optimiation SEO | Un studio de développement web dédié au CMS WordPress"></span>
                     <span class="typed-cursor"></span>
                   </div>
                 @endif
