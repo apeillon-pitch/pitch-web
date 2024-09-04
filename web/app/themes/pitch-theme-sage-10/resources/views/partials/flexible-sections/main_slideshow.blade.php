@@ -63,9 +63,17 @@
                 </video>
               </div>
             @else
-              <figure class="flex mb-0">
-                {!! wp_get_attachment_image( $slide['bg_image']['id'], 'medium_large', '', array( "class" => "first img-fluid", "fetchpriority" => "high") ) !!}
-              </figure>
+              @if($slide['item_repeater'])
+                <div class="main-project-slideshow">
+                  @foreach($slide['item_repeater'] as $item)
+                    <div class="slide">
+                      <figure class="flex mb-0">
+                        {!! wp_get_attachment_image( $item['bg_image']['id'], 'medium_large', '', array( "class" => "first img-fluid", "fetchpriority" => "high") ) !!}
+                      </figure>
+                    </div>
+                  @endforeach
+                </div>
+              @endif
             @endif
           </div>
         </div>

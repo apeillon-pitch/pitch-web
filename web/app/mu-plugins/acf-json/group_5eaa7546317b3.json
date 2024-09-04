@@ -67,11 +67,11 @@
                                             "display": "block",
                                             "sub_fields": [
                                                 {
-                                                    "key": "field_5eaacc0f93547",
-                                                    "label": "Image de fond",
-                                                    "name": "bg_image",
+                                                    "key": "field_66d7fc545bf69",
+                                                    "label": "Image(s)",
+                                                    "name": "item_repeater",
                                                     "aria-label": "",
-                                                    "type": "image",
+                                                    "type": "repeater",
                                                     "instructions": "",
                                                     "required": 0,
                                                     "conditional_logic": 0,
@@ -80,17 +80,40 @@
                                                         "class": "",
                                                         "id": ""
                                                     },
-                                                    "return_format": "array",
-                                                    "preview_size": "medium",
-                                                    "library": "all",
-                                                    "min_width": "",
-                                                    "min_height": "",
-                                                    "min_size": "",
-                                                    "max_width": "",
-                                                    "max_height": "",
-                                                    "max_size": "",
-                                                    "mime_types": "",
-                                                    "wpml_cf_preferences": 0
+                                                    "layout": "table",
+                                                    "min": 0,
+                                                    "max": 0,
+                                                    "collapsed": "",
+                                                    "button_label": "Ajouter un élément",
+                                                    "rows_per_page": 20,
+                                                    "sub_fields": [
+                                                        {
+                                                            "key": "field_5eaacc0f93547",
+                                                            "label": "Image de fond",
+                                                            "name": "bg_image",
+                                                            "aria-label": "",
+                                                            "type": "image",
+                                                            "instructions": "",
+                                                            "required": 0,
+                                                            "conditional_logic": 0,
+                                                            "wrapper": {
+                                                                "width": "",
+                                                                "class": "",
+                                                                "id": ""
+                                                            },
+                                                            "return_format": "array",
+                                                            "library": "all",
+                                                            "min_width": "",
+                                                            "min_height": "",
+                                                            "min_size": "",
+                                                            "max_width": "",
+                                                            "max_height": "",
+                                                            "max_size": "",
+                                                            "mime_types": "",
+                                                            "preview_size": "medium",
+                                                            "parent_repeater": "field_66d7fc545bf69"
+                                                        }
+                                                    ]
                                                 },
                                                 {
                                                     "key": "field_65dc9d77fdb3f",
@@ -278,7 +301,8 @@
                             },
                             "placement": "top",
                             "endpoint": 0,
-                            "wpml_cf_preferences": 0
+                            "wpml_cf_preferences": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_5eaa774843430",
@@ -459,7 +483,8 @@
                             },
                             "placement": "top",
                             "endpoint": 0,
-                            "wpml_cf_preferences": 0
+                            "wpml_cf_preferences": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_5eaa786acb32a",
@@ -595,7 +620,8 @@
                             },
                             "wpml_cf_preferences": 0,
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_65605af82683f",
@@ -830,7 +856,8 @@
                             },
                             "wpml_cf_preferences": 0,
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_5eaaa2d89b799",
@@ -965,7 +992,8 @@
                                 "id": ""
                             },
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_651bc6fa630f6",
@@ -1171,7 +1199,8 @@
                                 "id": ""
                             },
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_651bc6fa630fa",
@@ -1303,7 +1332,8 @@
                             },
                             "wpml_cf_preferences": 0,
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_5eaaa742474ae",
@@ -1507,7 +1537,8 @@
                             },
                             "wpml_cf_preferences": 0,
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_5eaaa742474b2",
@@ -1642,7 +1673,8 @@
                                 "id": ""
                             },
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_6560a983f650e",
@@ -1727,7 +1759,8 @@
                                 "id": ""
                             },
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_6560a983f6516",
@@ -1858,7 +1891,8 @@
                                 "id": ""
                             },
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_6560a3369c559",
@@ -2031,7 +2065,8 @@
                                 "id": ""
                             },
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_6560a3369c561",
@@ -2163,7 +2198,8 @@
                             },
                             "wpml_cf_preferences": 0,
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_5eabdc957bce2",
@@ -2372,7 +2408,8 @@
                             },
                             "wpml_cf_preferences": 0,
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_5eabdc957bcea",
@@ -2508,7 +2545,8 @@
                             },
                             "wpml_cf_preferences": 0,
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_5eac2b78ed3c8",
@@ -2627,7 +2665,8 @@
                             },
                             "wpml_cf_preferences": 0,
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_5eac2b79ed3d1",
@@ -2762,7 +2801,8 @@
                                 "id": ""
                             },
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_64919dadb4757",
@@ -2892,7 +2932,8 @@
                                 "id": ""
                             },
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_64919dadb475c",
@@ -3023,7 +3064,8 @@
                                 "id": ""
                             },
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_649192ea5b1c0",
@@ -3137,7 +3179,8 @@
                                 "id": ""
                             },
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_649192ea5b1c5",
@@ -3269,7 +3312,8 @@
                             },
                             "wpml_cf_preferences": 0,
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_5eabe8b23b6da",
@@ -3453,7 +3497,8 @@
                             },
                             "wpml_cf_preferences": 0,
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_5eabe9903b6ea",
@@ -3549,7 +3594,8 @@
                             },
                             "wpml_cf_preferences": 0,
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_5eabe8b23b6e3",
@@ -3685,7 +3731,8 @@
                             },
                             "wpml_cf_preferences": 0,
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_5eabff82f7059",
@@ -3961,7 +4008,8 @@
                             },
                             "wpml_cf_preferences": 0,
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_5eabff82f7065",
@@ -4097,7 +4145,8 @@
                             },
                             "wpml_cf_preferences": 0,
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_5eac2fddeb721",
@@ -4165,7 +4214,8 @@
                             },
                             "wpml_cf_preferences": 0,
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_5eac2fddeb72a",
@@ -4319,7 +4369,8 @@
                             },
                             "wpml_cf_preferences": 0,
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_5eb185b59e9ce",
@@ -4504,7 +4555,8 @@
                             },
                             "wpml_cf_preferences": 0,
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_5eb185b59e9d1",
@@ -4640,7 +4692,8 @@
                             },
                             "wpml_cf_preferences": 0,
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_5eb00a038746c",
@@ -4759,7 +4812,8 @@
                             },
                             "wpml_cf_preferences": 0,
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_5eb00a038746f",
@@ -4894,7 +4948,8 @@
                                 "id": ""
                             },
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_64944d15850cf",
@@ -4931,7 +4986,8 @@
                                 "id": ""
                             },
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_64944d15850d0",
@@ -5016,7 +5072,8 @@
                                 "id": ""
                             },
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_64944d15850d4",
@@ -5201,7 +5258,8 @@
                                 "id": ""
                             },
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_64944d15850d4",
@@ -5332,7 +5390,8 @@
                                 "id": ""
                             },
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_6495962836e8f",
@@ -5413,7 +5472,8 @@
                                 "id": ""
                             },
                             "placement": "top",
-                            "endpoint": 0
+                            "endpoint": 0,
+                            "selected": 0
                         },
                         {
                             "key": "field_6495962836e94",
@@ -5671,5 +5731,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1710949147
+    "modified": 1725430899
 }

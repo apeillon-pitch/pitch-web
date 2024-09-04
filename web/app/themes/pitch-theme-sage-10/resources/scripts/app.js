@@ -39,6 +39,7 @@ const main = async (err) => {
   getSlideshowLogos();
   getSlideshowClients();
   getTestimonialsSlideshow();
+  getMainProjectSlideshow();
   getAchivementsSlideshow();
   gettechnologiesSlideshow();
   getStickyMenu();
@@ -167,6 +168,20 @@ const main = async (err) => {
       autoplay: false,
       autoplaySpeed: 3000,
       pauseOnHover: true,
+    });
+  }
+
+  function getMainProjectSlideshow() {
+    $('.main-project-slideshow').slick({
+      arrows: false,
+      dots: false,
+      infinite: true,
+      speed: 400,
+      fade: true,
+      cssEase: 'linear',
+      autoplay: true,
+      autoplaySpeed: 3000,
+      pauseOnHover: false,
     });
   }
 
