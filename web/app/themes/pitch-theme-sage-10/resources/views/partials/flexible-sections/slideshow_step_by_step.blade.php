@@ -31,11 +31,11 @@
                id="pills-{{ $row }}-{{ $loop->iteration }}" role="tabpanel"
                aria-labelledby="pills-{{ $row }}-{{ $loop->iteration }}-tab"
                tabindex="0">
-            @if($item['introduction'])
+           {{-- @if($item['introduction'])
               <div class="d-block text-center subtitle mb-5">
                 {!! $item['introduction'] !!}
               </div>
-            @endif
+            @endif--}}
             <div class="slideshow">
               @if($item['slideshow'])
                 @foreach($item['slideshow'] as $slide)
