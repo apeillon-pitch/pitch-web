@@ -1,6 +1,3 @@
-
-
-
 <div id="section-{{ $row }}"
      class="section section-cta-style-two {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
   <div class="container">

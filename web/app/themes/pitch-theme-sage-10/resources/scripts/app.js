@@ -40,6 +40,7 @@ const main = async (err) => {
   getTestimonialsSlideshow();
   getMainProjectSlideshow();
   getAchivementsSlideshow();
+  getSlideshowStep1();
   gettechnologiesSlideshow();
   getStickyMenu();
 
@@ -181,6 +182,24 @@ const main = async (err) => {
         arrows: true,
         nextArrow: slickNext,
         prevArrow: slickPrev,
+      });
+    }
+  }
+
+  function getSlideshowStep1() {
+    var $section = $('.slideshow-step-by-step');
+    var $slideshow = $($section).find('.slideshow');
+
+    if (!$slideshow.hasClass('slick-initialized')) {
+      $slideshow.slick({
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        autoplay: false,
+        autoplaySpeed: 800,
+        infinite: false,
+        speed: 1800,
+        arrows: false,
+        dots: true,
       });
     }
   }
