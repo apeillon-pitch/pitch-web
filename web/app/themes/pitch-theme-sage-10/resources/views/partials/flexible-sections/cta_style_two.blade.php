@@ -1,40 +1,4 @@
-<div id="section-{{ $row }}"
-     class="section section-cta-style-two {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
-  <div class="container">
-    @if(!is_page(2000))
-      <div class="row justify-content-center justify-content-lg-start mb-5">
-        <div class="col-11 col-lg-8">
-          <span class="section-title mb-0">Comment ça marche ?</span>
-          <h2 class="subtitle">Quelles sont les étapes pour votre projet ?</h2>
-        </div>
-      </div>
-    @endif
-    <div class="slideshow">
-      <div class="slide">
-        <div class="row">
-          <div class="col-4">
-            <div class="wp-text text-center">
-              <h3>J'ai mon/ma créa !</h3>
-              <a href="">Voir les étapes</a>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="wp-text text-center">
-              <h3>J'ai besoin d'un designer</h3>
-              <a href="">Go to step 2</a>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="wp-text text-center">
-              <h3>Je suis pommé ...</h3>
-              <a href="">Être rappelé asap!</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
 
 
 <div id="section-{{ $row }}"
