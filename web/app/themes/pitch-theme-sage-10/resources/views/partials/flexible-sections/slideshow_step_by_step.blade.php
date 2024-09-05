@@ -2,7 +2,7 @@
      class="section slideshow-step-by-step {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
   <div class="container">
     @if(!is_page(2000))
-      <div class="row justify-content-center mb-2">
+      <div class="row justify-content-center mb-5">
         <div class="col-11 col-lg-8 text-center">
           <span class="section-title mb-0">Comment ça marche ?</span>
           {{--<h2 class="subtitle">Quelles sont les étapes pour votre projet ?</h2>--}}
