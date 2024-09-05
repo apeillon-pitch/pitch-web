@@ -18,9 +18,6 @@
                 @endif
                 @if(is_front_page())
                   <div class="d-none d-md-block mt-3">
-                      {{--<span class="typer"
-                            data-typer="Paris & Nice | Création de site web | Hébergement de site web |"></span>
-                    <span class="typed-cursor"></span>--}}
                     <strong class="text-uppercase place">Paris & Nice</strong>
                   </div>
                 @endif
@@ -35,10 +32,6 @@
                   <div class="row">
                     <div class="col-12 col-lg-7 mt-3">
                       {{gravity_form(2, false, false, false, false, true, -1 )}}
-                      {{--<a href="{{ $slide['link']['url'] }}" aria-label="{!! $slide['link']['title'] !!}"
-                         class="cta">
-                        <span>{!! $slide['link']['title'] !!}</span>
-                      </a>--}}
                     </div>
                   </div>
 
