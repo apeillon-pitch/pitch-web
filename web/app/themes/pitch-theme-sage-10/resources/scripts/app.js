@@ -187,6 +187,12 @@ const main = async (err) => {
   }
 
   function getSlideshowStep1() {
+
+    $('.slideshow-step-by-step button[data-bs-toggle="pill"]').on('shown.bs.tab', function () {
+      $('.slideshow-step-by-step .slideshow').slick('setPosition');
+    });
+
+
     var $section = $('.slideshow-step-by-step');
     var $slideshow = $($section).find('.slideshow');
 

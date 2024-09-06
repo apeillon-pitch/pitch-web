@@ -11,7 +11,7 @@
     @endif
 
     @if($section['item_repeater'])
-      {{--<ul class="nav nav-pills justify-content-center mb-4" id="pills-tab" role="tablist">
+      <ul class="nav nav-pills justify-content-center mb-4" id="pills-tab" role="tablist">
         @foreach($section['item_repeater'] as $item)
           <li class="nav-item" role="presentation">
             <button class="nav-link {{ $loop->first === true ? 'active' : '' }}"
@@ -23,7 +23,7 @@
             </button>
           </li>
         @endforeach
-      </ul>--}}
+      </ul>
 
       <div class="tab-content" id="pills-{{ $row }}-tabContent">
         @foreach($section['item_repeater'] as $item)
@@ -31,11 +31,11 @@
                id="pills-{{ $row }}-{{ $loop->iteration }}" role="tabpanel"
                aria-labelledby="pills-{{ $row }}-{{ $loop->iteration }}-tab"
                tabindex="0">
-           {{-- @if($item['introduction'])
+           @if($item['introduction'])
               <div class="d-block text-center subtitle mb-5">
                 {!! $item['introduction'] !!}
               </div>
-            @endif--}}
+            @endif
             <div class="slideshow">
               @if($item['slideshow'])
                 @foreach($item['slideshow'] as $slide)
