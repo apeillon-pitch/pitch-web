@@ -25,7 +25,7 @@
                       <div class="d-flex flex-column text-end ms-5">
                         <h2 class="title">{!! $project['title'] !!}</h2>
                         @if($project['excerpt'])
-                          <p class="mb-0">{!! $project['excerpt'] !!}</p>
+                          <p class="mb-0 ps-5">{!! $project['excerpt'] !!}</p>
                         @endif
                       </div>
                     </div>
