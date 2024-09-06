@@ -4,11 +4,8 @@
   <div class="section pt pb">
     <div class="container">
       @if (! have_posts())
-        <x-alert type="warning">
-          {!! __('Sorry, but the page you are trying to view does not exist.', 'sage') !!}
-        </x-alert>
-
-        {!! get_search_form(false) !!}
+       <h1>Cette page d'existe plus :(</h1>
+        <a href="{{ home_url() }}" aria-label="Retour à l'accueil" class="btn btn-primary">Retour à l'accueil</a>
       @endif
     </div>
   </div>
