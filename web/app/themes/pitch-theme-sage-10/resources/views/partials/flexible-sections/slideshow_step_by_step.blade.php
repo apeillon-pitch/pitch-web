@@ -1,5 +1,5 @@
 <div id="section-{{ $row }}"
-     class="section slideshow-step-by-step {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
+     class="section slideshow-step-by-step overflow-hidden {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
   <div class="container">
     @if(!is_page(2000))
       <div class="row justify-content-center mb-5">
