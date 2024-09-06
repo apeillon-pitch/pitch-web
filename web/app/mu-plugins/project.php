@@ -127,6 +127,7 @@ function get_project_data($args)
             $testimony_data[] = array(
                 'title' => get_the_title(),
                 'logo' => get_field('logo'),
+                'excerpt' => get_the_excerpt(),
                 'thumbnail' => get_the_post_thumbnail_url(),
                 'permalink' => get_the_permalink(),
             );

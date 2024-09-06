@@ -10,20 +10,32 @@
           @endif
           <div class="row g-5">
             @foreach($projects as $project)
-              <div class="col-4">
+              <div class="col-6">
                 <a href="{{ $project['permalink'] }}" aria-label="{!! $project['title'] !!}">
-                  <div class="card">
+                  <div class="card text-start">
                     <div class="thumbnail">
                       <img src="{{ $project['thumbnail'] }}" alt="{!! $project['title'] !!}" class="">
                     </div>
-                    <h2 class="title mt-2">{!! $project['title'] !!}</h2>
+                    <div class="d-flex flex-row align-items-center justify-content-between mt-4">
+                      @if($project['logo'])
+                        <div class="logo">
+                          <img src="{{ $project['logo']['url'] }}" alt="{!! $project['title'] !!}" class="">
+                        </div>
+                      @endif
+                      <div class="d-flex flex-column text-end ms-5">
+                        <h2 class="title">{!! $project['title'] !!}</h2>
+                        @if($project['excerpt'])
+                          <p class="mb-0">{!! $project['excerpt'] !!}</p>
+                        @endif
+                      </div>
+                    </div>
                   </div>
                 </a>
               </div>
             @endforeach
           </div>
           @if($section['link'])
-            <div class="col-11 text-center mt-5">
+            <div class="col-11 mt-5">
               <a href="{{ $section['link']['url'] }}" class="cta mt-5"
                  target="{{ $section['link']['target'] }}">{!! $section['link']['title'] !!}</a>
             </div>
