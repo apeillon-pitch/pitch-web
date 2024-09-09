@@ -32,7 +32,7 @@
                aria-labelledby="pills-{{ $row }}-{{ $loop->iteration }}-tab"
                tabindex="0">
            @if($item['introduction'])
-              <div class="d-block text-center subtitle mb-5">
+              <div class="d-block text-center wp-introduction mb-5">
                 {!! $item['introduction'] !!}
               </div>
             @endif
