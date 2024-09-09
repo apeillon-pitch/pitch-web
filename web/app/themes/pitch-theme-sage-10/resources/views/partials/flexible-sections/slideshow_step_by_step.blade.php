@@ -18,7 +18,7 @@
                     id="pills-{{ $row }}-{{ $loop->iteration }}-tab" data-bs-toggle="pill"
                     data-bs-target="#pills-{{ $row }}-{{ $loop->iteration }}"
                     type="button" role="tab" aria-controls="pills-{{ $row }}-{{ $loop->iteration }}"
-                    aria-selected="{{ $loop->first === true ? true : false }}">
+                    aria-selected="{{ $loop->first == true ? true : false }}">
               {!! $item['title']!!}
             </button>
           </li>
