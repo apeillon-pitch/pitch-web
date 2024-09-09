@@ -1,14 +1,14 @@
 {
   "app": {
     "js": [
-      "js/runtime.0c5a3d.js",
+      "js/runtime.814276.js",
       "js/575.4b71f1.js",
-      "js/945.9a4ec0.js",
+      "js/945.c4fc79.js",
       "js/459.bb6978.js",
-      "js/app.773b1e.js"
+      "js/app.a18a47.js"
     ],
     "css": [
-      "css/app.cdc09f.css"
+      "css/app.124354.css"
     ],
     "dependencies": [
       "jquery"
@@ -16,7 +16,7 @@
   },
   "menu": {
     "js": [
-      "js/runtime.0c5a3d.js",
+      "js/runtime.814276.js",
       "js/459.bb6978.js",
       "js/menu.855400.js"
     ],
@@ -24,14 +24,14 @@
   },
   "typed": {
     "js": [
-      "js/runtime.0c5a3d.js",
+      "js/runtime.814276.js",
       "js/typed.3ef22d.js"
     ],
     "dependencies": []
   },
   "editor": {
     "js": [
-      "js/runtime.0c5a3d.js",
+      "js/runtime.814276.js",
       "js/575.4b71f1.js",
       "js/editor.ca0ffb.js"
     ],

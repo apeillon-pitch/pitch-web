@@ -8,8 +8,8 @@ import 'select2';
  * Addons
  */
 import 'slick-carousel/slick/slick.min';
-import AOS from 'aos';
 
+/* import AOS from 'aos';
 AOS.init({
   duration: 300,
   startEvent: 'load',
@@ -22,7 +22,7 @@ AOS.init({
   once: true, // whether animation should happen only once - while scrolling down
   mirror: false, // whether elements should animate out while scrolling past them
   disable: 'mobile',
-})
+}) */
 
 /**
  * app.main
