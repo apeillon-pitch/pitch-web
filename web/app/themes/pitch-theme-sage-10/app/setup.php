@@ -15,7 +15,6 @@ use function Roots\bundle;
  */
 add_action('wp_enqueue_scripts', function () {
     bundle('menu')->enqueue();
-    bundle('typed')->enqueue();
     bundle('app')->enqueue();
 }, 100);
 

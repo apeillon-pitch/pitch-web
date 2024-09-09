@@ -8,7 +8,7 @@
       "js/app.a18a47.js"
     ],
     "css": [
-      "css/app.124354.css"
+      "css/app.70fd27.css"
     ],
     "dependencies": [
       "jquery"
@@ -19,13 +19,6 @@
       "js/runtime.814276.js",
       "js/459.bb6978.js",
       "js/menu.855400.js"
-    ],
-    "dependencies": []
-  },
-  "typed": {
-    "js": [
-      "js/runtime.814276.js",
-      "js/typed.3ef22d.js"
     ],
     "dependencies": []
   },
