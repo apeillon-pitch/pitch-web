@@ -1,6 +1,8 @@
 import {domReady} from '@roots/sage/client';
 import $ from 'jquery';
-import 'bootstrap';
+import Collapse from 'bootstrap/js/dist/collapse'
+import Dropdown from 'bootstrap/js/dist/dropdown'
+import Tab from 'bootstrap/js/dist/tab'
 import './slide-menu';
 import 'select2';
 
