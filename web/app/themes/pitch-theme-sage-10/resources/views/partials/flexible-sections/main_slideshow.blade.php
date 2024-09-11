@@ -16,11 +16,11 @@
                     {!! $slide['text'] !!}
                   </h2>
                 @endif
-                @if(is_front_page())
+                {{--@if(is_front_page())
                   <div class="d-none d-md-block mt-3">
                     <strong class="text-uppercase place">Paris & Nice</strong>
                   </div>
-                @endif
+                @endif--}}
                 @if ($slide['introduction'])
                   <div class="row mt-4">
                     <div class="col-12 col-lg-9">
