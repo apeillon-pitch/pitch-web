@@ -36,7 +36,7 @@
         </div>
       @endif
       <div
-        class="col-11 col-lg-6 @php echo $section['img_size'] == 'container' ? '' : 'ps-5 pt-lg-5' @endphp @php echo $section['img_position'] == 'right' ? 'order-2 order-lg-1 pe-lg-5' : 'order-2 ps-lg-5' @endphp">
+        class="col-11 col-lg-6 @php echo $section['img_size'] != 'full' ? '' : 'ps-5 pt-lg-5' @endphp @php echo $section['img_position'] == 'right' ? 'order-2 order-lg-1 pe-lg-5' : 'order-2 ps-lg-5' @endphp">
         <div class="row">
           <div class="col-12">
             @if ( $section['section_title'])
