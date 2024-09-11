@@ -31,7 +31,7 @@
               </div>
             </figure>
           @else
-            {!! wp_get_attachment_image( $section['image']['id'], 'medium_large','', array( "class" => "img-fluid")) !!}
+            {!! wp_get_attachment_image( $section['image']['id'], 'medium_large','', array( "class" => "d-block mx-auto img-fluid")) !!}
           @endif
         </div>
       @endif
