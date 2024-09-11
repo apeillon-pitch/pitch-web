@@ -693,7 +693,8 @@
                             },
                             "choices": {
                                 "container": "Contenue",
-                                "full": "Non contenue"
+                                "full": "Non contenue",
+                                "natural": "Naturelle"
                             },
                             "default_value": "",
                             "return_format": "value",
@@ -6060,5 +6061,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1725540575
+    "modified": 1726036643
 }
