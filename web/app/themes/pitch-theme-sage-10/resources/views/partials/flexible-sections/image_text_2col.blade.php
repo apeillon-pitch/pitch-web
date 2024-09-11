@@ -17,10 +17,10 @@
   <div class="container" data-aos="fade-up">
     <div
       class="row align-items-center justify-content-center @php echo $section['img_size'] == 'container' ? '' : 'justify-content-lg-end' @endphp">
-      @if($section['img_size'] == 'full')
+      @if($section['img_size'] != 'full')
         <div
           class="col-12 col-lg-6 mb-5 mb-lg-0 @php echo $section['img_position'] == 'right' ? 'order-1 order-lg-2 ps-lg-5' : 'order-1 pe-lg-5' @endphp">
-          @if($section['img_size'] != 'container')
+          @if($section['img_size'] == 'container')
             {!! wp_get_attachment_image( $section['image']['id'], 'medium_large','', array( "class" => "d-block d-lg-none")) !!}
             <figure class="d-none d-lg-block mb-0">
               <div class="image-wrapper @php echo empty($section['image_hover']) ? "" : "hover" @endphp">
