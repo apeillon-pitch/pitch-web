@@ -6,6 +6,12 @@
     @include media-breakpoint-down(lg) {
       border-radius: 1.25rem;
     }
+
+    &.b-radius {
+      @include media-breakpoint-up(lg) {
+        border-radius: 1.25rem;
+      }
+    }
   }
 
   a.cta {
