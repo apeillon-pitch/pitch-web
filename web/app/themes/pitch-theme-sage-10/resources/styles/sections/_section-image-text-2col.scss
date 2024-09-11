@@ -14,6 +14,11 @@
     }
   }
 
+  .b-radius {
+    overflow: hidden;
+    border-radius: 1.25rem;
+  }
+
   a.cta {
     position: relative;
     padding-left: 30px;
@@ -157,7 +162,7 @@
         transition: all 0.3s ease-in-out;
 
         @include media-breakpoint-down(lg) {
-         display: none !important;
+          display: none !important;
         }
       }
     }
