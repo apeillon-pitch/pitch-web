@@ -7,9 +7,15 @@
             @if ($slide['acf_fc_layout'] == 'reference_type')
               <div class="wrapper-text fadeInLeft">
                 @if ($slide['title'])
-                  <h1 class="overtitle mb-2">
-                    {!! $slide['title'] !!}
-                  </h1>
+                  <div class="d-flex flex-row align-items-center mb-2">
+                    @if(is_front_page())
+                      <img src="@asset('images/wordpress-simple-brands-solid.svg')" width="20px" height="20px"
+                           alt="Wordpress" class="me-2">
+                    @endif
+                    <h1 class="overtitle mb-0">
+                      {!! $slide['title'] !!}
+                    </h1>
+                  </div>
                 @endif
                 @if ($slide['text'])
                   <h2 class="title">
