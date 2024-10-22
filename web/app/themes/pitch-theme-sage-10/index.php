@@ -37,8 +37,9 @@
 $splash_colors = ['#231f20', '#fff'];
 $random_splash_color = $splash_colors[array_rand($splash_colors)];
 ?>
+
 <div id="splash-screen" style="background-color: <?php echo esc_attr($random_splash_color); ?>">
-  <p style="font-family:sans-serif;color:#fffbf1;margin-top:90px">
+  <p class="d-flex flex-column justify-content-center align-items-center" style="margin-top:90px; gap:50px;">
     <?php if($random_splash_color == '#fff') { ?>
     <img src="<?php echo get_template_directory_uri(); ?>/resources/images/lepitch.svg"
          class="logo" alt="Agence Wordpress Paris et Nice" width="200px" height="auto" style="max-width: 200px">
@@ -46,6 +47,12 @@ $random_splash_color = $splash_colors[array_rand($splash_colors)];
     <img src="<?php echo get_template_directory_uri(); ?>/resources/images/pitch-white.svg"
          class="logo" alt="Agence Wordpress Paris et Nice" width="200px" height="auto" style="max-width: 200px">
     <?php } ?>
+    <?php if($random_splash_color == '#fff') {
+      $color = '#231f20';
+    } else {
+      $color = 'white';
+    }?>
+    <stong style="font-weight:700; font-size:40px; color:<?php echo $color; ?>">Agence WordPress</stong>
   </p>
 </div>
 <?php wp_body_open(); ?>
