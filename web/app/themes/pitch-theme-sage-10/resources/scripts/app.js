@@ -6,6 +6,7 @@ import Modal from 'bootstrap/js/dist/modal'
 import Tab from 'bootstrap/js/dist/tab'
 import './slide-menu';
 import 'select2';
+import './preloader';
 
 /**
  * Addons

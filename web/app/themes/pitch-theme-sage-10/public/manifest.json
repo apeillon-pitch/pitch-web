@@ -1,6 +1,6 @@
 {
-  "app.css": "css/app.cca8dd.css",
-  "app.js": "js/app.a54050.js",
+  "app.css": "css/app.dc6b36.css",
+  "app.js": "js/app.a8122b.js",
   "menu.js": "js/menu.855400.js",
   "editor.css": "css/editor.31d6cf.css",
   "editor.js": "js/editor.ca0ffb.js",
@@ -10,6 +10,7 @@
   "js/459.bb6978.js": "js/459.bb6978.js",
   "images/lepitch.svg": "images/lepitch.349e78.svg",
   "images/lepitch-title.svg": "images/lepitch-title.898ec6.svg",
+  "images/lepitch-sigle-white.svg": "images/lepitch-sigle-white.ebba98.svg",
   "images/lepitch-sigle.svg": "images/lepitch-sigle.ebba98.svg",
   "images/cursor-hover.svg": "images/cursor-hover.54d0a4.svg",
   "images/cursor.svg": "images/cursor.16e3d8.svg",
