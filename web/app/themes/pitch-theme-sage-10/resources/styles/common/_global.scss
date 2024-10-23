@@ -22,6 +22,16 @@ body {
   left: 0;
   right: 0;
   z-index: 999999;
+
+ strong {
+   font-family: $domine;
+   font-size: 40px;
+   font-weight: 900;
+
+   @include media-breakpoint-down(sm) {
+     font-size: 25px;
+   }
+ }
 }
 
 h1,

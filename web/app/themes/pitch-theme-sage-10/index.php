@@ -53,7 +53,7 @@ $random_splash_color = $splash_colors[array_rand($splash_colors)];
     } else {
       $color = 'white';
     }?>
-    <stong style="font-weight:700; font-size:40px; color:<?php echo $color; ?>">Agence WordPress</stong>
+    <strong style="color:<?php echo $color; ?>">Agence WordPress</strong>
   </p>
 </div>
 <?php wp_body_open(); ?>

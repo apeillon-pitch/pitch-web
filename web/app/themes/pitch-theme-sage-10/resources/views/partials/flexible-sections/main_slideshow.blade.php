@@ -23,11 +23,6 @@
                     {!! $slide['text'] !!}
                   </h2>
                 @endif
-                {{--@if(is_front_page())
-                  <div class="d-none d-md-block mt-3">
-                    <strong class="text-uppercase place">Paris & Nice</strong>
-                  </div>
-                @endif--}}
                 @if ($slide['introduction'])
                   <div class="row @php echo is_front_page() ? '' : 'justify-content-center' @endphp">
                     <div class="col-12 col-lg-9">
@@ -38,7 +33,7 @@
                 @if(!is_page(1986))
                   <div class="row @php echo is_front_page() ? '' : 'justify-content-center' @endphp">
                     <div class="col-12 col-lg-7 mt-3">
-                      {{gravity_form(2, false, false, false, false, true, -1 )}}
+                      {{ gravity_form(2, false, false, false, false, true, -1 )}}
                     </div>
                   </div>
                 @else
