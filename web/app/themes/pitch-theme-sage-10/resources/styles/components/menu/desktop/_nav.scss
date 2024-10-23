@@ -10,11 +10,13 @@ nav.navbar {
       padding: 8px 10px;
 
       a {
-        color: black;
+        position: relative;
+        color: white;
 
         &.dropdown-toggle {
           &::after {
-            content: url("../../../../images/fleche.svg");
+            content: none;
+            // content: url("../../../../images/fleche-white.svg");
             position: absolute;
             border: 0;
             margin-left: 0;
@@ -32,7 +34,8 @@ nav.navbar {
 
         &.dropdown-toggle.show {
           &::after {
-            content: url("../../../../images/fleche.svg");
+            content: none;
+            // content: url("../../../../images/fleche-white.svg");
             top: 59%;
             transform: translateY(-50%) rotate(180deg);
 
@@ -44,11 +47,11 @@ nav.navbar {
 
         &::before {
           content: "";
-          position: relative;
+          position: absolute;
           display: block;
           width: 0;
           height: 2px;
-          bottom: -25px;
+          bottom: 9px;
           background-color: $blue_pitch;
           transition: all 0.4s;
 
@@ -60,7 +63,7 @@ nav.navbar {
         &.active:not(._mPS2id),
         &._mPS2id.mPS2id-highlight.active {
           &::before {
-            width: 100%;
+            width: calc(100% - 16px);
 
             @include media-breakpoint-down(xl) {
               content: none;
@@ -71,7 +74,7 @@ nav.navbar {
         &.dropdown-toggle.show,
         &:hover {
           &::before {
-            width: 100%;
+            width: calc(100% - 16px);
             transition: all 0.4s;
 
             @include media-breakpoint-down(xl) {
@@ -120,7 +123,7 @@ nav.navbar {
         a {
           &.active {
             &::before {
-              width: 0;
+              width: 20px;
             }
           }
 
@@ -162,14 +165,14 @@ nav.navbar {
           }
 
           a {
-            color: black;
+            color: $black_pitch !important;
             font-size: 0.875rem;
             font-weight: 100;
             line-height: 1.6rem;
             background-color: white !important;
 
             &:hover {
-              color: $blue_pitch;
+              color: $blue_pitch !important;
               transition: all ease-in-out 0.2s;
             }
 
@@ -200,5 +203,77 @@ nav.navbar {
     div {
       box-shadow: 0 2px 10px 0 rgb(7 7 7 / 15%);
     }
+  }
+}
+
+.nav-visible {
+  #o-wrapper {
+    ul.navbar-nav {
+      li {
+        a {
+          color: $black_pitch;
+
+          &.dropdown-toggle {
+            &::after {
+              content: none;
+              // content: url("../../../../images/fleche.svg");
+            }
+          }
+        }
+      }
+    }
+
+    a.cta:hover {
+      border-color: $black_pitch;
+    }
+  }
+
+  &.nav-transparent {
+    #o-wrapper {
+      ul.navbar-nav {
+        li {
+          a {
+            color: white;
+
+            &.dropdown-toggle {
+              &::after {
+                content: none;
+                // content: url("../../../../images/fleche-white.svg");
+              }
+            }
+          }
+        }
+      }
+
+      a.cta:hover {
+        border-color: $black_pitch;
+      }
+    }
+  }
+}
+
+.page.page-id-907,
+.page-id-630,
+.blog,
+.single {
+  #o-wrapper {
+    ul.navbar-nav {
+      li {
+        a {
+          color: $black_pitch !important;
+
+          &.dropdown-toggle {
+            &::after {
+              content: none;
+              // content: url("../../../../images/fleche.svg") !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  a.cta:hover {
+    border-color: #2ba1d0;
   }
 }

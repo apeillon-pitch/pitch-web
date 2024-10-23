@@ -159,7 +159,8 @@ const main = async (err) => {
   function getMainProjectSlideshow() {
     $('.main-project-slideshow').slick({
       arrows: false,
-      dots: false,
+      dots: true,
+      fade: true,
       infinite: true,
       speed: 800,
       autoplay: true,

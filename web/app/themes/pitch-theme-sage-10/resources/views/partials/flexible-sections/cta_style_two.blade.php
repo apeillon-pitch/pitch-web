@@ -2,9 +2,9 @@
      class="section section-cta-style-two {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
   <div class="container">
     @if(!is_page(2000))
-      <div class="row justify-content-center justify-content-lg-start mb-5">
-        <div class="col-11 col-lg-8">
-          <span class="section-title mb-0">Ce qu'on aime ...</span>
+      <div class="row mb-5 pb-4">
+        <div class="col-12 text-center">
+          <span class="section-title mb-0">Nos expertises</span>
           <h2 class="subtitle">vous accompagnez à toutes les étapes de votre projet</h2>
         </div>
       </div>

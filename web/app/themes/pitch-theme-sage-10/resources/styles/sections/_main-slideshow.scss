@@ -1,11 +1,43 @@
 .main-slideshow {
   height: 100vh;
   min-height: 942px;
-  padding: 150px 0 40px;
-  background: rgb(255, 255, 255);
+  color: white;
+  padding: 150px 0 0;
+  background-color: $blue_pitch;
+
+  /* background: rgb(255, 255, 255);
   background: linear-gradient(342deg, rgba(255, 255, 255, 100%) 0%, rgba(255, 255, 255, 100%) 65%, rgba(0, 210, 255, 50%) 100%);
   background-size: 100%;
   background-repeat: no-repeat;
+*/
+
+  .slick-dots {
+    bottom: -50px;
+
+    li {
+      opacity: 0.55 !important;
+      width: 16px;
+      height: 16px;
+      border: 1px solid;
+      border-radius: 100%;
+
+      &.slick-active {
+        opacity: 1 !important;
+      }
+
+      button {
+        padding: 0;
+
+        &::before {
+          opacity: 1 !important;
+          color: white;
+          top: 54%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+  }
 
   #gform_wrapper_2 {
     form {
@@ -23,7 +55,7 @@
 
         input[type="text"] {
           padding: 20px 155px 20px 20px;
-          background-color: #f7f0f0;
+          background-color: white;
         }
 
         #field_submit {
@@ -156,6 +188,7 @@
   }
 
   .wrapper-text {
+    gap: 28px;
     font-weight: 300;
     z-index: 888;
 
@@ -176,18 +209,23 @@
     }
 
     .title {
-      font-size: 70px;
-      font-weight: 700;
-      line-height: 1;
+      font-family: $domine;
+      font-size: 50px;
+      font-weight: 900;
+      letter-spacing: 1.5px;
 
       em {
         font-style: normal;
-        animation: gradient 6s linear infinite;
-        background-image: linear-gradient(140deg, #00d2ff, #2ba1d0, #00d2ff, #05f);
-        background-size: 400% 400%;
-        -webkit-text-fill-color: #0000;
-        -webkit-background-clip: text;
       }
+
+      /* em {
+         font-style: normal;
+         animation: gradient 6s linear infinite;
+         background-image: linear-gradient(140deg, #00d2ff, #2ba1d0, #00d2ff, #05f);
+         background-size: 400% 400%;
+         -webkit-text-fill-color: #0000;
+         -webkit-background-clip: text;
+       } */
 
       span {
         font-size: 5px;
@@ -228,6 +266,23 @@
       @include media-breakpoint-down(lg) {
         margin: 1rem auto 0;
         text-align: center;
+      }
+    }
+  }
+
+  &.small {
+    height: inherit;
+    min-height: inherit;
+
+    .wrapper-text {
+      padding-bottom: 50px;
+    }
+
+    #gform_wrapper_2 {
+      form {
+        .gform_body {
+          width: inherit;
+        }
       }
     }
   }
@@ -299,10 +354,26 @@
   }
 }
 
+.wp-reviews {
+  figure {
+    padding: 4px;
+    border-radius: 16px;
+    background-color: white;
+  }
+}
+
 .wp-slideshow-logo {
   width: 100%;
-  height: 143.59px;
-  margin-top: 120px;
+  margin-top: 0;
+  padding: 40px 0;
+  color: $black_pitch;
+  background-color: white;
+
+  .slideshow-logo {
+    .slick-list {
+      overflow: visible;
+    }
+  }
 
   .slide {
     figure {

@@ -1,6 +1,6 @@
 <div class="container">
   @if($section['section_title'])
-    <h2 class="text-center">{!! $section['section_title'] !!}</h2>
+    <h2 class="section-title text-center">{!! $section['section_title'] !!}</h2>
   @endif
 </div>
 <div

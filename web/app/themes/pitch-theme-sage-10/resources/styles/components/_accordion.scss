@@ -1,15 +1,23 @@
 .section-faq {
   .accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
     .accordion-item {
       margin-bottom: 0;
-      border: 0;
+      border: 1px solid $black_pitch;
+      border-radius: 1rem;
+      overflow: hidden;
 
       &:last-child {
         margin-bottom: 0;
       }
 
       .accordion-header {
-        border-radius: 1rem;
+        border: 0;
+        border-radius: 0;
+        border-bottom: 0;
 
         &:hover {
           background-color: white;
@@ -20,16 +28,14 @@
           display: flex;
           font-weight: 700;
           align-items: center;
-          border-radius: 1rem;
           box-shadow: none;
-          padding-left: 40px;
+          border: 0;
+          border-radius: 0;
+          margin: 0;
+          padding: 25px;
 
-          &::before {
-            content: "+";
-            display: inline-block;
-            position: absolute;
-            left: 20px;
-            font-size: 24px;
+          &::after {
+            transform: rotate(-90deg);
           }
 
           &:focus {
@@ -37,12 +43,18 @@
           }
 
           &:not(.collapsed) {
-            color: $blue_pitch;
-            background-color: white;
+            color: white;
+            background-color: $black_pitch;
 
             &:hover {
-              color: black;
-              background-color: white;
+              color: white;
+              background-color: $black_pitch;
+            }
+          }
+
+          &[aria-expanded="true"] {
+            &::after {
+              transform: rotate(0deg);
             }
           }
 
@@ -53,27 +65,13 @@
             &.collapsing,
             &.collapse,
             &[aria-expanded="true"] {
-              background-color: white;
+              color: white;
+              background-color: $black_pitch;
 
-              &::before {
-                content: "-";
-                transition: all 0.3s ease-in-out;
+              &::after {
+                transform: rotate(0deg);
               }
             }
-          }
-
-          &[aria-expanded="true"] {
-            &::before {
-              content: "-";
-            }
-          }
-
-          &::after {
-            content: none;
-            padding: 1rem;
-            border-radius: 0.5rem;
-            background-position: center;
-            background-color: white;
           }
         }
       }
@@ -83,8 +81,9 @@
           font-size: 14px;
           font-weight: 100;
           line-height: 1.6rem;
-          background: #f7f0f0;
+          background: white;
           padding: 30px;
+          border: 0;
 
           a {
             color: black;

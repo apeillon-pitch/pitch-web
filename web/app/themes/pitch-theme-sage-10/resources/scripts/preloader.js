@@ -29,7 +29,7 @@
     window.isPageReady = isPageReady
     const splashScreen = document.querySelector('#splash-screen')
     if (splashScreen) {
-      const transitionDelay = 400
+      const transitionDelay = 1000
       const transitionDuration = 700
       const direction = getRandomDirection()
 

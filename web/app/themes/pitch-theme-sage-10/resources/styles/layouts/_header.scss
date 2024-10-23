@@ -8,6 +8,13 @@
   transition: all ease 0.6s;
   background-color: transparent;
 
+  .logo {
+    width: 55px;
+    height: 55px;
+    min-width: 55px;
+    min-height: 55px;
+  }
+
   a.cta {
     padding: 8px 20px !important;
   }
@@ -17,7 +24,7 @@
   }
 
   a.link {
-    color: $blue_pitch;
+    color: white;
   }
 }
 
@@ -38,12 +45,20 @@
     background-color: white;
     transition: all ease 0.6s;
     transform: translateY(0);
+
+    a.link {
+      color: $blue_pitch;
+    }
   }
 
   &.nav-transparent {
     #o-wrapper {
       box-shadow: none;
       background-color: transparent;
+
+      a.link {
+        color: white;
+      }
     }
   }
 }

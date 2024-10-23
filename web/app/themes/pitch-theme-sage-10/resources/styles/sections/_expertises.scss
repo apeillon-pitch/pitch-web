@@ -5,6 +5,10 @@
     line-height: 1.8;
   }
 
+  h3:not(.section-title) {
+    font-weight: 700;
+  }
+
   img,
   picture {
     &.out {

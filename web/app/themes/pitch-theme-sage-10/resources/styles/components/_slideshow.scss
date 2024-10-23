@@ -1,9 +1,33 @@
-.slick-track {
-  display: flex !important;
-}
+.section {
+  .slick-track {
+    display: flex !important;
+  }
 
-.slick-slide {
-  height: inherit !important;
+  .slick-slide {
+    height: inherit !important;
+  }
+
+  .slick-dotted.slick-slider {
+    margin-bottom: 0;
+  }
+
+  .slick-dots li:only-child {
+    display: none !important;
+  }
+
+  .slideshow:not(.slick-initialized) {
+    visibility: hidden;
+  }
+
+  .slideshow.slick-initialized {
+    visibility: visible;
+  }
+
+  .slick-arrow {
+    &.slick-disabled {
+      opacity: 0 !important;
+    }
+  }
 }
 
 slideshow-logo,
