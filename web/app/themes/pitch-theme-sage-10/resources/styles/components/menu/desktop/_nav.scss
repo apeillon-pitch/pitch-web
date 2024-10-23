@@ -52,7 +52,7 @@ nav.navbar {
           width: 0;
           height: 2px;
           bottom: 9px;
-          background-color: $blue_pitch;
+          background-color: white;
           transition: all 0.4s;
 
           @include media-breakpoint-down(xl) {
@@ -90,6 +90,14 @@ nav.navbar {
             @include media-breakpoint-down(xl) {
               content: none;
             }
+          }
+        }
+
+        &.active {
+          color: white;
+
+          &::before {
+            background-color: white;
           }
         }
 
@@ -213,6 +221,14 @@ nav.navbar {
         a {
           color: $black_pitch;
 
+          &.active {
+            color: $blue_pitch;
+
+            &::before {
+              content: none !important;
+            }
+          }
+
           &.dropdown-toggle {
             &::after {
               content: none;
@@ -234,6 +250,15 @@ nav.navbar {
         li {
           a {
             color: white;
+
+            &.active {
+              color: white;
+
+              &::before {
+                content: "" !important;
+                background-color: white;
+              }
+            }
 
             &.dropdown-toggle {
               &::after {
@@ -261,6 +286,14 @@ nav.navbar {
       li {
         a {
           color: $black_pitch !important;
+
+          &.active {
+            color: $blue_pitch;
+
+            &::before {
+             content: none !important;
+            }
+          }
 
           &.dropdown-toggle {
             &::after {
