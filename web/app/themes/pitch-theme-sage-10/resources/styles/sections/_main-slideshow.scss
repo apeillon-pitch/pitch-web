@@ -45,7 +45,7 @@
         position: relative;
         width: 420px;
 
-        @include media-breakpoint-down(sm) {
+        @include media-breakpoint-down(md) {
           width: 100%;
         }
 

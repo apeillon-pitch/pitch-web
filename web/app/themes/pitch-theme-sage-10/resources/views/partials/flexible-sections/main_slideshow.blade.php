@@ -51,7 +51,7 @@
                     </div>
                   </div>
                 @endif
-                <div class="d-flex flex-row align-items-center @php echo is_front_page() ? '' : 'justify-content-center' @endphp wp-reviews">
+                <div class="d-flex flex-row align-items-center justify-content-center @php echo is_front_page() ? 'justify-content-lg-start' : '' @endphp wp-reviews">
                   <img src="@asset('images/star-sharp-solid.svg')" width="16" height="auto"
                        alt="Star" class="me-1">
                   <img src="@asset('images/star-sharp-solid.svg')" width="16" height="auto"
