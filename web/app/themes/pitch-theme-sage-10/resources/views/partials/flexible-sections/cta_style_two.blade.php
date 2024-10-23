@@ -1,5 +1,5 @@
 <div id="section-{{ $row }}"
-     class="section section-cta-style-two {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
+     class="section section-cta-style-two section-bg-color {!! $section['padding_top'] !!} {!! $section['padding_bottom'] !!} {!! $section['margin_top'] !!} {!! $section['margin_bottom'] !!}">
   <div class="container">
     @if(!is_page(2000))
       <div class="row mb-5 pb-4">
@@ -13,16 +13,16 @@
       <div class="row">
         @foreach($section['item_repeater'] as $item)
           <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="card text-center">
+            <div class="card d-flex flex-column justify-content-between text-center">
               @if($item['picto'])
                 <img src="{{ $item['picto']['url'] }}" class="img-fluid d-block mx-auto"
                      alt="Conception web" width="82px" height="82px">
               @endif
               @if($item['title'])
-                <h3>{!! $item['title'] !!}</h3>
+                <h3 class="mb-0">{!! $item['title'] !!}</h3>
               @endif
               @if($item['texte'])
-                <p>{!! $item['texte'] !!}</p>
+                <p class="mb-0">{!! $item['texte'] !!}</p>
               @endif
               @if($item['link'])
                 <a href="{!! $item['link']['url'] !!}" class="btn btn-primary mx-auto d-block" aria-label="+">
