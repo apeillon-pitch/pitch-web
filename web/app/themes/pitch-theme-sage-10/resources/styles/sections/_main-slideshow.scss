@@ -233,6 +233,10 @@
         margin-top: -10px;
         color: white;
       }
+
+      @include media-breakpoint-down(sm) {
+        font-size: 40px;
+      }
     }
 
     .place {
