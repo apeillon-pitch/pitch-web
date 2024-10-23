@@ -6,9 +6,9 @@
           class="row justify-content-center @php echo is_front_page() ? 'justify-content-lg-start' : '' @endphp align-items-center h-100">
           <div class="col-11  @php echo is_front_page() ? 'col-lg-7' : 'col-lg-8' @endphp">
             @if ($slide['acf_fc_layout'] == 'reference_type')
-              <div class="wrapper-text d-flex flex-column fadeInLeft">
+              <div class="wrapper-text d-flex flex-column fadeInLeft  @php echo is_front_page() ? 'pb-5 pb-lg-0' : '' @endphp">
                 @if ($slide['title'])
-                  <div class="d-flex flex-row align-items-center @php echo is_front_page() ? '' : 'justify-content-center text-center' @endphp mb-0">
+                  <div class="d-flex flex-row align-items-center @php echo is_front_page() ? 'justify-content-center justify-content-lg-start' : 'justify-content-center text-center' @endphp mb-0">
                     @if(is_front_page())
                       <img src="@asset('images/wordpress-simple-brands-solid.svg')" width="20px" height="20px"
                            alt="Wordpress" class="me-2">
