@@ -35,7 +35,6 @@ const main = async (err) => {
     console.error(err);
   }
 
-  setSelect2();
   dropdownMenu();
   getSlideshowLogos();
   getSlideshowClients();
@@ -45,12 +44,6 @@ const main = async (err) => {
   getSlideshowStep1();
   gettechnologiesSlideshow();
   getStickyMenu();
-
-  function setSelect2() {
-    $('.ginput_container_select select').select2({
-      minimumResultsForSearch: Infinity,
-    });
-  }
 
   function getSlideshowLogos() {
     var slideshowClient = $('.wp-slideshow-logo .slideshow-logo');
