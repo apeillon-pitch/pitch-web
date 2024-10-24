@@ -1,5 +1,4 @@
 import {domReady} from '@roots/sage/client';
-import $ from 'jquery';
 import Collapse from 'bootstrap/js/dist/collapse'
 import Dropdown from 'bootstrap/js/dist/dropdown'
 import Modal from 'bootstrap/js/dist/modal'
