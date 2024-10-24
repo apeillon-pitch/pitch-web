@@ -25,6 +25,17 @@
     })(window, document, 'script', 'dataLayer', 'GTM-PDCV8LKM');</script>
   <!-- End Google Tag Manager -->
   <!-- Event snippet for Page vue conversion page -->
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q0RE2W7WLL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-Q0RE2W7WLL');
+  </script>
+  
   <script>
     gtag('event', 'conversion', {'send_to': 'AW-857100355/7fkgCNrj_-AZEMOg2ZgD'});
   </script>
