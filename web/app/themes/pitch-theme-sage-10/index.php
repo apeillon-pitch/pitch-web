@@ -64,7 +64,7 @@ $splash_titles = ['Agence WordPress', 'Une équipe d\'experts WordPress', '99% d
 $random_splash_title = $splash_titles[array_rand($splash_titles)];
 ?>
 
-<div id="splash-screen" class="d-flex flex-column" style="background-color: <?php echo esc_attr($random_splash_color); ?>">
+<div id="splash-screen" class="d-none d-md-flex flex-column" style="background-color: <?php echo esc_attr($random_splash_color); ?>">
   <div class="lds-ripple">
     <div></div>
     <div></div>
