@@ -59,6 +59,9 @@
 <?php
 $splash_colors = ['#231f20', '#fff'];
 $random_splash_color = $splash_colors[array_rand($splash_colors)];
+
+$splash_titles = ['Agence WordPress', 'Une équipe d\'experts WordPress', '99% de nos projets utilisent le CMS WordPress', '134 projets de refonte WordPress'];
+$random_splash_title = $splash_titles[array_rand($splash_titles)];
 ?>
 
 <div id="splash-screen" class="d-flex flex-column" style="background-color: <?php echo esc_attr($random_splash_color); ?>">
@@ -79,7 +82,7 @@ $random_splash_color = $splash_colors[array_rand($splash_colors)];
     } else {
       $color = 'white';
     } ?>
-  <strong style="color:<?php echo $color; ?>">Agence WordPress</strong>
+  <strong style="color:<?php echo $color; ?>"><?php echo $random_splash_title; ?></strong>
   </p>
 </div>
 <?php wp_body_open(); ?>
