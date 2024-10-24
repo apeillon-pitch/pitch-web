@@ -24,6 +24,11 @@
       f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-PDCV8LKM');</script>
   <!-- End Google Tag Manager -->
+  <!-- Event snippet for Page vue conversion page -->
+  <script>
+    gtag('event', 'conversion', {'send_to': 'AW-857100355/7fkgCNrj_-AZEMOg2ZgD'});
+  </script>
+
   <?php wp_head(); ?>
 </head>
 
