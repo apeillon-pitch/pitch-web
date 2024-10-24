@@ -1,4 +1,10 @@
 .single {
+  h1.entry-title {
+    font-family: $domine;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+  }
+
   article {
     h2,
     h3,
