@@ -3,10 +3,9 @@
 add_filter( 'upload_mimes', 'capitaine_mime_types' );
 add_filter( 'wp_check_filetype_and_ext', 'capitaine_file_types', 10, 4 );
 
-add_action( 'after_setup_theme', 'wpdocs_theme_setup' );
-function wpdocs_theme_setup() {
-    add_image_size( 'category-thumb', 300 ); // 300 pixels wide (and unlimited height)
-    add_image_size( 'homepage-thumb', 220, 180, true ); // (cropped)
+add_action( 'after_setup_theme', 'img_theme_setup' );
+function img_theme_setup() {
+    add_image_size( 'logo-slideshow', 115 ); // 300 pixels wide (and unlimited height)
 }
 
 // Autoriser l'import des fichiers SVG et WEBP
