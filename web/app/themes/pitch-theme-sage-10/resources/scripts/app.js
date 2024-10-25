@@ -11,21 +11,6 @@ import './preloader';
  */
 import 'slick-carousel/slick/slick.min';
 
-/* import AOS from 'aos';
-AOS.init({
-  duration: 300,
-  startEvent: 'load',
-  easing: 'ease-out',
-  offset: 100,
-  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-  debounceDelay: 30, // the delay on debounce used while resizing window (advanced)
-  throttleDelay: 30, // the delay on throttle used while scrolling the page (advanced),
-  once: true, // whether animation should happen only once - while scrolling down
-  mirror: false, // whether elements should animate out while scrolling past them
-  disable: 'mobile',
-}) */
-
 /**
  * app.main
  */
