@@ -39,19 +39,19 @@
                 @endif
                 <div class="d-flex flex-row align-items-center justify-content-center @php echo is_front_page() ? 'justify-content-lg-start' : '' @endphp wp-reviews">
                   <img src="@asset('images/star-sharp-solid.svg')" width="16" height="14.22px"
-                       alt="Star" class="me-1">
+                       alt="Star pour signaler les avis Google" class="me-1">
                   <img src="@asset('images/star-sharp-solid.svg')" width="16" height="14.22px"
-                       alt="Star" class="me-1">
+                       alt="Star pour signaler les avis Google" class="me-1">
                   <img src="@asset('images/star-sharp-solid.svg')" width="16" height="14.22px"
-                       alt="Star" class="me-1">
+                       alt="Star pour signaler les avis Google" class="me-1">
                   <img src="@asset('images/star-sharp-solid.svg')" width="16" height="14.22px"
-                       alt="Star" class="me-1">
+                       alt="Star pour signaler les avis Google" class="me-1">
                   <img src="@asset('images/star-sharp-solid.svg')" width="16" height="14.22px"
-                       alt="Star" class="me-2">
+                       alt="Star pour signaler les avis Google" class="me-2">
                   <span class="me-2">5/5 avis</span>
                   <figure class="mb-0">
                     <img src="@asset('images/google-sigle.png')" width="25px" height="25px"
-                         alt="Google">
+                         alt="Logo Google">
                   </figure>
                 </div>
               </div>
@@ -95,7 +95,7 @@
               @foreach($section['logo_repeater'] as $item)
                 <div class="slide">
                   <figure class="mb-0">
-                    {!! wp_get_attachment_image( $item['logo']['id'], 'thumbnail','', array( "class" => "skip-lazy", "fetchpriority" => "high")) !!}
+                    {!! wp_get_attachment_image( $item['logo']['id'], 'medium','', array( "class" => "skip-lazy", "fetchpriority" => "high")) !!}
                   </figure>
                 </div>
               @endforeach
