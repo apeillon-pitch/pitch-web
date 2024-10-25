@@ -4,6 +4,10 @@ add_filter( 'upload_mimes', 'capitaine_mime_types' );
 add_filter( 'wp_check_filetype_and_ext', 'capitaine_file_types', 10, 4 );
 
 add_action( 'after_setup_theme', 'img_theme_setup' );
+
+add_filter( 'wp_editor_set_quality', function( $arg ) {
+    return 100;
+});
 function img_theme_setup() {
     add_image_size( 'logo-slideshow', 115 ); // 300 pixels wide (and unlimited height)
 }
