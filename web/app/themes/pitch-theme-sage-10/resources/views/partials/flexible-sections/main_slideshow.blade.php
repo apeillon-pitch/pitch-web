@@ -50,7 +50,7 @@
                        alt="Star" class="me-2">
                   <span class="me-2">5/5 avis</span>
                   <figure class="mb-0">
-                    <img src="@asset('images/google-sigle.png')" width="25px" height="auto"
+                    <img src="@asset('images/google-sigle.png')" width="25px" height="25px"
                          alt="Google">
                   </figure>
                 </div>
