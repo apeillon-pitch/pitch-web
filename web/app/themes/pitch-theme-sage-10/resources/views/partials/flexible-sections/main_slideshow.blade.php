@@ -95,7 +95,7 @@
               @foreach($section['logo_repeater'] as $item)
                 <div class="slide">
                   <figure class="mb-0">
-                    {!! wp_get_attachment_image( $item['logo']['id'], 'medium','', array( "class" => "", "fetchpriority" => "high")) !!}
+                    {!! wp_get_attachment_image( $item['logo']['id'], 'medium','', array( "class" => "skip-lazy", "fetchpriority" => "high")) !!}
                   </figure>
                 </div>
               @endforeach
