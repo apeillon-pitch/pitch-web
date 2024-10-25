@@ -40,13 +40,13 @@
                 <div class="d-flex flex-row align-items-center justify-content-center @php echo is_front_page() ? 'justify-content-lg-start' : '' @endphp wp-reviews">
                   <img src="@asset('images/star-sharp-solid.svg')" width="16" height="auto"
                        alt="Star" class="me-1">
-                  <img src="@asset('images/star-sharp-solid.svg')" width="16" height="auto"
+                  <img src="@asset('images/star-sharp-solid.svg')" width="16" height="14.22px"
                        alt="Star" class="me-1">
-                  <img src="@asset('images/star-sharp-solid.svg')" width="16" height="auto"
+                  <img src="@asset('images/star-sharp-solid.svg')" width="16" height="14.22px"
                        alt="Star" class="me-1">
-                  <img src="@asset('images/star-sharp-solid.svg')" width="16" height="auto"
+                  <img src="@asset('images/star-sharp-solid.svg')" width="16" height="14.22px"
                        alt="Star" class="me-1">
-                  <img src="@asset('images/star-sharp-solid.svg')" width="16" height="auto"
+                  <img src="@asset('images/star-sharp-solid.svg')" width="16" height="14.22px"
                        alt="Star" class="me-2">
                   <span class="me-2">5/5 avis</span>
                   <figure class="mb-0">
