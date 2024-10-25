@@ -137,6 +137,14 @@ add_action('widgets_init', function () {
 });
 
 /**
+ * Image size
+ */
+
+add_action( 'after_setup_theme', 'image_theme_setup', function () {
+    add_image_size( 'logo-slideshow', 115 ); // 115 pixels wide (and unlimited height)
+});
+
+/**
  * Add favicons to <head>.
  *
  */
