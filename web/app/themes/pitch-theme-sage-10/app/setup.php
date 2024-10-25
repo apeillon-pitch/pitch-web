@@ -140,9 +140,10 @@ add_action('widgets_init', function () {
  * Image size
  */
 
-add_action( 'after_setup_theme', 'image_theme_setup' );
-function image_theme_setup() {
-    add_image_size( 'logo-slideshow', 115 ); // 115 pixels wide (and unlimited height)
+add_action( 'after_setup_theme', 'wpdocs_theme_setup' );
+function wpdocs_theme_setup() {
+    add_image_size( 'category-thumb', 300 ); // 300 pixels wide (and unlimited height)
+    add_image_size( 'homepage-thumb', 220, 180, true ); // (cropped)
 }
 
 /**
