@@ -13,7 +13,9 @@
                       <img src="@asset('images/wordpress-simple-brands-solid.svg')" width="20px" height="20px"
                            alt="Wordpress" class="me-2">
                     @endif
-                   
+                    <h1 class="overtitle mb-0">
+                      {!! $slide['title'] !!} coucou
+                    </h1>
                   </div>
                 @endif
                 @if ($slide['text'])
