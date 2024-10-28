@@ -14,7 +14,7 @@
                            alt="Wordpress" class="me-2">
                     @endif
                     <h1 class="overtitle mb-0">
-                      {!! $slide['title'] !!}ddddd
+                      {!! $slide['title'] !!}
                     </h1>
                   </div>
                 @endif
